@@ -28,6 +28,9 @@ const handleShowMenu = () =>{
             <nav className={`navbar-links ${showMenu ? "show-nav" : "hide"}`}>
                 <ul>
                     <li>
+                        <a>A propos</a>
+                    </li>
+                    <li>
                         <a>Design Graphique</a>
                     </li>
                     <li>
