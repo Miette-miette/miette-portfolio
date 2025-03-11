@@ -12,7 +12,7 @@ const handleShowMenu = () =>{
   setShowMenu(!showMenu)
 };
     return (
-        <header className="sticky top-0 ">
+        <header className="sticky top-0 z-1">
             <div id="header-content" className='flex flex-row justify-between'>
                 <a href="/" id="logo" className='z-3'>
                     <img src="./media/logo/miettelogosolo.png"  className="size-20"/>
@@ -25,7 +25,7 @@ const handleShowMenu = () =>{
                 </div>
             </div>
 
-            <nav className={`navbar-links ${showMenu ? "show-nav" : "hide"}`}>
+            <nav className={`navbar-links ${showMenu ? "show-nav" : "hide"} items-center`}>
                 <ul>
                     <li>
                         <a>A propos</a>

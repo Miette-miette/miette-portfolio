@@ -1,15 +1,19 @@
+'use client'
+
 import Image from "next/image";
 import Header from "./_components/Header";
+import {EmblaCarousel} from "./_components/Projects";
 
 export default function Home() {
   return (
     <main>
       <Header/>
-      <section id="welcome">
+      <section id="welcome" className="flex justif">
 
-        <div id="welcome-content">
+        <div id="welcome-content" className="flex flex-col w-150">
           <img src="./media/logo/logo-miette.png"/>
           <h1>Developpement Web | Design Graphique</h1>
+          <button></button>
         </div>
 
         <div id="welcome-visuel">
@@ -17,7 +21,7 @@ export default function Home() {
 
       </section>
 
-      <section id="presentation">
+      <section id="presentation" className="wrapper">
         <h2> Qui suis-je? </h2>
         <p>Je m'appelle Doriane Le Guyader, et je suis actuellement en pleine reconversion professionnelle
           vers les métiers du web.<br/>
@@ -40,8 +44,9 @@ export default function Home() {
       </section>
 
 
-      <section id="travaux">
+      <section id="travaux" className="wrapper">
         <h2> Mes réalisations </h2>
+        <EmblaCarousel/>
       </section>
 
 
