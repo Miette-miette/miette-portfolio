@@ -190,6 +190,13 @@ h1, h2 {
 	}
 }
 
+/*PRESENTATION*/ 
+
+#bg-anim>img{
+	width: 100%;
+}
+
+
 #travaux {
 	background-color:#B6C9A1 ;
 }
