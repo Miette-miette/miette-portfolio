@@ -44,13 +44,9 @@ return(
 
           <div className="wrapper">
             <h2> Qui suis-je? </h2>
-            <p>Je m'appelle Doriane Le Guyader, et je suis actuellement en pleine reconversion professionnelle
-            vers les métiers du web.<br/>
-            Véritable passionnée d'Arts et de design sous toutes leurs formes, le developpement web est à mon sens un incroyable terrain de jeu
-            et d'expression!</p>
-            <p> Titulaire d'un master en Design de la transition, qui m'a permis d'acquerir une methodologie axée sur le Design Thinking, je me suis d'abord formée en autodidacte
-            au developpement web sur mon temps libre. Et du simple passe-temps est venu l'envie d'apprendre d'avantage!<br/>
-            Je suis actuellement en formation DWWM à distance de l'EPSI, en attente du passage du titre professionnel.
+            <p>Autodidacte passionnée par le développement web, mon souhait est de faire de ce passe-temps mon métier.<br/>
+                Étant titulaire d’un DNSEP (Diplôme National Supérieur d’Expression Plastique) option Design de la transition, le Design Thinking et la créativité sont essentiels à ma méthodologie.<br/>
+                Actuellement en attente de validation de la formation à distance DWWM de l'EPSI, je souhaite me professionnaliser dans ce domaine et ainsi concrétiser mon désir de reconversion.
             </p>
             <button>En savoir plus!</button>
           </div>
@@ -72,8 +68,6 @@ return(
             <img src="./media/backgrounds/montagne2.svg" className="mount2 z-1 absolute "/>
             <img src="./media/backgrounds/montagne3.svg" className="mount3 z-0 absolute "/>
           </div>
-
-         
         </section>
 )
 }

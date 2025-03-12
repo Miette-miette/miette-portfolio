@@ -1,6 +1,7 @@
 'use client'
 
 import Header from "./_components/Header";
+import Welcome from "./_components/Welcome";
 import {EmblaCarousel} from "./_components/Projects";
 import React, { useEffect } from 'react';
 import dynamic from "next/dynamic";
@@ -20,18 +21,8 @@ const Presentation = dynamic(
     <div>
       <main>
         <Header/>
-        <section id="welcome" className="flex justify">
-
-          <div id="welcome-content" className="flex flex-col w-150">
-            <img src="./media/logo/logo-miette.png"/>
-            <h1>Developpement Web | Design Graphique</h1> 
-            <button></button>
-          </div>
-
-          <div id="welcome-visuel">
-          </div>
-
-        </section>
+        
+        <Welcome/>
 
         <Presentation/>
 

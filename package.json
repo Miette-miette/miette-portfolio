@@ -16,6 +16,7 @@
     "node_module": "^0.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-draggable": "^4.4.6",
     "scrollreveal": "^4.0.9"
   },
   "devDependencies": {
