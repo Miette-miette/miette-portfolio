@@ -13,7 +13,7 @@ body {
 }
 
 .wrapper {
-	padding: 10% 20%;
+	padding: 5% 20%;
 }
 
 h1, h2 {
@@ -23,6 +23,17 @@ h1, h2 {
 
 h1 {
 	color:beige;
+}
+
+h2 {
+	color: #B36E7B;
+}
+
+
+h3 {
+	font-family: var(--font-display);
+	font-size: 20px;
+	color: #B36E7B;
 }
 
 .embla {
@@ -89,6 +100,107 @@ h1 {
 	background-repeat: no-repeat;
     height: 750px;
 	filter: drop-shadow(#cbbaad 4px 4px 4px);
+}
+
+
+
+
+/*WELCOME*/
+
+.flip-doodle {
+	background-color: transparent;
+	width: 200px;
+	height: 200px;
+	perspective: 1000px;
+	filter: drop-shadow(#1a2c1f 4px 4px 4px); /* Remove this if you don't want the 3D effect */
+  }
+
+.flip-doodle-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+  }
+
+.flip-doodle:hover .flip-doodle-inner {
+	transform: rotateY(180deg);
+  }
+
+.front-doodle, .back-doodle {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden; /* Safari */
+	backface-visibility: hidden;
+}
+
+
+.back-doodle {
+	color: rgb(68, 49, 49);
+	transform: rotateY(180deg);
+  }
+
+
+
+	
+
+#doodle2 {
+    top: 20%;
+    right: 20%;
+	filter: drop-shadow(#1a2c1f 4px 4px 4px);
+}
+
+#doodle3 {
+    top: 10%;
+    left: 20%;
+	filter: drop-shadow(#1a2c1f 4px 4px 4px);
+}
+
+
+/*PRESENTATION*/
+
+@keyframes float1 {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+@keyframes float2 {
+	0% {
+		transform: translatey(-20px);
+	}
+	50% {
+		transform: translatey(0px);
+	}
+	100% {
+		transform: translatey(-20px);
+	}
+}
+
+#bg-anim>img{
+	width: 100%;
+}
+
+#bg-anim>div>p{
+	color: beige;
+}
+
+#bird1 {
+	animation: float2 6s ease-in-out infinite;
+}
+#bird2 {
+	animation: float1 9s ease-in-out infinite;
+}
+
+#presentation-anim {
+	animation: float1 6s ease-in-out infinite;
 }
 
 
@@ -193,36 +305,6 @@ h1 {
 		transform: translate(0);
 	}
 }
-
-/*WELCOME*/
-
-#doodle1 {
-    top: 65%;
-    left: 60%;
-	filter: drop-shadow(#1a2c1f 4px 4px 4px);
-}
-
-#doodle2 {
-    top: 20%;
-    right: 20%;
-	filter: drop-shadow(#1a2c1f 4px 4px 4px);
-}
-
-#doodle3 {
-    top: 10%;
-    left: 20%;
-	filter: drop-shadow(#1a2c1f 4px 4px 4px);
-}
-
-
-/*PRESENTATION*/ 
-
-#bg-anim>img{
-	width: 100%;
-}
-
-
 #travaux {
 	background-color:#B6C9A1 ;
 }
-
