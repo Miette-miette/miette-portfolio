@@ -27,8 +27,8 @@ const Presentation = dynamic(
         <Presentation/>
 
 
-        <section id="travaux" className="wrapper">
-          <h2> Mes réalisations </h2>
+        <section id="travaux" className="absolute z-6">
+          <h2 className="flex justify-center m-10 text-3xl md:text-5xl "> Mes réalisations </h2>
           <EmblaCarousel/>
         </section>
 

@@ -1,6 +1,7 @@
 'use client'
 
 import React , { Component, useState } from 'react';
+import Link from 'next/link';
 
 export default function Header() {
 
@@ -25,21 +26,20 @@ const handleShowMenu = () =>{
                 </div>
             </div>
 
-            <nav className={`navbar-links ${showMenu ? "show-nav" : "hide"} items-center`}>
-                <ul>
-                    <li>
-                        <a>A propos</a>
-                    </li>
-                    <li>
-                        <a>Design Graphique</a>
-                    </li>
-                    <li>
-                        <a>Projets Web</a>
-                    </li>
-                    <li>
-                        <a>Vidéos et Illustrations</a>
-                    </li>
-                </ul>
+            <nav className={`navbar-links ${showMenu ? "show-nav" : "hide"} items-center flex-col md:flex-row`}>
+
+                <div className='flex justify-center items-center bg-[#D7A9A5] h-120 w-50 m-3'>
+                    <Link href="/pages/About">A propos</Link>
+                </div>
+                <div className='flex justify-center items-center bg-[#D7A9A5] h-120 w-50 m-3'>
+                    <a>Design Graphique</a>
+                </div>
+                <div className='flex justify-center items-center bg-[#D7A9A5] h-120 w-50 m-3'>
+                    <a>Projets Web</a>
+                </div>
+                <div className='flex justify-center items-center bg-[#D7A9A5] h-120 w-50 m-3'>
+                    <a>Vidéos et Illustrations</a>
+                </div>
             </nav>
 
         </header>
