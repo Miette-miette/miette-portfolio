@@ -42,7 +42,7 @@ useEffect(()=>{
 return(
     <section id="presentation" className='h-800px' >
           
-          <h2 className='flex justify-center m-10 text-3xl md:text-5xl'> Qui suis-je? </h2>
+          <h2 className='flex justify-center m-10 text-xl md:text-3xl'>Je développe comme je crée :<br/> avec passion, couleurs et une touche de fun !</h2>
           
           <div id="presentation-anim" className=" flex justify-center items-center relative z-3">
             <img src="./media/anim-laptop/corps.png" id="corps" className="size-60 md:size-100 z-4 relative"/>
@@ -62,14 +62,9 @@ return(
             <img src="./media/backgrounds/montagne2.svg" className="mount2 z-1 absolute object-cover object-top h-140 "/>
             <img src="./media/backgrounds/montagne3.svg" className="mount3 z-0 absolute object-cover object-top h-180 md:h-160"/>
 
-            <div className="wrapper relative z-3">
-            
-            <p>Autodidacte passionnée par le développement web, mon souhait est de faire de ce passe-temps mon métier.<br/>
-                Étant titulaire d’un DNSEP (Diplôme National Supérieur d’Expression Plastique) option Design de la transition, le Design Thinking et la créativité sont essentiels à ma méthodologie.<br/>
-                Actuellement en attente de validation de la formation à distance DWWM de l'EPSI, je souhaite me professionnaliser dans ce domaine et ainsi concrétiser mon désir de reconversion.
-            </p>
-            <button>En savoir plus!</button>
-          </div>
+            <div className="wrapper relative z-3 flex justify-center items-center">
+              <button className='bg-[url(../../public/media/button/button-m.svg)] bg-center bg-no-repeat bg-contain p-12 text-2xl'>Qui suis-je?</button>
+            </div>
           </div>
           
           

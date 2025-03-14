@@ -1,10 +1,10 @@
 'use client'
 
-import Header from "./_components/Header";
 import Welcome from "./_components/Welcome";
 import {EmblaCarousel} from "./_components/Projects";
 import React, { useEffect } from 'react';
 import dynamic from "next/dynamic";
+import Footer from "./_components/Footer";
 
 export default function Home() {
 
@@ -19,20 +19,13 @@ const Presentation = dynamic(
 
   return (
     <div>
-      <main>
-        <Header/>
-        
+      <main>  
         <Welcome/>
-
         <Presentation/>
-
-
         <section id="travaux" className="absolute z-6">
-          <h2 className="flex justify-center m-10 text-3xl md:text-5xl "> Mes réalisations </h2>
+          <h2 className="flex justify-center m-10 text-3xl md:text-5xl "> Découvrez mes réalisations </h2>
           <EmblaCarousel/>
         </section>
-
-
       </main>
     </div>
   );

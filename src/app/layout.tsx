@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Coiny, Roboto_Slab } from "next/font/google";
 import "./globals.css";
+import Header from "./_components/Header";
+import Footer from "./_components/Footer";
 
 const coiny = Coiny({
   weight: '400',
@@ -25,10 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body
-        className={roboto.className}
-      >
+      <body className={roboto.className}>
+        <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

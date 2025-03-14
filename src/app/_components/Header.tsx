@@ -13,10 +13,10 @@ const handleShowMenu = () =>{
   setShowMenu(!showMenu)
 };
     return (
-        <header className="sticky top-0 z-1">
+        <header className="sticky top-0 z-10">
             <div id="header-content" className='flex flex-row justify-between'>
                 <a href="/" id="logo" className='z-3'>
-                    <img src="./media/logo/miettelogosolo.png"  className="size-15"/>
+                    <img src="/"  className="size-15"/>
                 </a>
 
                 <div id="navbar-burger" className='z-3' onClick={handleShowMenu}>
@@ -28,18 +28,17 @@ const handleShowMenu = () =>{
 
             <nav className={`navbar-links ${showMenu ? "show-nav" : "hide"} items-center flex-col md:flex-row`}>
 
-                <div className='flex justify-center items-center bg-[#D7A9A5] h-120 w-50 m-3'>
-                    <Link href="/pages/About">A propos</Link>
+                <div className='flex justify-center items-center bg-[#D7A9A5] h-120 w-80 m-3'>
+                    <Link href="/pages/About" className='bg-[url(../../public/media/button/button-m.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl'>A propos</Link>
                 </div>
-                <div className='flex justify-center items-center bg-[#D7A9A5] h-120 w-50 m-3'>
-                    <a>Design Graphique</a>
+                <div className='flex justify-center items-center bg-[#D7A9A5] h-120 w-80 m-3'>
+                    <Link href="/pages/About" className='bg-[url(../../public/media/button/button-l.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl'>Projets Web</Link>
                 </div>
-                <div className='flex justify-center items-center bg-[#D7A9A5] h-120 w-50 m-3'>
-                    <a>Projets Web</a>
+                <div className='flex justify-center items-center bg-[#D7A9A5] h-120 w-80 m-3'>
+                    <Link href="/pages/About" className='bg-[url(../../public/media/button/button-xl.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl'>Design Graphique & Art</Link>
                 </div>
-                <div className='flex justify-center items-center bg-[#D7A9A5] h-120 w-50 m-3'>
-                    <a>Vidéos et Illustrations</a>
-                </div>
+                
+                
             </nav>
 
         </header>

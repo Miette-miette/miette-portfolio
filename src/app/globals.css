@@ -16,7 +16,7 @@ body {
 	padding: 5% 20%;
 }
 
-h1, h2 {
+h1, h2, button {
 	font-family: var(--font-display);
 }
 
@@ -25,9 +25,16 @@ h1 {
 }
 
 h2 {
-	color: #B36E7B;
+	color: #B05768;
 }
 
+button {
+	color: #B05768;
+	filter: drop-shadow(#763c48 4px 4px 4px);
+}
+button:hover {
+	translate: 5px 5px;
+}
 
 h3 {
 	font-family: var(--font-display);
@@ -45,6 +52,23 @@ h3 {
 	min-width: 0;
   }
 
+
+.bento-pink {
+	background-color: #CB9698;
+	color: #FEFAE0;
+	padding: 2%;
+	margin: 2%;
+	border-radius: 8px ;
+	filter: drop-shadow(#763c48 4px 4px 4px);
+}
+
+.bento-green {
+	background-color: #B6C9A1;
+	color: #763c48;
+	padding: 2%;
+	border-radius: 8px ;
+	filter: drop-shadow(#6f805c 4px 4px 4px);
+}
 
 /*MENU*/
 
@@ -96,11 +120,6 @@ h3 {
 	filter: drop-shadow(#cbbaad 4px 4px 4px);
 }
 
-
-
-
-/*WELCOME*/
-
 .flip-doodle {
 	background-color: transparent;
 	width: 200px;
@@ -130,15 +149,10 @@ h3 {
 	backface-visibility: hidden;
 }
 
-
 .back-doodle {
 	color: rgb(68, 49, 49);
 	transform: rotateY(180deg);
   }
-
-
-
-	
 
 #doodle2 {
     top: 20%;
@@ -188,13 +202,16 @@ h3 {
 
 #bird1 {
 	animation: float2 6s ease-in-out infinite;
+	filter: drop-shadow(#9e5967 4px 4px 4px);
 }
 #bird2 {
 	animation: float1 9s ease-in-out infinite;
+	filter: drop-shadow(#9e5967 4px 4px 4px);
 }
 
 #presentation-anim {
 	animation: float1 6s ease-in-out infinite;
+	filter: drop-shadow(#562f37 4px 4px 4px);
 }
 
 
@@ -301,4 +318,25 @@ h3 {
 }
 #travaux {
 	background-color:#B6C9A1 ;
+}
+
+/* ABOUT */
+
+#portrait {
+	padding: 0 10% 10% 10%;
+	filter: drop-shadow(#6f805c 4px 4px 4px);
+}
+
+#cloud1 {
+	animation: float2 6s ease-in-out infinite;
+	filter: drop-shadow(#774650 4px 4px 4px);
+}
+
+#cloud2 {
+	animation: float1 6s ease-in-out infinite;
+	filter: drop-shadow(#562f37 4px 4px 4px);
+}
+
+#cloud3 {
+	filter: drop-shadow(#774650 4px 4px 4px);
 }
