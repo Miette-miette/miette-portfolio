@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import sr from './ScrollReveal';
+import Link from 'next/link';
 
 export default function Presentation() {
 
@@ -63,7 +64,9 @@ return(
             <img src="./media/backgrounds/montagne3.svg" className="mount3 z-0 absolute object-cover object-top h-180 md:h-160"/>
 
             <div className="wrapper relative z-3 flex justify-center items-center">
-              <button className='bg-[url(../../public/media/button/button-m.svg)] bg-center bg-no-repeat bg-contain p-12 text-2xl'>Qui suis-je?</button>
+              <Link href="/pages/About">
+                <button className='bg-[url(../../public/media/button/button-m.svg)] bg-center bg-no-repeat bg-contain p-12 text-2xl'>Qui suis-je?</button>
+              </Link>
             </div>
           </div>
           

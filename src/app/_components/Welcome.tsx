@@ -11,7 +11,7 @@ export default function Welcome() {
 
         <div id="welcome-content" className="flex flex-col z-0 w-60 md:w-120 absolute">
             <img src="./media/logo/logo-blanc.png"/>
-            <h1 className='text-lg md:text-xl'>Developpement Web | Design Graphique</h1> 
+            <h1 className='text-lg md:text-xl mt-3'>Developpement Web | Design Graphique | Art</h1> 
             <button></button>
         </div>
 
@@ -29,17 +29,38 @@ export default function Welcome() {
                 </div>   
             </div>
 
-            <div className='flip-doodle absolute top-110 right-15 md:top-80 md:right-60'>
+            <div className='flip-doodle absolute top-50 right-15 md:top-20 md:right-80'>
                 <div className='flip-doodle-inner'>
                     <div className='front-doodle flex justify-center items-center'>
                         <img src="./media/doodle-anim/doodle1.svg" className="size-40 md:size-50 z-4 absolute"/>
                     </div>
                     <div className='back-doodle flex justify-center items-center'>
                         <img src="./media/doodle-anim/doodle1back.svg" className="size-40 md:size-50 z-4 absolute"/>
-                        <button className='z-5 absolute'>
-                            <h3 className='text-base' >De Toi à Moi<br/> et les<br/> P'tits Bouts</h3>
-                        </button>
-                        
+                        <h3 className='z-5 absolute text-base'>De Toi à Moi<br/> et les<br/> P'tits Bouts</h3>
+                    </div>
+                </div>   
+            </div>
+
+            <div className='flip-doodle absolute top-110 right-15 md:top-90 md:left-70'>
+                <div className='flip-doodle-inner'>
+                    <div className='front-doodle flex justify-center items-center'>
+                        <img src="./media/doodle-anim/doodleChamp.svg" className="size-40 md:size-40 z-4 absolute"/>
+                    </div>
+                    <div className='back-doodle flex justify-center items-center'>
+                        <img src="./media/doodle-anim/doodle1back.svg" className="size-40 md:size-40 z-4 absolute"/>
+                        <h3 className='z-5 absolute text-base'>Champagne<br/>&<br/>Co</h3>
+                    </div>
+                </div>   
+            </div>
+
+            <div className='flip-doodle absolute top-110 right-15 md:top-80 md:right-60'>
+                <div className='flip-doodle-inner'>
+                    <div className='front-doodle flex justify-center items-center'>
+                        <img src="./media/doodle-anim/doodleLogoLise.svg" className="size-40 md:size-50 z-4 absolute"/>
+                    </div>
+                    <div className='back-doodle flex justify-center items-center'>
+                        <img src="./media/doodle-anim/doodle1back.svg" className="size-40 md:size-50 z-4 absolute"/>
+                        <h3 className='z-5 absolute text-base'>Champagne<br/>&<br/>Co</h3>
                     </div>
                 </div>   
             </div>

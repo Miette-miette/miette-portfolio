@@ -31,11 +31,11 @@ const handleShowMenu = () =>{
                 <div className='flex justify-center items-center bg-[#D7A9A5] h-120 w-80 m-3'>
                     <Link href="/pages/About" className='bg-[url(../../public/media/button/button-m.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl'>A propos</Link>
                 </div>
-                <div className='flex justify-center items-center bg-[#D7A9A5] h-120 w-80 m-3'>
-                    <Link href="/pages/About" className='bg-[url(../../public/media/button/button-l.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl'>Projets Web</Link>
+                <div className='flex justify-center items-center bg-[url(../../public/media/backgrounds/menuweb.png)] bg-center bg-no-repeat bg-cover h-120 w-80 m-3'>
+                    <Link href="/pages/WebProjects" className='bg-[url(../../public/media/button/button-l.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl'>Projets Web</Link>
                 </div>
                 <div className='flex justify-center items-center bg-[#D7A9A5] h-120 w-80 m-3'>
-                    <Link href="/pages/About" className='bg-[url(../../public/media/button/button-xl.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl'>Design Graphique & Art</Link>
+                    <Link href="/pages/GraphicDesign" className='bg-[url(../../public/media/button/button-xl.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl'>Design Graphique & Art</Link>
                 </div>
                 
                 

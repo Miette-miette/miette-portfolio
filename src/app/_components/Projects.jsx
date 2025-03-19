@@ -6,23 +6,38 @@ export function EmblaCarousel() {
     const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()])
 
   return (
-    <div className="embla" ref={emblaRef}>
+    <div className="embla wrapper" ref={emblaRef}>
       <div className="embla__container">
         <div className="embla__slide">
-            <h3>Nation Sounds Festival</h3>
-            <p>Projet web full stack fictif</p>
+          <div className="bento-beige flex flex-col justify-center items-center">
+            <img src="../media/projets/NationSoundsBanner.png"/>
+            <h2 className="text-2xl md:text-3xl mt-3">Nation-Sounds Festival</h2>
+            <p>Un projet </p> 
+          </div>
         </div>
+
         <div className="embla__slide">
-            <h3>De Toi à Moi et les P'tits Bouts</h3>
-            <p>Site vitrine pour un dépot-vente de vetement seconde-main.</p>
+          <div className="bento-beige flex flex-col justify-center items-center">
+            <img src="../media/projets/deToiAMoiBanner.png"/>
+            <h2 className="text-2xl md:text-3xl mt-3">De Toi A Moi et Les P'tits Bouts</h2>
+            <p>description</p> 
+          </div>
         </div>
+
         <div className="embla__slide">
-            <h3>Champagne & Co</h3>
-            <p>Projet fictif de maquettage d'un site web pour un revendeur de champagne</p>
+          <div className="bento-beige flex flex-col justify-center items-center">
+            <img src="../media/projets/ChampagneCoBanner.png"/>
+            <h2 className="text-2xl md:text-3xl mt-3">Champagne & Co</h2>
+            <p>description</p> 
+          </div>
         </div>
+
         <div className="embla__slide">
-            <h3>Plastique</h3>
-            <p>Clip réalisé en stop motion pour l'artiste Quentin</p>
+          <div className="bento-beige flex flex-col justify-center items-center">
+            <img src="../media/projets/ChampagneCoBanner.png"/>
+            <h2 className="text-2xl md:text-3xl mt-3">Champagne & Co</h2>
+            <p>description</p> 
+          </div>  
         </div>
       </div>
     </div>
