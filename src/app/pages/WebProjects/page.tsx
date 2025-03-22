@@ -20,17 +20,22 @@ export default function ProjetWeb() {
                     </div>
                 </Link>
 
-                <div className="bento-beige flex flex-col justify-center items-center">
-                    <img src="../media/projets/deToiAMoiBanner.png"/>
-                    <h2 className="text-2xl md:text-3xl mt-3">De Toi A Moi et Les P'tits Bouts</h2>
-                    <p>description</p> 
-                </div>
-
-                <div className="bento-beige flex flex-col justify-center items-center">
-                    <img src="../media/projets/ChampagneCoBanner.png"/>
-                    <h2 className="text-2xl md:text-3xl mt-3">Champagne & Co</h2>
-                    <p>description</p> 
-                </div>
+                <Link href="/pages/WebProjects/DeToiAMoi">
+                    <div className="bento-beige flex flex-col justify-center items-center">
+                        <img src="../media/projets/deToiAMoiBanner.png"/>
+                        <h2 className="text-2xl md:text-3xl mt-3">De Toi A Moi et Les P'tits Bouts</h2>
+                        <p>description</p> 
+                    </div>
+                </Link>
+                
+                <Link href="/pages/WebProjects/ChampagneAndCo">
+                    <div className="bento-beige flex flex-col justify-center items-center">
+                        <img src="../media/projets/ChampagneCoBanner.png"/>
+                        <h2 className="text-2xl md:text-3xl mt-3">Champagne & Co</h2>
+                        <p>description</p> 
+                    </div>
+                </Link>
+                
 
             </section>
         </main>

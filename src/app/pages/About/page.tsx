@@ -19,10 +19,11 @@ export default function About() {
                 <div className="bento-green mb-20 mr-10 ml-10 lg:mr-80 lg:ml-80 xl:mr-100 xl:ml-100 relative z-1 flex justify-center flex-col items-center">
                     <img id="portrait" src="../media/about/portrait.svg" />
                     <div className="flex flex-col">
-                        <h2 className="text-2xl flex justify-center">Je m'appelle Doriane Le Guyader</h2>
-                        <p>Autodidacte passionnée par le développement web, mon souhait est de faire de ce passe-temps mon métier.<br/>
-                        Étant titulaire d’un DNSEP (Diplôme National Supérieur d’Expression Plastique) option Design de la transition, le Design Thinking et la créativité sont essentiels à ma méthodologie.<br/>
-                        Actuellement en attente de validation de la formation à distance DWWM de l'EPSI, je souhaite me professionnaliser dans ce domaine et ainsi concrétiser mon projet de reconversion.
+                        <h2 className="text-2xl flex justify-center">Je me présente, Doriane Le Guyader,</h2>
+                        <p className="text-center">autodidacte passionnée par le développement web.</p>
+                        <p className="text-center mb-8"> Mon souhait est de faire de ce passe-temps mon métier.</p>
+                        <p className="mb-8">Étant titulaire d’un DNSEP (Diplôme national supérieur d’expression plastique) option Design de la transition, le Design Thinking et la créativité sont essentiels à ma méthodologie.<br/>
+                        Actuellement en attente de validation de la formation DWWM (Développeur web et web mobile) de l'EPSI, je souhaite me professionnaliser dans ce domaine et ainsi concrétiser mon projet de reconversion.
                         </p>
                     </div>
                     <div className="flex flex-row justify-center items-center">
@@ -48,9 +49,9 @@ export default function About() {
                 <div className="bento-pink flex flex-row justify-center items-center">
                     <img src="../media/about/TP-dev.svg" className="m-6"/>
                     <div>
-                        <h2>TP Développeur Web et Web Mobile (en attente de certification) </h2>
+                        <h2>TP Développeur web et web mobile (en attente de certification) </h2>
                         <h3>2025 / EPSI (Cours en ligne)</h3>
-                        <p>Developper des applications responsive Front-end Back-end Maquettage Sécurité</p>
+                        <p>Développer des applications responsives A ECRIRE ! Front-end Back-end Maquettage Sécurité</p>
                     </div> 
                 </div>
 
@@ -59,7 +60,7 @@ export default function About() {
                     <div>
                         <h2>DNSEP Master Design de la transition</h2>
                         <h3>2020 / EESAB Brest </h3>
-                        <p>Sensibilisation autour des questions de transition écologique, sociale, économique, au travers des métiers du design. 
+                        <p>Sensibilisation aux questions de transition écologique, sociale et économique, au travers des métiers du design. 
                             Développement de ma propre démarche de projet, axée sur la rêverie et l'approche sensible de concepts triviaux.</p>
                     </div>    
                 </div>
@@ -70,7 +71,7 @@ export default function About() {
                         <h2>DNA option Design </h2>
                         <h3>2018 / EESAB Brest </h3>
                         <p>Design d'espace et d'objet avec une approche artistique. 
-                            Apprentissage de la suite Adobe (axé d'avantage vers le print)</p>
+                            Apprentissage de la suite Adobe (axé d'avantage vers le print).</p>
                     </div>    
                 </div>
 
@@ -78,9 +79,9 @@ export default function About() {
                     <img src="../media/about/Prepa.svg" className="m-6"/>
                     <div>
                         <h2>Prépa Arts </h2>
-                        <h3>2015 / Ecole Emile Daubé Saint-Brieuc </h3>
-                        <p>Exploration d'une multitude de techniques et support pour s'exprimer 
-                            aux travers des Arts visuels (peinture, sculpture, performance, vidéos)</p>
+                        <h3>2015 / École Emile Daubé Saint-Brieuc </h3>
+                        <p>Exploration d'une multitude de techniques et de supports pour s'exprimer 
+                            aux travers des arts visuels (peinture, sculpture, performance, vidéos).</p>
                     </div>    
                 </div>
 
@@ -88,8 +89,8 @@ export default function About() {
                     <img src="../media/about/BAC.svg" className="m-6"/>
                     <div>
                         <h2>BAC STD2A </h2>
-                        <h3>2014 / Lycée Ste Genevieve Rennes</h3>
-                        <p>Acquisition d'une culture artistique variée et un fort intérêt pour les Arts et la création en général.</p>
+                        <h3>2014 / Lycée Ste Geneviève Rennes</h3>
+                        <p>Acquisition d'une culture artistique variée et d'un fort intérêt pour les arts et la création en générale.</p>
                     </div>    
                 </div>
 

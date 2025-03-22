@@ -11,7 +11,7 @@ export default function Welcome() {
 
         <div id="welcome-content" className="flex flex-col z-0 w-60 md:w-120 absolute">
             <img src="./media/logo/logo-blanc.png"/>
-            <h1 className='text-lg md:text-xl mt-3'>Developpement Web | Design Graphique | Art</h1> 
+            <h1 className='text-lg md:text-lg mt-3'>Développement Web | Design Graphique | Illustration</h1> 
             <button></button>
         </div>
 
