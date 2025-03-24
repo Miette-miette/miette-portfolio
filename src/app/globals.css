@@ -84,7 +84,7 @@ background: linear-gradient(180deg, rgba(255,255,237,0) 0%, rgba(254,250,224,0.9
 }
 
 .icon-skills {
-	width: 60px;
+	width: 60%;
 }
 /*MENU*/
 
@@ -366,4 +366,20 @@ background: linear-gradient(180deg, rgba(255,255,237,0) 0%, rgba(254,250,224,0.9
 
 #cloud3 {
 	filter: drop-shadow(#774650 4px 4px 4px);
+}
+
+#miette-hobbies, .bulle {
+	filter: drop-shadow(#774650 4px 4px 4px);
+}
+
+#art:hover , #crochet:hover , #game:hover , #nature:hover {
+	cursor: pointer;
+}
+
+#art {
+	clip-path: polygon(0 24%, 65% 0, 100% 58%, 35% 100%, 0 79%);
+}
+
+#crochet {
+	clip-path: polygon(19% 0, 82% 0, 100% 50%, 85% 100%, 11% 100%, 0 48%);
 }

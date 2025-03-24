@@ -1,5 +1,8 @@
 'use client'
 
+import { EmblaCarousel } from "@/app/_components/Projects"
+
+
 export default function NationSounds() {
 
     return (
@@ -68,6 +71,11 @@ export default function NationSounds() {
                 </div>
 
             </section>
+            <section>
+                <h2>Découvrez d'autre projet</h2>
+                <EmblaCarousel/>
+            </section>
+            
         </main>
     )
 }
