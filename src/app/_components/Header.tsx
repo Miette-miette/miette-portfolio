@@ -28,14 +28,14 @@ const handleShowMenu = () =>{
 
             <nav className={`navbar-links ${showMenu ? "show-nav" : "hide"} items-center flex-col md:flex-row`}>
 
-                <div className='flex justify-center items-center bg-[#D7A9A5] h-120 w-80 m-3'>
+                <div className='flex justify-center items-center bg-[url(../../public/media/backgrounds/menuabout.png)] bg-center bg-no-repeat bg-cover h-50 md:h-120 w-80 m-3' onClick={handleShowMenu}>
                     <Link href="/pages/About" className='bg-[url(../../public/media/button/button-m.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl'>À propos</Link>
                 </div>
-                <div className='flex justify-center items-center bg-[url(../../public/media/backgrounds/menuweb.png)] bg-center bg-no-repeat bg-cover h-120 w-80 m-3'>
+                <div className='flex justify-center items-center bg-[url(../../public/media/backgrounds/menuweb.png)] bg-center bg-no-repeat bg-cover h-50 md:h-120 w-80 m-3' onClick={handleShowMenu}>
                     <Link href="/pages/WebProjects" className='bg-[url(../../public/media/button/button-l.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl'>Projets Web</Link>
                 </div>
-                <div className='flex justify-center items-center bg-[#D7A9A5] h-120 w-80 m-3'>
-                    <Link href="/pages/GraphicDesign" className='bg-[url(../../public/media/button/button-xl.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl'>Design Graphique & Art</Link>
+                <div className='flex justify-center items-center bg-[url(../../public/media/backgrounds/menugraph.png)] bg-center bg-no-repeat bg-cover h-50 md:h-120 w-80 m-3' onClick={handleShowMenu}>
+                    <Link href="/pages/GraphicDesign" className='bg-[url(../../public/media/button/button-xl.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl text-center'>Design Graphique & Illustration</Link>
                 </div>
                 
                 

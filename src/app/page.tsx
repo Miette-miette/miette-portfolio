@@ -22,9 +22,9 @@ const Presentation = dynamic(
       <main>  
         <Welcome/>
         <Presentation/>
-        <section id="travaux" className="absolute z-6 flex flex-col justify-center">
-          <h2 className="flex justify-center m-10 text-3xl md:text-5xl "> Découvrez mes réalisations </h2>
-          <p className="flex justify-center">Site Web, maquettages, design graphique et illustrations.</p>
+        <section id="travaux" className="absolute w-full z-6 flex flex-col justify-center">
+          <h2 className="flex justify-center m-10 text-3xl md:text-5xl text-center"> Découvrez mes réalisations </h2>
+          <p className="flex justify-center text-center m-2">Site Web, maquettages, design graphique et illustrations.</p>
           <EmblaCarousel/>
         </section>
       </main>

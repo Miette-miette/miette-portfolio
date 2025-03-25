@@ -10,35 +10,36 @@ export default function About() {
             <section id="resume" >
 
                 <div id="cloud" className=" flex flex-start w-full">
-                    <img src="../media/cloud-anim/cloud-stars.svg" id="cloud0" className="z-4 top-0 absolute w-full object-center object-contain h-80 lg:h-full"/>
-                    <img src="../media/cloud-anim/cloud1.svg" id="cloud1" className="z-3 top-0 absolute w-full object-bottom object-contain h-80 lg:h-full"/>
-                    <img src="../media/cloud-anim/cloud2.svg" id="cloud2" className="z-2 top-0  absolute w-full object-bottom object-cover h-80 lg:h-full"/>
-                    <img src="../media/cloud-anim/cloud3.svg" id="cloud3" className="z-0 top-0 absolute w-full object-bottom object-cover h-80 lg:h-full"/>
+                    <img src="../media/cloud-anim/cloud-stars.svg" id="cloud0" className="z-4 top-0 absolute w-full object-center object-cover md:object-contain mt-35 mt-0 h-100 lg:h-full"/>
+                    <img src="../media/cloud-anim/cloud1.svg" id="cloud1" className="z-3 top-0 absolute w-full mt-50 md:mt-0 object-bottom object-cover md:object-contain h-50 lg:h-full"/>
+                    <img src="../media/cloud-anim/cloud2.svg" id="cloud2" className="z-2 top-0  absolute w-full mt-20 md:mt-0 object-bottom md:object-top object-cover h-50 lg:h-full"/>
+                    <img src="../media/cloud-anim/cloud3.svg" id="cloud3" className="z-0 top-0 absolute w-full object-top object-cover h-160 lg:h-full"/>
                 </div>
 
-                <h1 className="flex justify-center relative z-2 mt-30 mb-10 text-4xl">Qui-suis-je?</h1>
+                <h1 className="flex justify-center relative z-2 mt-20 md:mt-50 mb-10 text-4xl">Qui-suis-je?</h1>
 
-                <div className="bento-green mb-20 mr-10 ml-10 lg:mr-80 lg:ml-80 xl:mr-100 xl:ml-100 relative z-1 flex justify-center flex-col items-center">
-                    <img id="portrait" src="../media/about/portrait.svg" />
-                    <div className="flex flex-col">
-                        <h2 className="text-2xl flex justify-center">Je me présente, Doriane Le Guyader,</h2>
+                <div className="bento-green mb-20 mr-10 ml-10 md:ml-80 md:mr-80 relative z-1 flex justify-center flex-col md:flex-row items-center">
+                    <img id="portrait" src="../media/about/portrait.svg" className="w-50 md:w-80 p-2 md:p-10" />
+                    <div className="flex flex-col m-3 md:mt-5 ">
+                        <h2 className="text-2xl flex justify-center text-center">Je me présente, Doriane Le Guyader,</h2>
                         <p className="text-center">autodidacte passionnée par le développement web.</p>
                         <p className="text-center mb-8"> Mon souhait est de faire de ce passe-temps mon métier.</p>
                         <p className="mb-8">Étant titulaire d’un DNSEP (Diplôme national supérieur d’expression plastique) option Design de la transition, le Design Thinking et la créativité sont essentiels à ma méthodologie.<br/>
                         Actuellement en attente de validation de la formation DWWM (Développeur web et web mobile) de l'EPSI, je souhaite me professionnaliser dans ce domaine et ainsi concrétiser mon projet de reconversion.
                         </p>
+                        <div className="flex flex-col md:flex-row justify-center items-center">
+                            <div className="bento-pink flex flex-row justify-center items-center">
+                                <p>Esprit d'équipe & bienveillance</p>
+                            </div>
+                            <div className="bento-pink flex flex-row justify-center items-center">
+                                <p>Curiosité & soif d'apprendre</p>
+                            </div>
+                            <div className="bento-pink flex flex-row justify-center items-center">
+                                <p>Créativité & capacité d'adaptation</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className="flex flex-row justify-center items-center">
-                        <div className="bento-pink flex flex-row justify-center items-center">
-                            <p>Esprit d'équipe & bienveillance</p>
-                        </div>
-                        <div className="bento-pink flex flex-row justify-center items-center">
-                            <p>Curiosité & soif d'apprendre</p>
-                        </div>
-                        <div className="bento-pink flex flex-row justify-center items-center">
-                            <p>Créativité & capacité d'adaptation</p>
-                        </div>
-                    </div>
+                    
                     
                 </div>
                 
@@ -46,65 +47,70 @@ export default function About() {
                 
             </section>
 
-            <section id="parcours" className="wrapper flex flex-col bg-[#768D68]">
-                <h2 className="flex justify-center text-3xl">Formations</h2>
-                <div className="bento-pink flex flex-row justify-center items-center">
-                    <img src="../media/about/TP-dev.svg" className="m-6"/>
-                    <div>
-                        <h2>TP Développeur web et web mobile (en attente de certification) </h2>
-                        <h3>2025 / EPSI (Cours en ligne)</h3>
-                        <p>Développer des applications responsives A ECRIRE ! Front-end Back-end Maquettage Sécurité</p>
-                    </div> 
-                </div>
+            <section id="parcours" className=" flex flex-col bg-[#768D68]">
+                <h2 className="flex justify-center text-3xl text-beige">Formations</h2>
 
-                <div className="bento-pink flex flex-row justify-center items-center">
-                    <img src="../media/about/DNSEP.svg" className="m-6"/>
-                    <div>
-                        <h2>DNSEP Master Design de la transition</h2>
-                        <h3>2020 / EESAB Brest </h3>
-                        <p>Sensibilisation aux questions de transition écologique, sociale et économique, au travers des métiers du design. 
-                            Développement de ma propre démarche de projet, axée sur la rêverie et l'approche sensible de concepts triviaux.</p>
-                    </div>    
-                </div>
+                <div className="flex flex-row">
+                    <div className="bento-pink flex flex-col justify-center items-center">
+                        <img src="../media/about/TP-dev.svg" className="m-6"/>
+                        <div>
+                            <h2>TP Développeur web et web mobile (en attente de certification) </h2>
+                            <h3>2025 / EPSI (Cours en ligne)</h3>
+                            <p>Développer des applications responsives A ECRIRE ! Front-end Back-end Maquettage Sécurité</p>
+                        </div> 
+                    </div>
 
-                <div className="bento-pink flex flex-row justify-center items-center">
-                    <img src="../media/about/DNA.svg" className="m-6"/>
-                    <div>
-                        <h2>DNA option Design </h2>
-                        <h3>2018 / EESAB Brest </h3>
-                        <p>Design d'espace et d'objet avec une approche artistique. 
-                            Apprentissage de la suite Adobe (axé d'avantage vers le print).</p>
-                    </div>    
-                </div>
+                    <div className="bento-pink flex flex-col justify-center items-center">
+                        <img src="../media/about/DNSEP.svg" className="m-6"/>
+                        <div>
+                            <h2>DNSEP Master Design de la transition</h2>
+                            <h3>2020 / EESAB Brest </h3>
+                            <p>Sensibilisation aux questions de transition écologique, sociale et économique, au travers des métiers du design. 
+                                Développement de ma propre démarche de projet, axée sur la rêverie et l'approche sensible de concepts triviaux.</p>
+                        </div>    
+                    </div>
 
-                <div className="bento-pink flex flex-row justify-center items-center">
-                    <img src="../media/about/Prepa.svg" className="m-6"/>
-                    <div>
-                        <h2>Prépa Arts </h2>
-                        <h3>2015 / École Emile Daubé Saint-Brieuc </h3>
-                        <p>Exploration d'une multitude de techniques et de supports pour s'exprimer 
-                            aux travers des arts visuels (peinture, sculpture, performance, vidéos).</p>
-                    </div>    
-                </div>
+                    <div className="bento-pink flex flex-col justify-center items-center">
+                        <img src="../media/about/DNA.svg" className="m-6"/>
+                        <div>
+                            <h2>DNA option Design </h2>
+                            <h3>2018 / EESAB Brest </h3>
+                            <p>Design d'espace et d'objet avec une approche artistique. 
+                                Apprentissage de la suite Adobe (axé d'avantage vers le print).</p>
+                        </div>    
+                    </div>
 
-                <div className="bento-pink flex flex-row justify-center items-center">
-                    <img src="../media/about/BAC.svg" className="m-6"/>
-                    <div>
-                        <h2>BAC STD2A </h2>
-                        <h3>2014 / Lycée Ste Geneviève Rennes</h3>
-                        <p>Acquisition d'une culture artistique variée et d'un fort intérêt pour les arts et la création en générale.</p>
-                    </div>    
+                    <div className="bento-pink flex flex-col justify-center items-center">
+                        <img src="../media/about/Prepa.svg" className="m-6"/>
+                        <div>
+                            <h2>Prépa Arts </h2>
+                            <h3>2015 / École Emile Daubé Saint-Brieuc </h3>
+                            <p>Exploration d'une multitude de techniques et de supports pour s'exprimer 
+                                aux travers des arts visuels (peinture, sculpture, performance, vidéos).</p>
+                        </div>    
+                    </div>
+
+                    <div className="bento-pink flex flex-col justify-center items-center">
+                        <img src="../media/about/BAC.svg" className="m-6"/>
+                        <div>
+                            <h2>BAC STD2A </h2>
+                            <h3>2014 / Lycée Ste Geneviève Rennes</h3>
+                            <p>Acquisition d'une culture artistique variée et d'un fort intérêt pour les arts et la création en générale.</p>
+                        </div>    
+                    </div>
                 </div>
+                
 
 
             </section>
-            <section id="skills" className="parcours wrapper flex flex-col" >
+            <section id="skills" className="parcours p-5 pr-5 pl-5 md:pr-70 md:pl-70 flex flex-col" >
                 <h2 className="text-4xl flex justify-center">Compétences</h2>
 
-                <div className="bento-beige">
+                <div id="front" className="bento-beige">
 
                     <h3 className="text-3xl flex justify-center mb-2">Front-End</h3>
-                    <div id="front" className="grid grid-cols-2">
+
+                    <div className="flex flex-col md:flex-row">
 
                         <div id="front-language " className="bento-green m-2">
                         
@@ -195,11 +201,11 @@ export default function About() {
                     </div>   
                 </div>
 
-                <div className="bento-beige">
+                <div id="back" className="bento-beige">
 
                     <h3 className="text-3xl flex justify-center m-2">Back-End</h3>
 
-                    <div id="back" className="grid grid-cols-2">
+                    <div className="flex flex-col md:flex-row">
                         <div id="back-langage" className="bento-green m-2">
                             <h3 className="text-2xl flex justify-center">Langages</h3>
 
@@ -317,8 +323,8 @@ export default function About() {
 
             </section>
 
-            <section className="hobbies bg-[#CB9698] wrapper">
-                <h2 className="flex flex-col justify-center items-center text-4xl">Mes centres d'interêts</h2>
+            <section className="hobbies bg-[#CB9698]">
+                <h2 className="flex flex-col justify-center items-center text-2xl md:text-4xl text-center">Mes centres d'interêts</h2>
                 <Hobbies/>
 
             </section>

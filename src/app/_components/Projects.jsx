@@ -12,7 +12,7 @@ export function EmblaCarousel() {
           <div className="bento-beige flex flex-col justify-center items-center">
             <img src="../media/projets/NationSoundsBanner.png"/>
             <h2 className="text-2xl md:text-3xl mt-3">Nation-Sounds Festival</h2>
-            <p>Un projet </p> 
+            <p>Site mobile et solution de gestion de contenu pour un festival fictif.</p> 
           </div>
         </div>
 
@@ -20,7 +20,7 @@ export function EmblaCarousel() {
           <div className="bento-beige flex flex-col justify-center items-center">
             <img src="../media/projets/deToiAMoiBanner.png"/>
             <h2 className="text-2xl md:text-3xl mt-3">De Toi A Moi et Les P'tits Bouts</h2>
-            <p>description</p> 
+            <p>Site vitrine pour un dépot-vente de vêtement seconde main à Cesson-Sévigné</p> 
           </div>
         </div>
 
@@ -28,7 +28,7 @@ export function EmblaCarousel() {
           <div className="bento-beige flex flex-col justify-center items-center">
             <img src="../media/projets/ChampagneCoBanner.png"/>
             <h2 className="text-2xl md:text-3xl mt-3">Champagne & Co</h2>
-            <p>description</p> 
+            <p>Projet de maquettage d’un site web pour une entreprise fictive de vente de champagnes</p> 
           </div>
         </div>
 

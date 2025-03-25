@@ -84,7 +84,7 @@ background: linear-gradient(180deg, rgba(255,255,237,0) 0%, rgba(254,250,224,0.9
 }
 
 .icon-skills {
-	width: 60%;
+	width: 40%;
 }
 /*MENU*/
 
@@ -145,8 +145,6 @@ background: linear-gradient(180deg, rgba(255,255,237,0) 0%, rgba(254,250,224,0.9
   }
 
 .flip-mockup {
-	width: 60%;
-	height: 500px;
 	perspective: 1000px;
 }
 
@@ -345,7 +343,6 @@ background: linear-gradient(180deg, rgba(255,255,237,0) 0%, rgba(254,250,224,0.9
 /* ABOUT */
 
 #portrait {
-	padding: 0 10% 10% 10%;
 	filter: drop-shadow(#6f805c 4px 4px 4px);
 }
 

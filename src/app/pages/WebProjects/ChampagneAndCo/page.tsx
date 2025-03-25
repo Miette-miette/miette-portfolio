@@ -7,13 +7,13 @@ export default function DeToiAMoi() {
             <main>
                 <section className=" h-100 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover">
                     <h1 className="flex justify-center pt-20 text-2xl md:text-4xl">Champagne & Co</h1>
-                    <p className="flex justify-center">Maquettage d'un site pour un fournisseur de champagne fictif</p>
+                    <p className="flex justify-center">Projet de maquettage d’un site web pour une entreprise fictive de vente de champagnes</p>
                     <p className="flex justify-center">Figma</p>
                 </section>
                 
-                <section className="wrapper flex flex-col -mt-60 relative z-1">
-                    <div className="mockup h-150">
-                        <div className='flip-mockup absolute'>
+                <section className="p-5 md:pr-60 md:pl-60 flex flex-col items-center -mt-60 relative z-1">
+                    <div className="mockup">
+                        <div className='flip-mockup relative w-100 h-100 md:w-200 md:h-120'>
                             <div className='flip-mockup-inner flex flex-col justify-center items-center'>
                                 <div className='front-doodle md:bg-[url(../../public/media/projets/mockupChampDesktop.png)] bg-[url(../../public/media/projets/mockupChampMobile.png)] bg-contain bg-center bg-no-repeat flex justify-center items-center'></div>
                                 <div className='back-doodle md:bg-[url(../../public/media/projets/mockupChampMobile.png)] bg-[url(../../public/media/projets/mockupChampDesktop.png)] bg-contain bg-center bg-no-repeat flex justify-center items-center'></div>
@@ -25,14 +25,21 @@ export default function DeToiAMoi() {
                     <div className="bento-beige">
                             <div className="m-5">
                                 <h2 className="text-3xl mb-5">Imaginer un site pour Champagne & Co</h2>
-                                <p>La présence en ligne est aujourd'hui essentielle pour étendre sa clientele </p>
+                                <p>La présence en ligne est aujourd'hui essentielle pour étendre sa clientele, 
+                                    c'est pour cela que Champagne & Co souhaites se lancer dans la vente en ligne.<br/>
+                                    La demande: </p>
+                                    <ul>
+                                        <li>Faire un benchmark de l’existant et définir les personas</li>
+                                        <li>Définir l’architecture technique de la solution</li>
+                                        <li>Créer les wireframes du site</li>
+                                    </ul>
                                     
                             </div>
 
                             <figure className="m-5" >
                                 <img src="../../media/projets/CHAMP-1.png" alt="Wireframe de la version mobile"/>
                                 <figcaption>
-                                    Recherches sur la gamme colorée et wireframe de la version mobile.
+                                    Moodboard et personas.
                                 </figcaption>
                             </figure>
                         </div>
@@ -40,18 +47,11 @@ export default function DeToiAMoi() {
                         <div className="bento-beige">
                             <div className="m-5">
                                 <h2 className="text-3xl mb-5">Une experience sobre et raffinée</h2>
-                                <p>En partant de la création de l’identité et de la charte graphique du festival, jusqu’au déploiement d’un site mobile pour aider
-                                    les festivaliers à s’informer sur les événements, ce projet m’a permis d'expérimenter toutes les étapes de création d’un projet web.</p>
-                                <ul className="list-disc pl-10">
-                                    <li>Faire un benchmark de l'existant et des solutions techniques.</li>
-                                    <li>Créer l'identité visuelle de Nation Sounds et maquetter le site web. </li>
-                                    <li>Développer un front-end responsive avec React-JS et Bootstrap.</li>
-                                    <li>Développer le back-end avec Symfony 8 et EasyAdmin pour gérer le CRUD.</li>
-                                    <li>Tester les composants.</li>
-                                    <li>Déployer le projet sur un serveur distant.</li>
-                                    <li>Veiller au respect des réglementations RGPD.</li>
+                                <p>J’ai souhaité proposer à la marque une véritable identité visuelle, en m’appuyant sur la charte graphique imposée. L’idée est d’offrir à la clientèle une expérience de qualité et raffinée tout au long de la navigation.
+                                     Le design reste sobre et l’accent est mis sur les mots forts qui caractérisent l’univers du champagne, sur la description des saveurs des produits proposés et sur des visuels impactants. 
 
-                                </ul>    
+</p>
+                                   
                             </div>
 
                             <figure className="m-5" >

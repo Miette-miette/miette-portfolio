@@ -2,8 +2,6 @@
 
 import React, { useEffect } from 'react';
 
-
-
 export default function Welcome() {
 
   return (
@@ -17,7 +15,7 @@ export default function Welcome() {
 
         <div id="welcome-visuel" className="flex flex-col z-1 w-60 md:w-120">
 
-            <div className='flip-doodle absolute top-15 left-20 md:top-30 md:left-50'>
+            <div className='flip-doodle absolute top-15 left-10 md:top-30 md:left-50'>
                 <div className='flip-doodle-inner'>
                     <div className='front-doodle flex justify-center items-center'>
                         <img src="./media/doodle-anim/doodle3.svg" className="size-40 md:size-60 z-4 absolute"/>
@@ -29,7 +27,7 @@ export default function Welcome() {
                 </div>   
             </div>
 
-            <div className='flip-doodle absolute top-50 right-15 md:top-20 md:right-80'>
+            <div className='flip-doodle absolute top-120 right-5 md:top-20 md:right-80'>
                 <div className='flip-doodle-inner'>
                     <div className='front-doodle flex justify-center items-center'>
                         <img src="./media/doodle-anim/doodle1.svg" className="size-40 md:size-50 z-4 absolute"/>
@@ -41,10 +39,10 @@ export default function Welcome() {
                 </div>   
             </div>
 
-            <div className='flip-doodle absolute top-110 right-15 md:top-90 md:left-70'>
+            <div className='flip-doodle absolute top-20 right-5 md:top-90 md:left-70'>
                 <div className='flip-doodle-inner'>
                     <div className='front-doodle flex justify-center items-center'>
-                        <img src="./media/doodle-anim/doodleChamp.svg" className="size-40 md:size-40 z-4 absolute"/>
+                        <img src="./media/doodle-anim/doodleChamp.svg" className="size-30 md:size-40 z-4 absolute"/>
                     </div>
                     <div className='back-doodle flex justify-center items-center'>
                         <img src="./media/doodle-anim/doodle1back.svg" className="size-40 md:size-40 z-4 absolute"/>
@@ -53,14 +51,14 @@ export default function Welcome() {
                 </div>   
             </div>
 
-            <div className='flip-doodle absolute top-110 right-15 md:top-80 md:right-60'>
+            <div className='flip-doodle absolute top-110 left-5 md:top-85 md:left-250'>
                 <div className='flip-doodle-inner'>
                     <div className='front-doodle flex justify-center items-center'>
-                        <img src="./media/doodle-anim/doodleLogoLise.svg" className="size-40 md:size-50 z-4 absolute"/>
+                        <img src="./media/doodle-anim/doodleLogoLise.svg" className="size-35 md:size-50 z-4 absolute"/>
                     </div>
                     <div className='back-doodle flex justify-center items-center'>
                         <img src="./media/doodle-anim/doodle1back.svg" className="size-40 md:size-50 z-4 absolute"/>
-                        <h3 className='z-5 absolute text-base'>Champagne<br/>&<br/>Co</h3>
+                        <h3 className='z-5 absolute text-base'>Lise<br/>Beaufils<br/>Photographe</h3>
                     </div>
                 </div>   
             </div>

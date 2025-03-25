@@ -43,7 +43,7 @@ useEffect(()=>{
 return(
     <section id="presentation" className='h-800px' >
           
-          <h2 className='flex justify-center m-10 text-xl md:text-3xl'>Je développe comme je crée :<br/> avec passion, couleurs et une touche de fun !</h2>
+          <h2 className='flex justify-center m-10 text-xl md:text-3xl text-center'>Je développe comme je crée :<br/> avec passion, couleurs et une touche de fun !</h2>
           
           <div id="presentation-anim" className=" flex justify-center items-center relative z-3">
             <img src="./media/anim-laptop/corps.png" id="corps" className="size-60 md:size-100 z-4 relative"/>
@@ -59,9 +59,9 @@ return(
           </div>
 
           <div id="bg-anim" className="mountAnim flex flex-col justify-end z-0" >
-            <img src="./media/backgrounds/montagne1.svg" className="mount1 z-2 absolute object-cover object-top h-80 md:h-110"/>
-            <img src="./media/backgrounds/montagne2.svg" className="mount2 z-1 absolute object-cover object-top h-140 "/>
-            <img src="./media/backgrounds/montagne3.svg" className="mount3 z-0 absolute object-cover object-top h-180 md:h-160"/>
+            <img src="./media/backgrounds/montagne1.svg" className="mount1 z-2 absolute object-cover object-top h-70 md:h-110"/>
+            <img src="./media/backgrounds/montagne2.svg" className="mount2 z-1 absolute object-cover object-top h-90 md:h-140 "/>
+            <img src="./media/backgrounds/montagne3.svg" className="mount3 z-0 absolute object-cover object-top h-110 md:h-160"/>
 
             <div className="wrapper relative z-3 flex justify-center items-center">
               <Link href="/pages/About">

@@ -1,30 +1,36 @@
 'use client'
 
+import Link from "next/link"
+
 export default function GraphicDesign() {
 
     return (
         <main>
             <section className="bg-[url(../../public/media/backgrounds/head-pink.svg)] bg-bottom bg-no-repeat bg-cover">
-                <h1 className="flex justify-center p-20 text-2xl md:text-4xl">Design Graphique & Projets Artistiques</h1>
+                <h1 className="flex justify-center p-20 text-2xl md:text-4xl text-center">Design Graphique & Illustration</h1>
+            </section>
+
+            <section className="p-5 md:pr-60 md:pl-60">
+
+                <Link href="/pages/GraphicDesign/LogoLiseBeaufilsPhotographe">
+                    <div className="bento-beige flex flex-col justify-center items-center">
+                        <img src="../media/projets/logoBanner.png"/>
+                        <h2 className="text-2xl md:text-3xl mt-3 text-center">Lise Beaufils Photographe</h2>
+                        <p className="text-center">Création d'une déclinaison de logo pour une photographe</p> 
+                    </div>
+                </Link>
+                
+                <Link href="/pages/GraphicDesign/Plastique">
+                    <div className="bento-beige flex flex-col justify-center items-center">
+                        <img src="../media/projets/PlastiqueBanner.png"/>
+                        <h2 className="text-2xl md:text-3xl mt-3 text-center">Plastique</h2>
+                        <p className="text-center">Clip musical en stop motion pour l'artiste Quentin</p> 
+                    </div>
+                </Link>
+                
+
             </section>
             
-            <div className="bg-[url(../../public/media/backgrounds/head-green.svg)] w-full flex flex-col items-center justify-center">
-                <h2>Lise Beaufils Photographie</h2>
-                <p>Création d'une déclinaison de logo pour une photographe</p>
-                <button className="bg-[url(../../public/media/button/button-l.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl">Voir plus</button>
-            </div>
-
-            <div className="bg-[url(../../public/media/backgrounds/head-green.svg)] flex flex-col items-center justify-center">
-                <h2>Plastique</h2>
-                <p>Clip musical en stop motion pour l'artiste Quentin</p>
-                <button className="bg-[url(../../public/media/button/button-l.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl">Voir plus</button>
-            </div>
-
-            <div className="bg-[url(../../public/media/backgrounds/head-green.svg)] flex flex-col items-center justify-center">
-                <h2>Animations sur le pouce</h2>
-                <p>Série d'animations en papier découpés</p>
-                <button className="bg-[url(../../public/media/button/button-l.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl">Voir plus</button>
-            </div>
 
         </main>
     )
