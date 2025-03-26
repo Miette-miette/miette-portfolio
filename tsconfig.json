@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/_components/Projects.jsx", "src/app/_components/Doodle.jsx", "src/app/_components/Hobbies.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/_components/Projects.jsx", "src/app/_components/Doodle.jsx", "src/app/_components/Hobbies.jsx", "src/app/_components/Formation.jsx"],
   "exclude": ["node_modules"]
 }

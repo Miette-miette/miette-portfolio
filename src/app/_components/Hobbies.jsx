@@ -47,12 +47,12 @@ export default function Hobbies() {
           
           <div className='flex flex-row'>
             <div className='flex flex-col items-center mt-20 mr-30 md:mt-40 md:mr-60'>
-              <button id='art' className='w-25 h-18 mr-5 md:w-45 md:h-35 md:mr-10 relative z-1 bg-[#768D68]' onClick={() => changeMietteSrc(1)}></button>
-              <button id='crochet' className='w-30 h-20 mt-8 md:w-50 md:h-40 md:mt-15 relative z-1 bg-[#768D68]' onClick={() => changeMietteSrc(2)}></button>
+              <button id='art' className='w-25 h-18 mr-5 md:w-45 md:h-35 md:mr-10 relative z-1' onClick={() => changeMietteSrc(1)}></button>
+              <button id='crochet' className='w-30 h-20 mt-8 md:w-50 md:h-40 md:mt-15 relative z-1' onClick={() => changeMietteSrc(2)}></button>
             </div>
             <div className='flex flex-col items-center mt-10 md:mt-20'>
-              <button id='game' className='w-20 h-20 md:w-40 md:h-40 relative z-3 bg-[#768D68]' onClick={() => changeMietteSrc(3)}></button>
-              <button id='nature' className='w-15 h-15 mt-20 ml-10 md:w-25 md:h-25 md:mt-40 md:ml-20 relative z-4 bg-[#768D68]' onClick={() => changeMietteSrc(4)}></button>
+              <button id='game' className='w-20 h-20 md:w-40 md:h-40 relative z-3' onClick={() => changeMietteSrc(3)}></button>
+              <button id='nature' className='w-15 h-15 mt-20 ml-10 md:w-25 md:h-25 md:mt-40 md:ml-20 relative z-4' onClick={() => changeMietteSrc(4)}></button>
             </div>
           </div>
           

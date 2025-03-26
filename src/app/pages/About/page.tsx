@@ -1,5 +1,6 @@
 'use client'
 
+import { FormationCarousel } from "@/app/_components/Formation";
 import Hobbies from "@/app/_components/Hobbies";
 
 export default function About() {
@@ -10,7 +11,7 @@ export default function About() {
             <section id="resume" >
 
                 <div id="cloud" className=" flex flex-start w-full">
-                    <img src="../media/cloud-anim/cloud-stars.svg" id="cloud0" className="z-4 top-0 absolute w-full object-center object-cover md:object-contain mt-35 mt-0 h-100 lg:h-full"/>
+                    <img src="../media/cloud-anim/cloud-stars.svg" id="cloud0" className="z-4 top-0 absolute w-full object-center object-cover md:object-contain mt-35 md:mt-0 h-100 lg:h-full"/>
                     <img src="../media/cloud-anim/cloud1.svg" id="cloud1" className="z-3 top-0 absolute w-full mt-50 md:mt-0 object-bottom object-cover md:object-contain h-50 lg:h-full"/>
                     <img src="../media/cloud-anim/cloud2.svg" id="cloud2" className="z-2 top-0  absolute w-full mt-20 md:mt-0 object-bottom md:object-top object-cover h-50 lg:h-full"/>
                     <img src="../media/cloud-anim/cloud3.svg" id="cloud3" className="z-0 top-0 absolute w-full object-top object-cover h-160 lg:h-full"/>
@@ -38,71 +39,13 @@ export default function About() {
                                 <p>Créativité & capacité d'adaptation</p>
                             </div>
                         </div>
-                    </div>
-                    
-                    
+                    </div> 
                 </div>
-                
-
                 
             </section>
 
-            <section id="parcours" className=" flex flex-col bg-[#768D68]">
-                <h2 className="flex justify-center text-3xl text-beige">Formations</h2>
+            <FormationCarousel/>
 
-                <div className="flex flex-row">
-                    <div className="bento-pink flex flex-col justify-center items-center">
-                        <img src="../media/about/TP-dev.svg" className="m-6"/>
-                        <div>
-                            <h2>TP Développeur web et web mobile (en attente de certification) </h2>
-                            <h3>2025 / EPSI (Cours en ligne)</h3>
-                            <p>Développer des applications responsives A ECRIRE ! Front-end Back-end Maquettage Sécurité</p>
-                        </div> 
-                    </div>
-
-                    <div className="bento-pink flex flex-col justify-center items-center">
-                        <img src="../media/about/DNSEP.svg" className="m-6"/>
-                        <div>
-                            <h2>DNSEP Master Design de la transition</h2>
-                            <h3>2020 / EESAB Brest </h3>
-                            <p>Sensibilisation aux questions de transition écologique, sociale et économique, au travers des métiers du design. 
-                                Développement de ma propre démarche de projet, axée sur la rêverie et l'approche sensible de concepts triviaux.</p>
-                        </div>    
-                    </div>
-
-                    <div className="bento-pink flex flex-col justify-center items-center">
-                        <img src="../media/about/DNA.svg" className="m-6"/>
-                        <div>
-                            <h2>DNA option Design </h2>
-                            <h3>2018 / EESAB Brest </h3>
-                            <p>Design d'espace et d'objet avec une approche artistique. 
-                                Apprentissage de la suite Adobe (axé d'avantage vers le print).</p>
-                        </div>    
-                    </div>
-
-                    <div className="bento-pink flex flex-col justify-center items-center">
-                        <img src="../media/about/Prepa.svg" className="m-6"/>
-                        <div>
-                            <h2>Prépa Arts </h2>
-                            <h3>2015 / École Emile Daubé Saint-Brieuc </h3>
-                            <p>Exploration d'une multitude de techniques et de supports pour s'exprimer 
-                                aux travers des arts visuels (peinture, sculpture, performance, vidéos).</p>
-                        </div>    
-                    </div>
-
-                    <div className="bento-pink flex flex-col justify-center items-center">
-                        <img src="../media/about/BAC.svg" className="m-6"/>
-                        <div>
-                            <h2>BAC STD2A </h2>
-                            <h3>2014 / Lycée Ste Geneviève Rennes</h3>
-                            <p>Acquisition d'une culture artistique variée et d'un fort intérêt pour les arts et la création en générale.</p>
-                        </div>    
-                    </div>
-                </div>
-                
-
-
-            </section>
             <section id="skills" className="parcours p-5 pr-5 pl-5 md:pr-70 md:pl-70 flex flex-col" >
                 <h2 className="text-4xl flex justify-center">Compétences</h2>
 
