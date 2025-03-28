@@ -2,6 +2,9 @@
 
 import React , { Component, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+
+
 
 export default function Header() {
 
@@ -16,7 +19,7 @@ const handleShowMenu = () =>{
         <header className="sticky top-0 z-10">
             <div id="header-content" className='flex flex-row justify-between'>
                 <a href="/" id="logo" className='z-3'>
-                    <img src="/"  className="size-15"/>
+                    <Image src="/miettelogosolo.png" width={55} height={65} alt='logo'/>
                 </a>
 
                 <div id="navbar-burger" className='z-3' onClick={handleShowMenu}>

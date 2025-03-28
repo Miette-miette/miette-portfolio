@@ -7,7 +7,7 @@ export default function DeToiAMoi() {
             <main>
                 <section className=" h-100 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover">
                     <h1 className="flex justify-center pt-20 text-2xl md:text-4xl">Champagne & Co</h1>
-                    <p className="flex justify-center">Projet de maquettage d’un site web pour une entreprise fictive de vente de champagnes</p>
+                    <p className="flex justify-center">Projet de maquettage d’un site web pour une entreprise fictive de vente de champagnes.</p>
                     <p className="flex justify-center">Figma</p>
                 </section>
                 
@@ -26,10 +26,10 @@ export default function DeToiAMoi() {
                             <div className="m-5">
                                 <h2 className="text-3xl mb-5">Imaginer un site pour Champagne & Co</h2>
                                 <p>La présence en ligne est aujourd'hui essentielle pour étendre sa clientele, 
-                                    c'est pour cela que Champagne & Co souhaites se lancer dans la vente en ligne.<br/>
-                                    La demande: </p>
-                                    <ul>
-                                        <li>Faire un benchmark de l’existant et définir les personas</li>
+                                    c'est pour cela que Champagne & Co souhaite se lancer dans la vente en ligne.<br/>
+                                    La demande : </p>
+                                    <ul className="list-disc pl-10">
+                                        <li >Faire un benchmark de l’existant et définir les personas</li>
                                         <li>Définir l’architecture technique de la solution</li>
                                         <li>Créer les wireframes du site</li>
                                     </ul>
@@ -46,12 +46,11 @@ export default function DeToiAMoi() {
 
                         <div className="bento-beige">
                             <div className="m-5">
-                                <h2 className="text-3xl mb-5">Une experience sobre et raffinée</h2>
-                                <p>J’ai souhaité proposer à la marque une véritable identité visuelle, en m’appuyant sur la charte graphique imposée. L’idée est d’offrir à la clientèle une expérience de qualité et raffinée tout au long de la navigation.
-                                     Le design reste sobre et l’accent est mis sur les mots forts qui caractérisent l’univers du champagne, sur la description des saveurs des produits proposés et sur des visuels impactants. 
-
-</p>
-                                   
+                                <h2 className="text-3xl mb-5">Une expérience sobre et raffinée</h2>
+                                <p>J’ai souhaité proposer à la marque une véritable identité visuelle, en m’appuyant sur la charte graphique imposée.
+                                     L’idée est d’offrir à la clientèle une expérience raffinée tout au long de la navigation.
+                                     Le design reste sobre et l’accent est mis sur les mots forts qui caractérisent l’univers du champagne, sur la description des saveurs 
+                                     des produits proposés et sur des visuels impactants.</p>        
                             </div>
 
                             <figure className="m-5" >

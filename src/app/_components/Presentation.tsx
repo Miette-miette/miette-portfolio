@@ -65,7 +65,7 @@ return(
 
             <div className="wrapper relative z-3 flex justify-center items-center">
               <Link href="/pages/About">
-                <button className='bg-[url(../../public/media/button/button-m.svg)] bg-center bg-no-repeat bg-contain p-12 text-2xl'>Qui suis-je?</button>
+                <button className='bg-[url(../../public/media/button/button-m.svg)] bg-center bg-no-repeat bg-contain p-12 text-2xl'>Qui suis-je ?</button>
               </Link>
             </div>
           </div>

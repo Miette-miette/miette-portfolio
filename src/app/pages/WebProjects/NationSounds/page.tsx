@@ -72,7 +72,7 @@ export default function NationSounds() {
 
             </section>
             <section>
-                <h2>Découvrez d'autre projet</h2>
+                <h2>Découvrez d'autres projets</h2>
                 <EmblaCarousel/>
             </section>
             

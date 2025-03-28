@@ -17,7 +17,7 @@ export default function About() {
                     <img src="../media/cloud-anim/cloud3.svg" id="cloud3" className="z-0 top-0 absolute w-full object-top object-cover h-160 lg:h-full"/>
                 </div>
 
-                <h1 className="flex justify-center relative z-2 mt-20 md:mt-50 mb-10 text-4xl">Qui-suis-je?</h1>
+                <h1 className="flex justify-center relative z-2 mt-20 md:mt-50 mb-10 text-4xl">Qui suis-je ?</h1>
 
                 <div className="bento-green mb-20 mr-10 ml-10 md:ml-80 md:mr-80 relative z-1 flex justify-center flex-col md:flex-row items-center">
                     <img id="portrait" src="../media/about/portrait.svg" className="w-50 md:w-80 p-2 md:p-10" />
@@ -267,7 +267,7 @@ export default function About() {
             </section>
 
             <section className="hobbies bg-[#CB9698]">
-                <h2 className="flex flex-col justify-center items-center text-2xl md:text-4xl text-center">Mes centres d'interêts</h2>
+                <h2 className="flex flex-col justify-center items-center text-2xl md:text-4xl text-center">Mes centres d'intérêts</h2>
                 <Hobbies/>
 
             </section>

@@ -45,7 +45,7 @@ export function FormationCarousel() {
                             <h2>DNA option Design </h2>
                             <h3>2018 / EESAB Brest </h3>
                             <p>Design d'espace et d'objet avec une approche artistique. 
-                                Apprentissage de la suite Adobe (axé d'avantage vers le print).</p>
+                                Apprentissage de la suite Adobe (axé davantage vers le print).</p>
                         </div>    
                     </div>
 

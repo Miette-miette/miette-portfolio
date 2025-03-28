@@ -16,7 +16,7 @@ export default function GraphicDesign() {
                     <div className="bento-beige flex flex-col justify-center items-center">
                         <img src="../media/projets/logoBanner.png"/>
                         <h2 className="text-2xl md:text-3xl mt-3 text-center">Lise Beaufils Photographe</h2>
-                        <p className="text-center">Création d'une déclinaison de logo pour une photographe</p> 
+                        <p className="text-center">Création d'une déclinaison de logo pour une photographe.</p> 
                     </div>
                 </Link>
                 
@@ -24,7 +24,7 @@ export default function GraphicDesign() {
                     <div className="bento-beige flex flex-col justify-center items-center">
                         <img src="../media/projets/PlastiqueBanner.png"/>
                         <h2 className="text-2xl md:text-3xl mt-3 text-center">Plastique</h2>
-                        <p className="text-center">Clip musical en stop motion pour l'artiste Quentin</p> 
+                        <p className="text-center">Clip musical en stop motion pour l'artiste Quentin.</p> 
                     </div>
                 </Link>
                 
