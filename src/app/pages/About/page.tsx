@@ -19,7 +19,7 @@ export default function About() {
 
                 <h1 className="flex justify-center relative z-2 mt-20 md:mt-50 mb-10 text-5xl text-amber-50">Qui suis-je ?</h1>
 
-                <div className="bento-green mb-20 mr-10 ml-10 md:ml-80 md:mr-80 relative z-2 flex justify-center flex-col md:flex-row items-center">
+                <div className="bento-green mb-20 mr-10 ml-10 md:ml-80 md:mr-80 relative z-2 flex justify-center flex-col md:flex-row items-center" data-aos="fade-down">
 
                     <div className="flex flex-col justify-center items-center">
 
@@ -85,7 +85,7 @@ export default function About() {
             <section id="skills" className="parcours p-5 pr-5 pl-5 md:pr-70 md:pl-70 flex flex-col" >
                 <h2 className="text-4xl flex justify-center text-[#B36E7B] mt-8">Compétences</h2>
 
-                <div id="front" className="bento-beige flex flex-col">
+                <div id="front" className="bento-beige flex flex-col" data-aos="fade-left">
 
                     <h3 className="text-3xl flex justify-center mb-2">Front-End</h3>                  
 
@@ -171,7 +171,7 @@ export default function About() {
                     </div>   
                 </div>
 
-                <div id="back" className="bento-beige">
+                <div id="back" className="bento-beige" data-aos="fade-left">
 
                     <h3 className="text-3xl flex justify-center m-2">Back-End</h3>
 
@@ -236,7 +236,7 @@ export default function About() {
                     </div>
                 </div>
           
-                <div id="design" className="bento-beige">
+                <div id="design" className="bento-beige" data-aos="fade-left">
                     <h3 className="text-3xl flex justify-center m-2">Design</h3>
 
                     <div className="flex flex-wrap md:flex-row justify-center items-center m-2">

@@ -12,7 +12,7 @@ export default function GraphicDesign() {
 
             <section className="p-5 md:pr-80 md:pl-80 mb-50">
 
-                <Link href="/pages/GraphicDesign/LogoLiseBeaufilsPhotographe">
+                <Link href="/pages/GraphicDesign/LogoLiseBeaufilsPhotographe" data-aos="fade-left">
                     <div className="bento-beige flex flex-col justify-center items-center">
                         <img src="../media/projets/logoBanner.png"/>
                         <h2 className="text-2xl md:text-3xl mt-3 text-center">Lise Beaufils Photographe</h2>
@@ -20,7 +20,7 @@ export default function GraphicDesign() {
                     </div>
                 </Link>
                 
-                <Link href="/pages/GraphicDesign/Plastique">
+                <Link href="/pages/GraphicDesign/Plastique" data-aos="fade-left">
                     <div className="bento-beige flex flex-col justify-center items-center">
                         <img src="../media/projets/PlastiqueBanner.png"/>
                         <h2 className="text-2xl md:text-3xl mt-3 text-center">Plastique</h2>

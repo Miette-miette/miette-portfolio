@@ -10,7 +10,7 @@ export default function ProjetWeb() {
                 <h1 className="flex justify-center p-20 md:p-25 text-3xl md:text-4xl text-center ">Projets Web</h1>
             </section>
             
-            <section className="p-5 md:pr-80 md:pl-80 mb-50">
+            <section className="p-5 md:pr-80 md:pl-80 mb-50" data-aos="fade-left">
                 <Link href="/pages/WebProjects/NationSounds">
                     <div className="bento-beige flex flex-col justify-center items-center">
                         <img src="../media/projets/NationSoundsBanner.png"/>
@@ -19,7 +19,7 @@ export default function ProjetWeb() {
                     </div>
                 </Link>
 
-                <Link href="/pages/WebProjects/DeToiAMoi">
+                <Link href="/pages/WebProjects/DeToiAMoi" data-aos="fade-left">
                     <div className="bento-beige flex flex-col justify-center items-center">
                         <img src="../media/projets/deToiAMoiBanner.png"/>
                         <h2 className="text-2xl md:text-3xl mt-3 text-center">De Toi A Moi et Les P'tits Bouts</h2>
@@ -27,7 +27,7 @@ export default function ProjetWeb() {
                     </div>
                 </Link>
                 
-                <Link href="/pages/WebProjects/ChampagneAndCo">
+                <Link href="/pages/WebProjects/ChampagneAndCo" data-aos="fade-left">
                     <div className="bento-beige flex flex-col justify-center items-center">
                         <img src="../media/projets/ChampagneCoBanner.png"/>
                         <h2 className="text-2xl md:text-3xl mt-3 text-center">Champagne & Co</h2>
