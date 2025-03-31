@@ -6,11 +6,11 @@ export default function GraphicDesign() {
 
     return (
         <main>
-            <section className="bg-[url(../../public/media/backgrounds/head-pink.svg)] bg-bottom bg-no-repeat bg-cover">
-                <h1 className="flex justify-center p-20 text-2xl md:text-4xl text-center">Design Graphique & Illustration</h1>
+            <section className="bg-[url(../../public/media/backgrounds/head-pink.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50">
+                <h1 className="flex justify-center p-20 md:p-25 text-3xl md:text-4xl text-center">Design Graphique & Illustration</h1>   
             </section>
 
-            <section className="p-5 md:pr-60 md:pl-60">
+            <section className="p-5 md:pr-80 md:pl-80 mb-50">
 
                 <Link href="/pages/GraphicDesign/LogoLiseBeaufilsPhotographe">
                     <div className="bento-beige flex flex-col justify-center items-center">

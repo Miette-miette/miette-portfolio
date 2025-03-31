@@ -1,17 +1,19 @@
 'use client'
 
+import { EmblaCarousel } from "@/app/_components/Projects";
+
 export default function DeToiAMoi() {
 
     return (
         <div>
             <main>
-                <section className=" h-100 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover">
+                <section className=" h-100 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50">
                     <h1 className="flex justify-center pt-20 text-2xl md:text-4xl">De Toi à Moi et les P'tits Bouts</h1>
                     <p className="flex justify-center">Site vitrine pour un dépot-vente de vêtement seconde main à Cesson-Sévigné.</p>
                     <p className="flex justify-center">Wordpress - Elementor</p>
                 </section>
                 
-                <section className="p-5 md:pr-60 md:pl-60 flex flex-col items-center -mt-60 relative z-1">
+                <section className="p-5 md:pr-60 md:pl-60 flex flex-col items-center pt-20 -mt-60 relative z-1">
                     <div className="mockup">
 
                         <div className='flip-mockup relative w-100 h-100 md:w-200 md:h-120'>
@@ -61,6 +63,11 @@ export default function DeToiAMoi() {
                         </div>
                     </div>
 
+                </section>
+
+                <section className="flex flex-col justify-center items-center mb-40 md:mb-30">
+                    <h2 className="text-3xl text-amber-50">Découvrez d'autres projets</h2>
+                    <EmblaCarousel/>
                 </section>
             </main>
         </div>

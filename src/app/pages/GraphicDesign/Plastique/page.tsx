@@ -1,17 +1,19 @@
 'use client'
 
+import { EmblaCarousel } from "@/app/_components/Projects";
+
 export default function Plastique() {
 
     return (
         <div>
             <main>
-                <section className=" h-100 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover">
+                <section className=" h-100 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50">
                     <h1 className="flex justify-center pt-20 text-2xl md:text-4xl">Plastique</h1>
                     <p className="flex justify-center">Réalisation d'un clip pour la musique « Plastique » écrite  et produite par Quentin & Tess (CRD Laval).</p>
                     <p className="flex justify-center">PremierePro</p>
                 </section>
                 
-                <section className="wrapper flex flex-col -mt-60 relative z-1">
+                <section className="wrapper flex flex-col pt-20 -mt-60 relative z-1">
                     <div className="mockup h-100 flex justify-center items-center">
                     <iframe width="700" height="400" src="https://www.youtube.com/embed/dvDN65vjm34?si=Nb7TRMwhTJT9_QPG" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     </div>
@@ -53,6 +55,11 @@ export default function Plastique() {
                         </div>
                     </div>
 
+                </section>
+
+                <section className="flex flex-col justify-center items-center mb-40 md:mb-30">
+                    <h2 className="text-3xl text-amber-50">Découvrez d'autres projets</h2>
+                    <EmblaCarousel/>
                 </section>
             </main>
         </div>

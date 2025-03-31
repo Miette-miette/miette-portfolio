@@ -7,13 +7,13 @@ export default function NationSounds() {
 
     return (
         <main>
-            <section className=" h-100 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover">
-                <h1 className="flex justify-center pt-20 mb-8 text-2xl md:text-4xl">Nation Sounds Festival</h1>
+            <section className=" h-100 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50">
+                <h1 className="flex justify-center pt-20 mb-8 text-2xl md:text-4xl ">Nation Sounds Festival</h1>
                 <p className="flex justify-center text-center ml-10 mr-10">Site mobile et solution de gestion de contenu pour un festival fictif.</p>
                 <p className="flex justify-center">ReactJS - Symfony 8 - EasyAdmin</p>
             </section>
             
-            <section className="p-5 md:pr-60 md:pl-60 flex flex-col items-center -mt-60 relative z-1">
+            <section className="p-5 md:pr-60 md:pl-60 flex flex-col items-center -mt-60 pt-20 relative z-1">
                 <div className="mockup">
                     <div className='flip-mockup relative w-100 h-100 md:w-200 md:h-120'>
                         <div className='flip-mockup-inner flex flex-col justify-center items-center'>
@@ -71,8 +71,8 @@ export default function NationSounds() {
                 </div>
 
             </section>
-            <section>
-                <h2>Découvrez d'autres projets</h2>
+            <section className="flex flex-col justify-center items-center mb-40 md:mb-30">
+                <h2 className="text-3xl text-amber-50">Découvrez d'autres projets</h2>
                 <EmblaCarousel/>
             </section>
             

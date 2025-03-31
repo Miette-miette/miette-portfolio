@@ -1,17 +1,24 @@
 'use client'
 
+import { Breadcrumbs } from "@/app/_components/breadcrumbs/breadcrumbs";
+import { EmblaCarousel } from "@/app/_components/Projects";
+
 export default function LogoLiseBPhotographe() {
 
     return (
         <div>
             <main>
-                <section className=" h-100 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover">
+                <div className="flex flex-row">
+                    <Breadcrumbs/>
+                </div>
+                
+                <section className=" h-100 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50">
                     <h1 className="flex justify-center pt-20 text-2xl md:text-4xl">Lise Beaufils Photographe</h1>
                     <p className="flex justify-center">Création d'une déclinaison de logos pour une photographe.</p>
                     <p className="flex justify-center">Illustrator</p>
                 </section>
                 
-                <section className="wrapper flex flex-col -mt-80 relative z-1">
+                <section className="wrapper flex flex-col pt-20 -mt-80 relative z-1">
                     <div className="mockup h-130 bg-[url(../../public/media/projets/LOGO-1.png)] bg-contain bg-center bg-no-repeat"></div>
 
                     <div className="content">
@@ -47,6 +54,11 @@ export default function LogoLiseBPhotographe() {
                         </div>
                     </div>
 
+                </section>
+
+                <section className="flex flex-col justify-center items-center mb-40 md:mb-30">
+                    <h2 className="text-3xl text-amber-50">Découvrez d'autres projets</h2>
+                    <EmblaCarousel/>
                 </section>
             </main>
         </div>

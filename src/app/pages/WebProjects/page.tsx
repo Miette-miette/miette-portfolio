@@ -6,12 +6,11 @@ export default function ProjetWeb() {
 
     return (
         <main>
-            <section className="bg-[url(../../public/media/backgrounds/head-green.svg)] bg-bottom bg-no-repeat bg-cover">
-                <h1 className="flex justify-center p-20 text-2xl md:text-4xl text-center">Projets Web</h1>
-                <p className="flex justify-center text-center">Découvrez une séléction de projets web, du maquettage à la programmation de la solution.</p>
+            <section className="bg-[url(../../public/media/backgrounds/head-green.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50">
+                <h1 className="flex justify-center p-20 md:p-25 text-3xl md:text-4xl text-center ">Projets Web</h1>
             </section>
             
-            <section className="p-5 md:pr-60 md:pl-60">
+            <section className="p-5 md:pr-80 md:pl-80 mb-50">
                 <Link href="/pages/WebProjects/NationSounds">
                     <div className="bento-beige flex flex-col justify-center items-center">
                         <img src="../media/projets/NationSoundsBanner.png"/>

@@ -6,11 +6,11 @@ import React, { useEffect } from 'react';
 export default function Welcome() {
 
   return (
-    <section id="welcome" className="flex justify-center items-center bg-[url(../../public/media/backgrounds/bg-sm.svg)]  md:bg-[url(../../public/media/backgrounds/greenbg.png)] bg-bottom bg-no-repeat bg-cover" >
+    <section id="welcome" className="flex justify-center items-center bg-[url(../../public/media/backgrounds/bg-xl-welcome-png.png)]  md:bg-[url(../../public/media/backgrounds/bg-xl-welcome-png.png)] bg-bottom bg-no-repeat bg-cover" >
 
         <div id="welcome-content" className="flex flex-col z-0 w-60 md:w-120 absolute">
             <img src="./media/logo/logo-blanc.png"/>
-            <h1 className='text-lg md:text-lg mt-3'>Développement Web | Design Graphique | Illustration</h1> 
+            <h1 className='text-lg md:text-lg mt-3 text-amber-50'>Développement Web | Design Graphique | Illustration</h1> 
             <button></button>
         </div>
 
@@ -31,7 +31,7 @@ export default function Welcome() {
             </Link>
 
             <Link href="pages/WebProjects/DeToiAMoi">
-                <div className='flip-doodle absolute top-120 right-5 md:top-20 md:right-80'>
+                <div className='flip-doodle absolute top-120 right-5 md:top-20 md:right-50'>
                     <div className='flip-doodle-inner'>
                         <div className='front-doodle flex justify-center items-center'>
                             <img src="./media/doodle-anim/doodle1.svg" className="size-40 md:size-50 z-4 absolute"/>
@@ -59,7 +59,7 @@ export default function Welcome() {
             </Link>
             
             <Link href="pages/GraphicDesign/LogoLiseBeaufilsPhotographe">
-                <div className='flip-doodle absolute top-110 left-5 md:top-85 md:left-250'>
+                <div className='flip-doodle absolute top-110 left-5 md:top-85 md:left-260'>
                     <div className='flip-doodle-inner'>
                         <div className='front-doodle flex justify-center items-center'>
                             <img src="./media/doodle-anim/doodleLogoLise.svg" className="size-35 md:size-50 z-4 absolute"/>

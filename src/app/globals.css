@@ -20,14 +20,6 @@ h1, h2, button {
 	font-family: var(--font-display);
 }
 
-h1 {
-	color:beige;
-}
-
-h2 {
-	color: #B05768;
-}
-
 button {
 	color: #B05768;
 	filter: drop-shadow(#763c48 4px 4px 4px);
@@ -41,16 +33,28 @@ h3 {
 	color: #B36E7B;
 }
 
+/* CAROUSEL EMBLA */
+
 .embla {
 	overflow: hidden;
+	margin: auto;
+	--slide-height: 19rem;
+	--slide-spacing: 1rem;
+	--slide-size: 50%;
   }
-  .embla__container {
+
+.embla__viewport {
+	overflow: hidden;
+  }
+
+.embla__container {
 	display: flex;
-  }
-  .embla__slide {
-	flex: 0 0 60%;
+}
+
+.embla__slide {
+	flex: 0 0 var(--slide-size);
 	min-width: 0;
-  }
+}
 
 
 .bento-pink {
@@ -84,7 +88,7 @@ background: linear-gradient(180deg, rgba(255,255,237,0) 0%, rgba(254,250,224,0.9
 }
 
 .icon-skills {
-	width: 40%;
+	width: 50px;
 }
 /*MENU*/
 
