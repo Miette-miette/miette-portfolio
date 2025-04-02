@@ -1,5 +1,6 @@
 'use client'
 
+import { Breadcrumbs } from "@/app/_components/breadcrumbs/breadcrumbs"
 import { EmblaCarousel } from "@/app/_components/Projects"
 
 
@@ -7,8 +8,11 @@ export default function NationSounds() {
 
     return (
         <main>
-            <section className=" h-100 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50">
-                <h1 className="flex justify-center pt-20 mb-8 text-2xl md:text-4xl ">Nation Sounds Festival</h1>
+            <section className=" h-14 0 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50">
+                <div className="relative z-10 flex flex-row justify-center pt-30">
+                    <Breadcrumbs/>
+                </div>
+                <h1 className="flex justify-center pt-10 mb-8 text-2xl md:text-5xl ">Nation Sounds Festival</h1>
                 <p className="flex justify-center text-center ml-10 mr-10">Site mobile et solution de gestion de contenu pour un festival fictif.</p>
                 <p className="flex justify-center">ReactJS - Symfony 8 - EasyAdmin</p>
             </section>

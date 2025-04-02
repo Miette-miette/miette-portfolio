@@ -41,7 +41,7 @@ export default function Hobbies() {
   return (
     <section id='hobbies'>
         <div className='bulle relative w-full h-30 -mb-15 md:h-50 md:-mb-30 flex items-center justify-center bg-[url(../../public/media/hobbies-anim/bulle.png)] bg-contain bg-center bg-no-repeat'>
-            <p className='w-70 mb-8 md:w-90 md:mb-15'>{MietteTxt}</p>
+            <p className='w-70 mb-8 md:w-90 md:mb-15 text-[#B36E7B]'>{MietteTxt}</p>
         </div>
         <div className='h-80 md:h-150 bg-[url(../../public/media/hobbies-anim/bg.png)] bg-contain bg-center bg-no-repeat flex flex-col justify-center items-center'>
           

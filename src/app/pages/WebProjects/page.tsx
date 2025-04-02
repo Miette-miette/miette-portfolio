@@ -19,7 +19,7 @@ export default function ProjetWeb() {
                     </div>
                 </Link>
 
-                <Link href="/pages/WebProjects/DeToiAMoi" data-aos="fade-left">
+                <Link href="/pages/WebProjects/De-Toi-A-Moi" data-aos="fade-left">
                     <div className="bento-beige flex flex-col justify-center items-center">
                         <img src="../media/projets/deToiAMoiBanner.png"/>
                         <h2 className="text-2xl md:text-3xl mt-3 text-center">De Toi A Moi et Les P'tits Bouts</h2>
@@ -27,7 +27,7 @@ export default function ProjetWeb() {
                     </div>
                 </Link>
                 
-                <Link href="/pages/WebProjects/ChampagneAndCo" data-aos="fade-left">
+                <Link href="/pages/WebProjects/Champagne-And-Co" data-aos="fade-left">
                     <div className="bento-beige flex flex-col justify-center items-center">
                         <img src="../media/projets/ChampagneCoBanner.png"/>
                         <h2 className="text-2xl md:text-3xl mt-3 text-center">Champagne & Co</h2>

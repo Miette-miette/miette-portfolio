@@ -30,7 +30,7 @@ export default function Welcome() {
                 </div>
             </Link>
 
-            <Link href="pages/WebProjects/DeToiAMoi">
+            <Link href="pages/WebProjects/De-Toi-A-Moi">
                 <div className='flip-doodle absolute top-120 right-5 md:top-20 md:right-50'>
                     <div className='flip-doodle-inner'>
                         <div className='front-doodle flex justify-center items-center'>
@@ -44,7 +44,7 @@ export default function Welcome() {
                 </div>
             </Link>
 
-            <Link href="pages/WebProjects/ChampagneAndCo">
+            <Link href="pages/WebProjects/Champagne-And-Co">
                 <div className='flip-doodle absolute top-20 right-5 md:top-90 md:left-70'>
                     <div className='flip-doodle-inner'>
                         <div className='front-doodle flex justify-center items-center'>
@@ -58,7 +58,7 @@ export default function Welcome() {
                 </div>
             </Link>
             
-            <Link href="pages/GraphicDesign/LogoLiseBeaufilsPhotographe">
+            <Link href="pages/GraphicDesign/Logo-Lise-Beaufils-Photographe">
                 <div className='flip-doodle absolute top-110 left-5 md:top-85 md:left-260'>
                     <div className='flip-doodle-inner'>
                         <div className='front-doodle flex justify-center items-center'>

@@ -1,14 +1,18 @@
 'use client'
 
+import { Breadcrumbs } from "@/app/_components/breadcrumbs/breadcrumbs";
 import { EmblaCarousel } from "@/app/_components/Projects";
 
-export default function DeToiAMoi() {
+export default function ChampagneAndCo() {
 
     return (
         <div>
             <main>
-                <section className=" h-100 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50">
-                    <h1 className="flex justify-center pt-20 text-2xl md:text-4xl">Champagne & Co</h1>
+                <section className=" h-140 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50">
+                    <div className="relative z-10 flex flex-row justify-center pt-30">
+                        <Breadcrumbs/>
+                    </div>
+                    <h1 className="flex justify-center pt-10 text-2xl md:text-5xl">Champagne & Co</h1>
                     <p className="flex justify-center">Projet de maquettage d’un site web pour une entreprise fictive de vente de champagnes.</p>
                     <p className="flex justify-center">Figma</p>
                 </section>

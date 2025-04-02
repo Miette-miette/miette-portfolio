@@ -1,6 +1,8 @@
 'use client'
 
+import Link from "next/link";
 import { usePathname } from "next/navigation"
+import { RiHome3Line } from "react-icons/ri";
 import { v4 as uuidv4 } from 'uuid';
 
 export const Breadcrumbs = () => {
@@ -12,9 +14,15 @@ export const Breadcrumbs = () => {
     segments.splice(1,1); 
     segments[0] = "Accueil";
 
-    const view = segments.map((path) => (
+    const view = segments.map((path, index) => (
         <div key={uuidv4()}>
-            <p className={path !== lastSegments ? "text-rose-100" : "text-rose-300"}>{path}</p>
+            <Link href={
+                index > 0 ? `/pages/${segments.slice(1, index + 1).join("/")}` : "/"
+             }>
+                <p className={path !== lastSegments ? "text-rose-100 m-2" : "text-rose-400 m-2"}>
+                    {path !== "Accueil" ? path.replace(/-/g, " ") : <RiHome3Line className="inline -mt-1"/>}
+                </p>
+            </Link>
         </div>
 
     ))
