@@ -13,7 +13,7 @@ export default function DeToiAMoi() {
                     <div className="relative z-10 flex flex-row justify-center pt-30">
                         <Breadcrumbs/>
                     </div>
-                    <h1 className="flex justify-center pt-10 text-2xl md:text-5xl">De Toi à Moi et les P &#39 tits Bouts</h1>
+                    <h1 className="flex justify-center pt-10 text-2xl md:text-5xl">De Toi à Moi et les P &#39; tits Bouts</h1>
                     <p className="flex justify-center">Site vitrine pour un dépot-vente de vêtement seconde main à Cesson-Sévigné.</p>
                     <p className="flex justify-center">Wordpress - Elementor</p>
                 </section>
@@ -35,7 +35,7 @@ export default function DeToiAMoi() {
                         <div className="bento-beige">
                             <div className="m-5">
                                 <h2 className="text-3xl mb-5">Une veritable vitrine pour se faire connaitre</h2>
-                                <p>La volonté de la propriétaire est tout d &#39 abord de faire connaître davantage sa boutique dans la région et de mettre
+                                <p>La volonté de la propriétaire est tout d &#39; abord de faire connaître davantage sa boutique dans la région et de mettre
                                      en avant la diversité des collections en vente. Le site renseigne également la potentielle clientèle
                                      sur les conditions de dépôt pour afin de faciliter la prise de rendez-vous téléphonique.</p>
                                     
@@ -52,10 +52,10 @@ export default function DeToiAMoi() {
                         <div className="bento-beige">
                             <div className="m-5">
                                 <h2 className="text-3xl mb-5">Promouvoir la mode seconde main familiale</h2>
-                                <p>J &#39 ai tout d &#39 abord conçu une charte graphique et un logo pour donner à la marque une véritable identité visuelle. 
-                                    Le site a ensuite été réalisé avec WordPress et Elementor, l &#39 idée étant de le faire évoluer vers une boutique en ligne. 
-                                    En ce qui concerne la passation, j &#39 ai mis en place un tutoriel pour que la propriétaire puisse facilement mettre à jour le contenu. 
-                                    Désormais, j &#39 en assure la maintenance et je travaille sur des stratégies SEO afin d &#39 améliorer la visibilité du site et de la marque.
+                                <p>J &#39; ai tout d &#39; abord conçu une charte graphique et un logo pour donner à la marque une véritable identité visuelle. 
+                                    Le site a ensuite été réalisé avec WordPress et Elementor, l &#39; idée étant de le faire évoluer vers une boutique en ligne. 
+                                    En ce qui concerne la passation, j &#39; ai mis en place un tutoriel pour que la propriétaire puisse facilement mettre à jour le contenu. 
+                                    Désormais, j &#39; en assure la maintenance et je travaille sur des stratégies SEO afin d &#39; améliorer la visibilité du site et de la marque.
                                 </p>  
                             </div>
 
@@ -71,7 +71,7 @@ export default function DeToiAMoi() {
                 </section>
 
                 <section className="flex flex-col justify-center items-center mb-40 md:mb-30">
-                    <h2 className="text-3xl text-amber-50">Découvrez d &#39 autres projets</h2>
+                    <h2 className="text-3xl text-amber-50">Découvrez d &#39; autres projets</h2>
                     <EmblaCarousel/>
                 </section>
             </main>

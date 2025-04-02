@@ -35,11 +35,11 @@ export default function Welcome() {
                 <div className='flip-doodle absolute top-120 right-5 md:top-20 md:right-50'>
                     <div className='flip-doodle-inner'>
                         <div className='front-doodle flex justify-center items-center'>
-                            <Image src="/media/doodle-anim/doodle1.svg" className="size-40 md:size-50 z-4 absolute" alt='doodle face'/>
+                            <Image src="/media/doodle-anim/doodle1.svg" className="size-35 md:size-50 z-4 absolute" alt='doodle face'/>
                         </div>
                         <div className='back-doodle flex justify-center items-center'>
-                            <Image src="/media/doodle-anim/doodle1back.svg" className="size-40 md:size-50 z-4 absolute" alt='doodle verso'/>
-                            <h3 className='z-5 absolute text-base'>De Toi à Moi<br/> et les<br/> P &#39 tits Bouts</h3>
+                            <Image src="/media/doodle-anim/doodle1back.svg" className="size-35 md:size-50 z-4 absolute" alt='doodle verso'/>
+                            <h3 className='z-5 absolute text-base'>De Toi à Moi<br/> et les<br/> P &apos;tits Bouts</h3>
                         </div>
                     </div>   
                 </div>

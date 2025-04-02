@@ -23,7 +23,7 @@ export default function ProjetWeb() {
                 <Link href="/pages/WebProjects/De-Toi-A-Moi" data-aos="fade-left">
                     <div className="bento-beige flex flex-col justify-center items-center">
                         <Image src="/media/projets/deToiAMoiBanner.png" alt="banniere projet"/>
-                        <h2 className="text-2xl md:text-3xl mt-3 text-center">De Toi A Moi et Les P &#39 tits Bouts</h2>
+                        <h2 className="text-2xl md:text-3xl mt-3 text-center">De Toi A Moi et Les P &#39; tits Bouts</h2>
                         <p className="text-center">Site vitrine pour un dépot-vente de vêtement seconde main à Cesson-Sévigné.</p> 
                     </div>
                 </Link>
@@ -32,7 +32,7 @@ export default function ProjetWeb() {
                     <div className="bento-beige flex flex-col justify-center items-center">
                         <Image src="/media/projets/ChampagneCoBanner.png" alt="banniere projet"/>
                         <h2 className="text-2xl md:text-3xl mt-3 text-center">Champagne & Co</h2>
-                        <p className="text-center">Projet de maquettage d &#39 un site web pour une entreprise fictive de vente de champagnes.</p> 
+                        <p className="text-center">Projet de maquettage d &#39; un site web pour une entreprise fictive de vente de champagnes.</p> 
                     </div>
                 </Link>
                 
