@@ -19,7 +19,7 @@ export const Breadcrumbs = () => {
             <Link href={
                 index > 0 ? `/pages/${segments.slice(1, index + 1).join("/")}` : "/"
              }>
-                <p className={path !== lastSegments ? "text-rose-100 m-2" : "text-rose-400 m-2"}>
+                <p className={path !== lastSegments ? "text-rose-50 m-2" : "text-rose-200 m-2"}>
                     {path !== "Accueil" ? path.replace(/-/g, " ") : <RiHome3Line className="inline -mt-1"/>}
                 </p>
             </Link>

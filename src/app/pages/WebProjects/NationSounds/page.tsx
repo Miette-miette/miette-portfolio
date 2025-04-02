@@ -13,7 +13,7 @@ export default function NationSounds() {
                 <div className="relative z-10 flex flex-row justify-center pt-30">
                     <Breadcrumbs/>
                 </div>
-                <h1 className="flex justify-center pt-10 mb-8 text-2xl md:text-5xl ">Nation Sounds Festival</h1>
+                <h1 className="flex justify-center pt-10 m-5 mb-8 text-2xl md:text-5xl ">Nation Sounds Festival</h1>
                 <p className="flex justify-center text-center ml-10 mr-10">Site mobile et solution de gestion de contenu pour un festival fictif.</p>
                 <p className="flex justify-center">ReactJS - Symfony 8 - EasyAdmin</p>
             </section>
@@ -76,7 +76,7 @@ export default function NationSounds() {
                 </div>
 
             </section>
-            <section className="flex flex-col justify-center items-center mb-40 md:mb-30">
+            <section className="flex flex-col justify-center items-center mb-40 md:mb-30 w-full overflow-hidden">
                 <h2 className="text-3xl text-amber-50">Découvrez d&#39;autres projets</h2>
                 <EmblaCarousel/>
             </section>

@@ -58,7 +58,7 @@ export default function Hobbies() {
           </div>
           
             
-          <Image id="miette-hobbies" src={MietteImg} alt="Miette et ses activités" className='flex justify-center items-center absolute h-80 md:h-150'/>
+          <Image id="miette-hobbies" src={MietteImg} alt="Miette et ses activités" className='flex justify-center items-center absolute h-70 md:h-150'/>
         </div>
 
     </section>

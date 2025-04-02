@@ -13,7 +13,7 @@ export default function ChampagneAndCo() {
                     <div className="relative z-10 flex flex-row justify-center pt-30">
                         <Breadcrumbs/>
                     </div>
-                    <h1 className="flex justify-center pt-10 text-2xl md:text-5xl">Champagne & Co</h1>
+                    <h1 className="flex justify-center pt-10 m-5  text-2xl md:text-5xl">Champagne & Co</h1>
                     <p className="flex justify-center">Projet de maquettage d’un site web pour une entreprise fictive de vente de champagnes.</p>
                     <p className="flex justify-center">Figma</p>
                 </section>
@@ -71,7 +71,7 @@ export default function ChampagneAndCo() {
 
                 </section>
 
-                <section className="flex flex-col justify-center items-center mb-40 md:mb-30">
+                <section className="flex flex-col justify-center items-center mb-40 md:mb-30 w-full overflow-hidden">
                     <h2 className="text-3xl text-amber-50">Découvrez d&#39;autres projets</h2>
                     <EmblaCarousel/>
                 </section>

@@ -42,9 +42,9 @@ useEffect(()=>{
   },[])
 
 return(
-    <section id="presentation" className='h-800' >
+    <section id="presentation" className='h-400 md:h-800px' >
           
-          <h2 className='flex justify-center m-10 mb-20 text-xl md:text-3xl text-center text-[#B36E7B]'>Je développe comme je crée :<br/> avec passion, couleurs et une touche de fun !</h2>
+          <h2 className='flex justify-center m-10 mb-20 md:mb-60 text-xl md:text-3xl text-center text-[#B36E7B]'>Je développe comme je crée :<br/> avec passion, couleurs et une touche de fun !</h2>
           
           <div id="presentation-anim" className=" flex justify-center items-center relative z-3">
             <Image src="/media/anim-laptop/corps.png" id="corps" className="size-60 md:size-100 z-4 relative" alt='corps'/>

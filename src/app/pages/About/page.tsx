@@ -84,7 +84,7 @@ export default function About() {
             <FormationCarousel/>
 
             <section id="skills" className="parcours p-5 pr-5 pl-5 md:pr-70 md:pl-70 flex flex-col overflow-hidden" >
-                <h2 className="text-4xl flex justify-center text-[#B36E7B] mt-8">Compétences</h2>
+                <h2 className="text-3xl md:text-4xl flex justify-center text-[#B36E7B] mt-8 mb-8">Compétences</h2>
 
                 <div id="front" className="bento-beige flex flex-col" data-aos="fade-left">
 

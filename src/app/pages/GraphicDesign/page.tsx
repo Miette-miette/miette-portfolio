@@ -15,7 +15,7 @@ export default function GraphicDesign() {
 
                 <Link href="/pages/GraphicDesign/Logo-Lise-Beaufils-Photographe" data-aos="fade-left">
                     <div className="bento-beige flex flex-col justify-center items-center">
-                        <Image src="/media/projets/logoBanner.png" alt="banniere projet"/>
+                        <Image src="/media/projets/LogoBanner.png" alt="banniere projet"/>
                         <h2 className="text-2xl md:text-3xl mt-3 text-center">Lise Beaufils Photographe</h2>
                         <p className="text-center">Création d&#39;une déclinaison de logo pour une photographe.</p> 
                     </div>

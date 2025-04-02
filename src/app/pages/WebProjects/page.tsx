@@ -14,7 +14,7 @@ export default function ProjetWeb() {
             <section className="p-5 md:pr-80 md:pl-80 mb-50" data-aos="fade-left">
                 <Link href="/pages/WebProjects/NationSounds">
                     <div className="bento-beige flex flex-col justify-center items-center">
-                        <Image src="../media/projets/NationSoundsBanner.png" alt="banniere projet"/>
+                        <Image src="/media/projets/NationSoundsBanner.png" alt="banniere projet"/>
                         <h2 className="text-2xl md:text-3xl mt-3 text-center">Nation-Sounds Festival</h2>
                         <p className="text-center">Site mobile et solution de gestion de contenu pour un festival fictif.</p> 
                     </div>

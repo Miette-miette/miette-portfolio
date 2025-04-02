@@ -18,13 +18,13 @@ export default function Welcome() {
         <div id="welcome-visuel" className="flex flex-col z-1 w-60 md:w-120">
 
             <Link href="pages/WebProjects/NationSounds">
-                <div className='flip-doodle absolute top-15 left-10 md:top-30 md:left-50'>
+                <div className='flip-doodle absolute top-15 left-5 md:top-30 md:left-50'>
                     <div className='flip-doodle-inner'>
                         <div className='front-doodle flex justify-center items-center'>
-                            <Image src="/media/doodle-anim/doodle3.svg" className="size-40 md:size-60 z-4 absolute" alt='doodle face'/>
+                            <Image src="/media/doodle-anim/doodle3.svg" className="size-35 md:size-60 z-4 absolute" alt='doodle face'/>
                         </div>
                         <div className='back-doodle flex justify-center items-center'>
-                            <Image src="/media/doodle-anim/doodle1back.svg" className="size-40 md:size-60 z-4 absolute" alt='doodle verso'/>
+                            <Image src="/media/doodle-anim/doodle1back.svg" className="size-35 md:size-60 z-4 absolute" alt='doodle verso'/>
                             <h3 className='z-5 absolute text-base'>Festival<br/> Nation Sounds</h3>
                         </div>
                     </div>   
@@ -32,13 +32,13 @@ export default function Welcome() {
             </Link>
 
             <Link href="pages/WebProjects/De-Toi-A-Moi">
-                <div className='flip-doodle absolute top-120 right-5 md:top-20 md:right-50'>
+                <div className='flip-doodle absolute top-120 right-2 md:top-20 md:right-50'>
                     <div className='flip-doodle-inner'>
                         <div className='front-doodle flex justify-center items-center'>
-                            <Image src="/media/doodle-anim/doodle1.svg" className="size-35 md:size-50 z-4 absolute" alt='doodle face'/>
+                            <Image src="/media/doodle-anim/doodle1.svg" className="size-32 md:size-50 z-4 absolute" alt='doodle face'/>
                         </div>
                         <div className='back-doodle flex justify-center items-center'>
-                            <Image src="/media/doodle-anim/doodle1back.svg" className="size-35 md:size-50 z-4 absolute" alt='doodle verso'/>
+                            <Image src="/media/doodle-anim/doodle1back.svg" className="size-32 md:size-50 z-4 absolute" alt='doodle verso'/>
                             <h3 className='z-5 absolute text-base'>De Toi à Moi<br/> et les<br/> P &apos;tits Bouts</h3>
                         </div>
                     </div>   
@@ -46,7 +46,7 @@ export default function Welcome() {
             </Link>
 
             <Link href="pages/WebProjects/Champagne-And-Co">
-                <div className='flip-doodle absolute top-20 right-5 md:top-90 md:left-70'>
+                <div className='flip-doodle absolute top-20 right-0 md:top-90 md:left-70'>
                     <div className='flip-doodle-inner'>
                         <div className='front-doodle flex justify-center items-center'>
                             <Image src="/media/doodle-anim/doodleChamp.svg" className="size-30 md:size-40 z-4 absolute" alt='doodle face'/>
@@ -60,13 +60,13 @@ export default function Welcome() {
             </Link>
             
             <Link href="pages/GraphicDesign/Logo-Lise-Beaufils-Photographe">
-                <div className='flip-doodle absolute top-110 left-1 md:top-85 md:left-260'>
+                <div className='flip-doodle absolute top-110 left-0 md:top-85 md:left-260'>
                     <div className='flip-doodle-inner'>
                         <div className='front-doodle flex justify-center items-center'>
-                            <Image src="/media/doodle-anim/doodleLogoLise.svg" className="size-35 md:size-50 z-4 absolute" alt='doodle face'/>
+                            <Image src="/media/doodle-anim/doodleLogoLise.svg" className="size-32 md:size-50 z-4 absolute" alt='doodle face'/>
                         </div>
                         <div className='back-doodle flex justify-center items-center'>
-                            <Image src="/media/doodle-anim/doodle1back.svg" className="size-40 md:size-50 z-4 absolute" alt='doodle verso'/>
+                            <Image src="/media/doodle-anim/doodle1back.svg" className="size-32 md:size-50 z-4 absolute" alt='doodle verso'/>
                             <h3 className='z-5 absolute text-base'>Lise<br/>Beaufils<br/>Photographe</h3>
                         </div>
                     </div>   

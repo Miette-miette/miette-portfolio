@@ -4,8 +4,6 @@ import React , { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-
-
 export default function Header() {
 
 //Menu
@@ -19,7 +17,7 @@ const handleShowMenu = () =>{
         <header className="sticky top-0 z-10">
             <div id="header-content" className='flex flex-row justify-between'>
                 <Link href="/" id="logo" className='z-3'>
-                    <Image src="/miettelogosolo.png" width={55} height={65} alt='logo'/>
+                    <Image src="/miettelogosolo.png" className='w-45px h-55px md:w-55px md:h-65px' alt='logo'/>
                 </Link>
 
                 <div id="navbar-burger" className='z-3' onClick={handleShowMenu}>
@@ -32,13 +30,13 @@ const handleShowMenu = () =>{
             <nav className={`navbar-links ${showMenu ? "show-nav" : "hide"} items-center flex-col md:flex-row`}>
 
                 <div className='flex justify-center items-center bg-[url(../../public/media/backgrounds/menuabout.png)] bg-center bg-no-repeat bg-cover h-50 md:h-120 w-80 m-3' onClick={handleShowMenu}>
-                    <Link href="/pages/About" className='bg-[url(../../public/media/button/button-m.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl'>À propos</Link>
+                    <Link href="/pages/About" className='bg-[url(../../public/media/button/button-m.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl'><p>À propos</p></Link>
                 </div>
                 <div className='flex justify-center items-center bg-[url(../../public/media/backgrounds/menuweb.png)] bg-center bg-no-repeat bg-cover h-50 md:h-120 w-80 m-3' onClick={handleShowMenu}>
-                    <Link href="/pages/WebProjects" className='bg-[url(../../public/media/button/button-l.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl'>Projets Web</Link>
+                    <Link href="/pages/WebProjects" className='bg-[url(../../public/media/button/button-l.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl'><p>Projets Web</p> </Link>
                 </div>
                 <div className='flex justify-center items-center bg-[url(../../public/media/backgrounds/menugraph.png)] bg-center bg-no-repeat bg-cover h-50 md:h-120 w-80 m-3' onClick={handleShowMenu}>
-                    <Link href="/pages/GraphicDesign" className='bg-[url(../../public/media/button/button-xl.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl text-center'>Design Graphique & Illustration</Link>
+                    <Link href="/pages/GraphicDesign" className='bg-[url(../../public/media/button/button-xl.svg)] bg-center bg-no-repeat bg-contain p-12 text-[#B05768] text-2xl text-center'><p>Design Graphique & Illustration</p></Link>
                 </div>
                 
                 
