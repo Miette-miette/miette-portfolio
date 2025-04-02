@@ -2,6 +2,7 @@
 
 import { Breadcrumbs } from "@/app/_components/breadcrumbs/breadcrumbs";
 import { EmblaCarousel } from "@/app/_components/Projects";
+import Image from "next/image";
 
 export default function LogoLiseBPhotographe() {
 
@@ -14,7 +15,7 @@ export default function LogoLiseBPhotographe() {
                         <Breadcrumbs/>
                     </div>
                     <h1 className="flex justify-center pt-10 text-2xl md:text-5xl">Lise Beaufils Photographe</h1>
-                    <p className="flex justify-center">Création d'une déclinaison de logos pour une photographe.</p>
+                    <p className="flex justify-center">Création d &#39 une déclinaison de logos pour une photographe.</p>
                     <p className="flex justify-center">Illustrator</p>
                 </section>
                 
@@ -25,12 +26,12 @@ export default function LogoLiseBPhotographe() {
                         <div className="bento-beige">
                             <div className="m-5">
                                 <h2 className="text-3xl mb-5">Un outil pour se faire remarquer</h2>
-                                <p>Afin de compléter son identité visuelle, Lise Beaufils, photographe spécialisée dans l'événementiel (mariage, famille, etc.), souhaitait un logo à l'image de son travail photographique. 
+                                <p>Afin de compléter son identité visuelle, Lise Beaufils, photographe spécialisée dans l &#39 événementiel (mariage, famille, etc.), souhaitait un logo à l &#39 image de son travail photographique. 
                                     Une écriture manuscrite, douce et joyeuse avec une touche de couleur légère. Pour correspondre à la multiplicité de ses supports de communication (web et print), 
                                     je lui ai proposé une déclinaison de logos. </p>   
                             </div>
                             <figure className="m-5" >
-                                <img src="../../media/projets/LOGO-2.png" alt="Wireframe de la version mobile"/>
+                                <Image src="/media/projets/LOGO-2.png" alt="Wireframe de la version mobile"/>
                                 <figcaption>
                                     Gravure du logo sur verre et sur bois.
                                 </figcaption>
@@ -40,13 +41,13 @@ export default function LogoLiseBPhotographe() {
                         <div className="bento-beige">
                             <div className="m-5">
                                 <h2 className="text-3xl mb-5">Une palette de possibilités</h2>
-                                <p>J'ai imaginé une typographie sur mesure pour offrir un design unique et en adéquation avec l’univers de la photographe. Aujourd’hui, j’assure la mise à jour du logo pour que ce dernier corresponde
-                                    à l'évolution du travail de la photographie et de sa charte graphique.
+                                <p>J &#39 ai imaginé une typographie sur mesure pour offrir un design unique et en adéquation avec l &#39 univers de la photographe. Aujourd &#39 hui, j &#39 assure la mise à jour du logo pour que ce dernier corresponde
+                                    à l &#39 évolution du travail de la photographie et de sa charte graphique.
                                 </p>
                             </div>
 
                             <figure className="m-5" >
-                                <img src="../../media/projets/LOGO-3.png" alt="Wireframe de la version mobile"/>
+                                <Image src="/media/projets/LOGO-3.png" alt="Wireframe de la version mobile"/>
                                 <figcaption>
                                     Tests de typographie.
                                 </figcaption>
@@ -57,7 +58,7 @@ export default function LogoLiseBPhotographe() {
                 </section>
 
                 <section className="flex flex-col justify-center items-center mb-40 md:mb-30">
-                    <h2 className="text-3xl text-amber-50">Découvrez d'autres projets</h2>
+                    <h2 className="text-3xl text-amber-50">Découvrez d &#39 autres projets</h2>
                     <EmblaCarousel/>
                 </section>
             </main>

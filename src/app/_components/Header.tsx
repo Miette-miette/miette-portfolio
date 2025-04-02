@@ -1,6 +1,6 @@
 'use client'
 
-import React , { Component, useState } from 'react';
+import React , { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -18,9 +18,9 @@ const handleShowMenu = () =>{
     return (
         <header className="sticky top-0 z-10">
             <div id="header-content" className='flex flex-row justify-between'>
-                <a href="/" id="logo" className='z-3'>
+                <Link href="/" id="logo" className='z-3'>
                     <Image src="/miettelogosolo.png" width={55} height={65} alt='logo'/>
-                </a>
+                </Link>
 
                 <div id="navbar-burger" className='z-3' onClick={handleShowMenu}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">

@@ -2,9 +2,8 @@
 
 import Welcome from "./_components/Welcome";
 import {EmblaCarousel} from "./_components/Projects";
-import React, { useEffect } from 'react';
+import React from 'react';
 import dynamic from "next/dynamic";
-import Footer from "./_components/Footer";
 
 export default function Home() {
 

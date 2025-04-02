@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import sr from './ScrollReveal';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Presentation() {
 
@@ -46,22 +47,22 @@ return(
           <h2 className='flex justify-center m-10 text-xl md:text-3xl text-center text-[#B36E7B]'>Je développe comme je crée :<br/> avec passion, couleurs et une touche de fun !</h2>
           
           <div id="presentation-anim" className=" flex justify-center items-center relative z-3">
-            <img src="./media/anim-laptop/corps.png" id="corps" className="size-60 md:size-100 z-4 relative"/>
-            <img src="./media/anim-laptop/tete.png" id="tete" className="size-60 md:size-100 z-5 absolute"/>
-            <img src="./media/anim-laptop/bras.png" id="bras" className="size-60 md:size-100 z-6 absolute"/>
-            <img src="./media/anim-laptop/ordi.png" id="ordi" className="size-60 md:size-100 z-7 absolute"/>
+            <Image src="/media/anim-laptop/corps.png" id="corps" className="size-60 md:size-100 z-4 relative" alt='corps'/>
+            <Image src="/media/anim-laptop/tete.png" id="tete" className="size-60 md:size-100 z-5 absolute" alt='tete'/>
+            <Image src="/media/anim-laptop/bras.png" id="bras" className="size-60 md:size-100 z-6 absolute" alt='bras'/>
+            <Image src="/media/anim-laptop/ordi.png" id="ordi" className="size-60 md:size-100 z-7 absolute" alt='ordinateur'/>
 
           </div>
 
           <div id="bird-anim" className='flex items-end justify-center'>
-            <img src="./media/backgrounds/oiseau1.svg" id="bird1" className="size-30 md:size-50 z-7 absolute left-10 md:left-70"/>
-            <img src="./media/backgrounds/oiseau2.svg" id="bird2" className="size-30 md:size-50 z-7 absolute right-10 mb-40 md:right-70 md:mb-40"/>
+            <Image src="/media/backgrounds/oiseau1.svg" id="bird1" className="size-30 md:size-50 z-7 absolute left-10 md:left-70" alt='oiseau'/>
+            <Image src="/media/backgrounds/oiseau2.svg" id="bird2" className="size-30 md:size-50 z-7 absolute right-10 mb-40 md:right-70 md:mb-40" alt='oiseau'/>
           </div>
 
           <div id="bg-anim" className="mountAnim flex flex-col justify-end z-0" >
-            <img src="./media/backgrounds/montagne1.svg" className="mount1 z-2 absolute object-cover object-top h-70 md:h-110"/>
-            <img src="./media/backgrounds/montagne2.svg" className="mount2 z-1 absolute object-cover object-top h-90 md:h-140 "/>
-            <img src="./media/backgrounds/montagne3.svg" className="mount3 z-0 absolute object-cover object-top h-110 md:h-160"/>
+            <Image src="/media/backgrounds/montagne1.svg" className="mount1 z-2 absolute object-cover object-top h-70 md:h-110" alt='montagne'/>
+            <Image src="/media/backgrounds/montagne2.svg" className="mount2 z-1 absolute object-cover object-top h-90 md:h-140 " alt='montagne'/>
+            <Image src="/media/backgrounds/montagne3.svg" className="mount3 z-0 absolute object-cover object-top h-110 md:h-160" alt='montagne'/>
 
             <div className="wrapper relative z-3 flex justify-center items-center">
               <Link href="/pages/About">

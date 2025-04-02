@@ -28,7 +28,7 @@ export default function LegalNotice() {
             </p>
 
             <h2 className='text-xl pb-2 pt-8'>Responsabilité</h2>
-            <p>Les informations présentées sur ce site sont fournies à titre indicatif. Doriane Le Guyader ne saurait être tenu responsable en cas d'erreurs ou d'omissions.
+            <p>Les informations présentées sur ce site sont fournies à titre indicatif. Doriane Le Guyader ne saurait être tenu responsable en cas d &#39 erreurs ou d &#39 omissions.
             </p>
 
             <h2 className='text-xl pb-2 pt-8'>Données personnelles</h2>

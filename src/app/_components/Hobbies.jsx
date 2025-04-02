@@ -1,28 +1,29 @@
 'use client'
 
-import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
+import React, { useState } from 'react';
 
 export default function Hobbies() {
 
   const Miette = [ 
     {
-      src:"../media/hobbies-anim/base.png",
+      src:"/media/hobbies-anim/base.png",
       text: "Cliquez sur les éléments verts pour découvrir mes passions !"
     },
     {
-      src:"../media/hobbies-anim/art.png",
+      src:"/media/hobbies-anim/art.png",
       text: "Je suis passionnée par tout type d'art visuel, et surtout par le dessin !"
     },
     {
-      src:"../media/hobbies-anim/crochet.png",
+      src:"/media/hobbies-anim/crochet.png",
       text: "J'adore crocheter des peluches rigolotes pour mon entourage !"
     },
     {
-      src:"../media/hobbies-anim/game.png",
+      src:"/media/hobbies-anim/game.png",
       text: "Pour me détendre, rien de mieux qu'un bon cosy game !"
     },
     {
-      src:"../media/hobbies-anim/nature.png",
+      src:"/media/hobbies-anim/nature.png",
       text: "J'adore passer du temps en nature, faire pousser des plantes et observer les grenouilles !"
     }
   ]
@@ -57,7 +58,7 @@ export default function Hobbies() {
           </div>
           
             
-          <img id="miette-hobbies" src={MietteImg} className='flex justify-center items-center absolute h-80 md:h-150'/>
+          <Image id="miette-hobbies" src={MietteImg} alt="Miette et ses activités" className='flex justify-center items-center absolute h-80 md:h-150'/>
         </div>
 
     </section>

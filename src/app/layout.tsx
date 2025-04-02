@@ -5,16 +5,17 @@ import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 import { AOSInit } from "./_components/aos";
 
-
 const coiny = Coiny({
   weight: '400',
   subsets: ['latin'],
-  variable: '--font-coiny'
+  display: "swap",
+  variable: '--font-title'
 })
 
 const roboto = Roboto_Slab({
   weight: '400',
   subsets: ['latin'],
+  variable: '--font-text'
 })
 
 export const metadata: Metadata = {
@@ -31,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
        <AOSInit />
-      <body className={roboto.className}>
+      <body className={`${coiny.variable} ${roboto.variable}`}>
         <Header/>
         {children}
         <Footer/>

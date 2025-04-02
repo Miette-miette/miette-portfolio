@@ -2,6 +2,7 @@
 
 import { Breadcrumbs } from "@/app/_components/breadcrumbs/breadcrumbs"
 import { EmblaCarousel } from "@/app/_components/Projects"
+import Image from "next/image"
 
 
 export default function NationSounds() {
@@ -32,11 +33,11 @@ export default function NationSounds() {
                     <div className="bento-beige">
                         <div className="m-5">
                             <h2 className="text-3xl mb-5">Un projet full-stack fictif</h2>
-                            <p>En partant de la création de l’identité et de la charte graphique du festival, jusqu’au déploiement d’un site mobile pour aider
-                                les festivaliers à s’informer sur les événements, ce projet m’a permis d'expérimenter toutes les étapes de création d’un projet web.</p>
+                            <p>En partant de la création de l &#39 identité et de la charte graphique du festival, jusqu &#39 au déploiement d &#39 un site mobile pour aider
+                                les festivaliers à s &#39 informer sur les événements, ce projet m &#39 a permis d &#39 expérimenter toutes les étapes de création d &#39 un projet web.</p>
                             <ul className="list-disc pl-10">
-                                <li>Faire un benchmark de l'existant et des solutions techniques.</li>
-                                <li>Créer l'identité visuelle de Nation Sounds et maquetter le site web. </li>
+                                <li>Faire un benchmark de l &#39 existant et des solutions techniques.</li>
+                                <li>Créer l &#39 identité visuelle de Nation Sounds et maquetter le site web. </li>
                                 <li>Développer un front-end responsive avec React-JS et Bootstrap.</li>
                                 <li>Développer le back-end avec Symfony 8 et EasyAdmin pour gérer le CRUD.</li>
                                 <li>Tester les composants.</li>
@@ -47,7 +48,7 @@ export default function NationSounds() {
                         </div>
 
                         <figure className="m-5" >
-                            <img src="../../media/projets/NS-1.png" alt="Wireframe de la version mobile"/>
+                            <Image src="/media/projets/NS-1.png" alt="Wireframe de la version mobile"/>
                             <figcaption>
                                 Wireframe de la version mobile.
                             </figcaption>
@@ -58,17 +59,17 @@ export default function NationSounds() {
                         <div className="m-5">
                             <h2 className="text-3xl mb-5" >Un véritable guide pour les festivaliers</h2>
 
-                            <p className="mb-5">Le site propose à la fois de consulter la programmation du festival et de s'informer plus en détail sur les artistes, ainsi que sur 
+                            <p className="mb-5">Le site propose à la fois de consulter la programmation du festival et de s &#39 informer plus en détail sur les artistes, ainsi que sur 
                                 les ateliers et spectacles qui animeront les lieux.
 
                                 Une carte interactive permet de se repérer sur les lieux et de se renseigner sur la restauration et les commodités. 
                                 
-                                Les festivaliers ont également la possibilité de créer un compte afin d'avoir accès à une interface personnalisée et sécurisée (demande purement technique pour les besoins de l'exercice).
+                                Les festivaliers ont également la possibilité de créer un compte afin d &#39 avoir accès à une interface personnalisée et sécurisée (demande purement technique pour les besoins de l &#39 exercice).
                             </p>
                         </div>
 
                         <figure className="m-5">
-                            <img src="../../media/projets/NS-2.png" alt="Mockup de la version mobile"/> 
+                            <Image src="/media/projets/NS-2.png" alt="Mockup de la version mobile"/> 
                             <figcaption>Mockup de la version mobile.</figcaption>
                         </figure>
                     </div>
@@ -76,7 +77,7 @@ export default function NationSounds() {
 
             </section>
             <section className="flex flex-col justify-center items-center mb-40 md:mb-30">
-                <h2 className="text-3xl text-amber-50">Découvrez d'autres projets</h2>
+                <h2 className="text-3xl text-amber-50">Découvrez d &#39 autres projets</h2>
                 <EmblaCarousel/>
             </section>
             

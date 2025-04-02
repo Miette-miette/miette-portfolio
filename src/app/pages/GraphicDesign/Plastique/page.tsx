@@ -2,6 +2,7 @@
 
 import { Breadcrumbs } from "@/app/_components/breadcrumbs/breadcrumbs";
 import { EmblaCarousel } from "@/app/_components/Projects";
+import Image from "next/image";
 
 export default function Plastique() {
 
@@ -13,7 +14,7 @@ export default function Plastique() {
                         <Breadcrumbs/>
                     </div>
                     <h1 className="flex justify-center pt-10 text-2xl md:text-5xl">Plastique</h1>
-                    <p className="flex justify-center">Réalisation d'un clip pour la musique « Plastique » écrite  et produite par Quentin & Tess (CRD Laval).</p>
+                    <p className="flex justify-center">Réalisation d &#39 un clip pour la musique « Plastique » écrite  et produite par Quentin & Tess (CRD Laval).</p>
                     <p className="flex justify-center">PremierePro</p>
                 </section>
                 
@@ -27,12 +28,12 @@ export default function Plastique() {
                         <div className="bento-beige">
                             <div className="m-5">
                                 <h2 className="text-3xl mb-5">Stop au plastique!</h2>
-                                <p>Quentin m’a contactée avec l’envie d’illustrer sa musique et les paroles de cette dernière
+                                <p>Quentin m &#39 a contactée avec l &#39 envie d &#39 illustrer sa musique et les paroles de cette dernière
                                     en mettant en avant le message écologique de la chanson.</p>
                             </div>
 
                             <figure className="m-5" >
-                                <img src="../../media/projets/PLA-1.png" alt="Wireframe de la version mobile"/>
+                                <Image src="/media/projets/PLA-1.png" alt="Wireframe de la version mobile"/>
                                 <figcaption>
                                     Décors et illustrations.
                                 </figcaption>
@@ -43,14 +44,14 @@ export default function Plastique() {
                             <div className="m-5">
                                 <h2 className="text-3xl mb-5">Du stop-motion avec des déchets plastiques</h2>
                                 <p>Du storyboard à la création des personnages, des décors et des marionnettes, ce projet a été un véritable terrain 
-                                    de jeu pour expérimenter l’animation en stop motion. Les décors ont été créés à partir de déchets plastiques pour 
+                                    de jeu pour expérimenter l &#39 animation en stop motion. Les décors ont été créés à partir de déchets plastiques pour 
                                     résonner avec le caractère engagé de la chanson. Le montage du clip a été réalisé sur Premiere Pro.
                                 </p>
                             </div>
                         
                         
                             <figure className="m-5" >
-                                <img src="../../media/projets/PLA-2.png" alt="Wireframe de la version mobile"/>
+                                <Image src="/media/projets/PLA-2.png" alt="Wireframe de la version mobile"/>
                                 <figcaption>
                                     Extrait du clip.
                                 </figcaption>
@@ -62,7 +63,7 @@ export default function Plastique() {
                 </section>
 
                 <section className="flex flex-col justify-center items-center mb-40 md:mb-30">
-                    <h2 className="text-3xl text-amber-50">Découvrez d'autres projets</h2>
+                    <h2 className="text-3xl text-amber-50">Découvrez d &#39 autres projets</h2>
                     <EmblaCarousel/>
                 </section>
             </main>

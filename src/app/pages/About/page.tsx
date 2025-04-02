@@ -2,6 +2,7 @@
 
 import { FormationCarousel } from "@/app/_components/Formation";
 import Hobbies from "@/app/_components/Hobbies";
+import Image from "next/image";
 
 export default function About() {
 
@@ -11,10 +12,10 @@ export default function About() {
             <section id="resume" >
 
                 <div id="cloud" className=" flex flex-start w-full">
-                    <img src="../media/cloud-anim/cloud-stars.svg" id="cloud0" className="z-4 top-0 absolute w-full object-top object-cover md:object-contain mt-25 md:-mt-10 h-50 lg:h-130"/>
-                    <img src="../media/cloud-anim/cloud1.svg" id="cloud1" className="z-3 top-0 absolute w-full md:-mt-20 object-top md:object-center object-cover md:object-contain h-30 lg:h-150"/>
-                    <img src="../media/cloud-anim/cloud2.svg" id="cloud2" className="z-2 top-0  absolute w-full mt-20 md:-mt-10 object-bottom md:object-top object-cover h-50 lg:h-full"/>
-                    <img src="../media/cloud-anim/cloud3.svg" id="cloud3" className="z-0 top-0 absolute w-full object-top object-cover h-160 lg:h-full"/>
+                    <Image src="/media/cloud-anim/cloud-stars.svg" alt="étoiles" id="cloud0" className="z-4 top-0 absolute w-full object-top object-cover md:object-contain mt-25 md:-mt-10 h-50 lg:h-130"/>
+                    <Image src="/media/cloud-anim/cloud1.svg" alt="petits nuages roses" id="cloud1" className="z-3 top-0 absolute w-full md:-mt-20 object-top md:object-center object-cover md:object-contain h-30 lg:h-150"/>
+                    <Image src="/media/cloud-anim/cloud2.svg" alt="gros nuages roses" id="cloud2" className="z-2 top-0  absolute w-full mt-20 md:-mt-10 object-bottom md:object-top object-cover h-50 lg:h-full"/>
+                    <Image src="/media/cloud-anim/cloud3.svg" alt="nuage de fond" id="cloud3" className="z-0 top-0 absolute w-full object-top object-cover h-160 lg:h-full"/>
                 </div>
 
                 <h1 className="flex justify-center relative z-2 mt-20 md:mt-50 mb-10 text-5xl text-amber-50">Qui suis-je ?</h1>
@@ -26,10 +27,10 @@ export default function About() {
                         <div className='flip-doodle relative z-6'>
                             <div className='flip-doodle-inner'>
                                 <div className='front-doodle flex justify-center items-center'>
-                                    <img src="../media/about/portrait.svg" className="w-50 md:w-200 p-2 "/>
+                                    <Image src="/media/about/portrait.svg" className="w-50 md:w-200 p-2 " alt="portrait photo"/>
                                 </div>
                                 <div className='back-doodle flex justify-center items-center'>
-                                    <img src="../media/about/face-doodle.svg" className="w-50 md:w-200 p-2 "/>     
+                                    <Image src="/media/about/face-doodle.svg" className="w-50 md:w-200 p-2 " alt="portrait dessin"/>     
                                 </div>
                             </div>   
                         </div>
@@ -61,18 +62,18 @@ export default function About() {
                         <h2 className="text-2xl flex justify-center text-center text-[#B36E7B]">Je me présente, Doriane Le Guyader,</h2>
                         <p className="text-center">autodidacte passionnée par le développement web.</p>
                         <p className="text-center mb-8"> Mon souhait est de faire de ce passe-temps mon métier.</p>
-                        <p className="mb-8">Étant titulaire d’un DNSEP (Diplôme national supérieur d’expression plastique) option Design de la transition, le Design Thinking et la créativité sont essentiels à ma méthodologie.<br/>
-                        Actuellement en attente de validation de la formation DWWM (Développeur web et web mobile) de l'EPSI, je souhaite me professionnaliser dans ce domaine et ainsi concrétiser mon projet de reconversion.
+                        <p className="mb-8">Étant titulaire d &#39 un DNSEP (Diplôme national supérieur d &#39 expression plastique) option Design de la transition, le Design Thinking et la créativité sont essentiels à ma méthodologie.<br/>
+                        Actuellement en attente de validation de la formation DWWM (Développeur web et web mobile) de l &#39 EPSI, je souhaite me professionnaliser dans ce domaine et ainsi concrétiser mon projet de reconversion.
                         </p>
                         <div className="flex flex-col md:flex-row justify-center items-center">
                             <div className="bento-pink flex flex-row justify-center items-center">
-                                <p>Esprit d'équipe & bienveillance</p>
+                                <p>Esprit d &#39 équipe & bienveillance</p>
                             </div>
                             <div className="bento-pink flex flex-row justify-center items-center">
-                                <p>Curiosité & soif d'apprendre</p>
+                                <p>Curiosité & soif d &#39 apprendre</p>
                             </div>
                             <div className="bento-pink flex flex-row justify-center items-center">
-                                <p>Créativité & capacité d'adaptation</p>
+                                <p>Créativité & capacité d &#39 adaptation</p>
                             </div>
                         </div>
                     </div> 
@@ -295,7 +296,7 @@ export default function About() {
             </section>
 
             <section className="hobbies bg-[#CB9698] pb-50">
-                <h2 className="flex flex-col justify-center items-center text-2xl md:text-4xl text-center text-amber-50 p-8">Mes centres d'intérêts</h2>
+                <h2 className="flex flex-col justify-center items-center text-2xl md:text-4xl text-center text-amber-50 p-8">Mes centres d &#39 intérêts</h2>
                 <Hobbies/>
 
             </section>

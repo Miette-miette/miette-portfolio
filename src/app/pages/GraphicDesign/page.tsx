@@ -1,5 +1,6 @@
 'use client'
 
+import Image from "next/image"
 import Link from "next/link"
 
 export default function GraphicDesign() {
@@ -14,17 +15,17 @@ export default function GraphicDesign() {
 
                 <Link href="/pages/GraphicDesign/Logo-Lise-Beaufils-Photographe" data-aos="fade-left">
                     <div className="bento-beige flex flex-col justify-center items-center">
-                        <img src="../media/projets/logoBanner.png"/>
+                        <Image src="/media/projets/logoBanner.png" alt="banniere projet"/>
                         <h2 className="text-2xl md:text-3xl mt-3 text-center">Lise Beaufils Photographe</h2>
-                        <p className="text-center">Création d'une déclinaison de logo pour une photographe.</p> 
+                        <p className="text-center">Création d &#39 une déclinaison de logo pour une photographe.</p> 
                     </div>
                 </Link>
                 
                 <Link href="/pages/GraphicDesign/Plastique" data-aos="fade-left">
                     <div className="bento-beige flex flex-col justify-center items-center">
-                        <img src="../media/projets/PlastiqueBanner.png"/>
+                        <Image src="/media/projets/PlastiqueBanner.png" alt="banniere projet"/>
                         <h2 className="text-2xl md:text-3xl mt-3 text-center">Plastique</h2>
-                        <p className="text-center">Clip musical en stop motion pour l'artiste Quentin.</p> 
+                        <p className="text-center">Clip musical en stop motion pour l &#39 artiste Quentin.</p> 
                     </div>
                 </Link>
                 
