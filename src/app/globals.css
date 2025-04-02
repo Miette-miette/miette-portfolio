@@ -13,10 +13,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.wrapper {
-	padding: 5% 20%;
-}
-
 h1, h2, button {
 	font-family: var(--font-title);
 }
@@ -39,12 +35,12 @@ p { font-family: var(--font-text);}
 /* CAROUSEL EMBLA */
 
 .embla {
-	overflow: hidden;
+	max-width: 48rem;
 	margin: auto;
 	--slide-height: 19rem;
 	--slide-spacing: 1rem;
-	--slide-size: 50%;
-  }
+	--slide-size: 100%;
+}
 
 .embla__viewport {
 	overflow: hidden;

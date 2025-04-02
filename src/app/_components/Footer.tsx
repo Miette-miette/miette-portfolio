@@ -7,9 +7,9 @@ import Image from 'next/image';
 export default function Footer() {
 
     return(
-        <footer className='flex justify-center items-center flex-col -mt-40 md:flex-row text-amber-50 relative z-6 bg-[url(/media/backgrounds/footer-sm.svg)]  md:bg-[url(../../public/media/backgrounds/footerxl.svg)] bg-top bg-no-repeat bg-cover'>
+        <footer className='flex justify-center items-center flex-col -mt-40 md:flex-row text-amber-50 relative z-6 bg-[url(/media/backgrounds/footer-sm.svg)]  md:bg-[url(../../public/media/backgrounds/footerxl.svg)] bg-top bg-no-repeat bg-cover text-center'>
             <div className='flex flex-col justify-center items-center m-25 '>
-                <p className='font-[Coiny] text-3xl'>Miette</p>
+                <p className='font-[coiny] text-3xl'>Miette</p>
                 <p>Développement Web</p>
                 <p>Design Graphique & Illustration</p>
                 <div className='flex flex-row justify-center items-center mt-4'>

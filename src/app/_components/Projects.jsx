@@ -8,10 +8,10 @@ export function EmblaCarousel() {
     const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()])
 
   return (
-    <div className="embla wrapper" ref={emblaRef}>
+    <div className="embla" ref={emblaRef}>
       <div className="embla__container">
 
-        <div className="embla__slide">
+        <div className="embla__slide"> 
           <Link href="/pages/WebProjects/NationSounds">
             <div className="bento-beige flex flex-col justify-center items-center">
               <Image src="/media/projets/NationSoundsBanner.png"/>

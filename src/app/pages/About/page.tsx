@@ -62,18 +62,18 @@ export default function About() {
                         <h2 className="text-2xl flex justify-center text-center text-[#B36E7B]">Je me présente, Doriane Le Guyader,</h2>
                         <p className="text-center">autodidacte passionnée par le développement web.</p>
                         <p className="text-center mb-8"> Mon souhait est de faire de ce passe-temps mon métier.</p>
-                        <p className="mb-8">Étant titulaire d &#39; un DNSEP (Diplôme national supérieur d &#39; expression plastique) option Design de la transition, le Design Thinking et la créativité sont essentiels à ma méthodologie.<br/>
-                        Actuellement en attente de validation de la formation DWWM (Développeur web et web mobile) de l &#39; EPSI, je souhaite me professionnaliser dans ce domaine et ainsi concrétiser mon projet de reconversion.
+                        <p className="mb-8">Étant titulaire d&#39;un DNSEP (Diplôme national supérieur d&#39;expression plastique) option Design de la transition, le Design Thinking et la créativité sont essentiels à ma méthodologie.<br/>
+                        Actuellement en attente de validation de la formation DWWM (Développeur web et web mobile) de l&#39;EPSI, je souhaite me professionnaliser dans ce domaine et ainsi concrétiser mon projet de reconversion.
                         </p>
                         <div className="flex flex-col md:flex-row justify-center items-center">
                             <div className="bento-pink flex flex-row justify-center items-center">
-                                <p>Esprit d &#39; équipe & bienveillance</p>
+                                <p>Esprit d&#39;équipe & bienveillance</p>
                             </div>
                             <div className="bento-pink flex flex-row justify-center items-center">
-                                <p>Curiosité & soif d &#39; apprendre</p>
+                                <p>Curiosité & soif d&#39;apprendre</p>
                             </div>
                             <div className="bento-pink flex flex-row justify-center items-center">
-                                <p>Créativité & capacité d &#39; adaptation</p>
+                                <p>Créativité & capacité d&#39;adaptation</p>
                             </div>
                         </div>
                     </div> 
@@ -83,7 +83,7 @@ export default function About() {
 
             <FormationCarousel/>
 
-            <section id="skills" className="parcours p-5 pr-5 pl-5 md:pr-70 md:pl-70 flex flex-col" >
+            <section id="skills" className="parcours p-5 pr-5 pl-5 md:pr-70 md:pl-70 flex flex-col overflow-hidden" >
                 <h2 className="text-4xl flex justify-center text-[#B36E7B] mt-8">Compétences</h2>
 
                 <div id="front" className="bento-beige flex flex-col" data-aos="fade-left">
@@ -296,7 +296,7 @@ export default function About() {
             </section>
 
             <section className="hobbies bg-[#CB9698] pb-50">
-                <h2 className="flex flex-col justify-center items-center text-2xl md:text-4xl text-center text-amber-50 p-8">Mes centres d &#39; intérêts</h2>
+                <h2 className="flex flex-col justify-center items-center text-2xl md:text-4xl text-center text-amber-50 p-8">Mes centres d&#39;intérêts</h2>
                 <Hobbies/>
 
             </section>

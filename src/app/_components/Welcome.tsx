@@ -60,7 +60,7 @@ export default function Welcome() {
             </Link>
             
             <Link href="pages/GraphicDesign/Logo-Lise-Beaufils-Photographe">
-                <div className='flip-doodle absolute top-110 left-5 md:top-85 md:left-260'>
+                <div className='flip-doodle absolute top-110 left-1 md:top-85 md:left-260'>
                     <div className='flip-doodle-inner'>
                         <div className='front-doodle flex justify-center items-center'>
                             <Image src="/media/doodle-anim/doodleLogoLise.svg" className="size-35 md:size-50 z-4 absolute" alt='doodle face'/>

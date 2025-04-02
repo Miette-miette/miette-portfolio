@@ -42,9 +42,9 @@ useEffect(()=>{
   },[])
 
 return(
-    <section id="presentation" className='h-800px' >
+    <section id="presentation" className='h-800' >
           
-          <h2 className='flex justify-center m-10 text-xl md:text-3xl text-center text-[#B36E7B]'>Je développe comme je crée :<br/> avec passion, couleurs et une touche de fun !</h2>
+          <h2 className='flex justify-center m-10 mb-20 text-xl md:text-3xl text-center text-[#B36E7B]'>Je développe comme je crée :<br/> avec passion, couleurs et une touche de fun !</h2>
           
           <div id="presentation-anim" className=" flex justify-center items-center relative z-3">
             <Image src="/media/anim-laptop/corps.png" id="corps" className="size-60 md:size-100 z-4 relative" alt='corps'/>
@@ -66,7 +66,7 @@ return(
 
             <div className="wrapper relative z-3 flex justify-center items-center">
               <Link href="/pages/About">
-                <button className='bg-[url(../../public/media/button/button-m.svg)] bg-center bg-no-repeat bg-contain p-12 text-2xl'>Qui suis-je ?</button>
+                <button className='bg-[url(../../public/media/button/button-m.svg)] bg-center bg-no-repeat bg-contain p-12 text-xl md:text-2xl'>Qui suis-je ?</button>
               </Link>
             </div>
           </div>
