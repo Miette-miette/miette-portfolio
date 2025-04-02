@@ -9,7 +9,7 @@ export default function NationSounds() {
 
     return (
         <main>
-            <section className=" h-14 0 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50">
+            <section className=" h-14 0 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
                 <div className="relative z-10 flex flex-row justify-center pt-30">
                     <Breadcrumbs/>
                 </div>
@@ -31,7 +31,7 @@ export default function NationSounds() {
                 <div className="content">
 
                     <div className="bento-beige">
-                        <div className="m-5">
+                        <div className="m-1 md:m-5">
                             <h2 className="text-3xl mb-5">Un projet full-stack fictif</h2>
                             <p>En partant de la création de l&#39;identité et de la charte graphique du festival, jusqu&#39;au déploiement d&#39;un site mobile pour aider
                                 les festivaliers à s&#39;informer sur les événements, ce projet m&#39;a permis d&#39;expérimenter toutes les étapes de création d&#39;un projet web.</p>
@@ -47,7 +47,7 @@ export default function NationSounds() {
                             </ul>    
                         </div>
 
-                        <figure className="m-5" >
+                        <figure className="m-1 md:m-5" >
                             <Image src="/media/projets/NS-1.png" alt="Wireframe de la version mobile"/>
                             <figcaption>
                                 Wireframe de la version mobile.
@@ -56,7 +56,7 @@ export default function NationSounds() {
                     </div>
 
                     <div className="bento-beige">
-                        <div className="m-5">
+                        <div className="m-1 md:m-5">
                             <h2 className="text-3xl mb-5" >Un véritable guide pour les festivaliers</h2>
 
                             <p className="mb-5">Le site propose à la fois de consulter la programmation du festival et de s&#39;informer plus en détail sur les artistes, ainsi que sur 
@@ -68,7 +68,7 @@ export default function NationSounds() {
                             </p>
                         </div>
 
-                        <figure className="m-5">
+                        <figure className="m-1 md:m-5">
                             <Image src="/media/projets/NS-2.png" alt="Mockup de la version mobile"/> 
                             <figcaption>Mockup de la version mobile.</figcaption>
                         </figure>
@@ -77,7 +77,7 @@ export default function NationSounds() {
 
             </section>
             <section className="flex flex-col justify-center items-center mb-40 md:mb-30 w-full overflow-hidden">
-                <h2 className="text-3xl text-amber-50">Découvrez d&#39;autres projets</h2>
+                <h2 className="text-3xl text-amber-50 text-center">Découvrez d&#39;autres projets</h2>
                 <EmblaCarousel/>
             </section>
             

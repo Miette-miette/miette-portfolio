@@ -9,7 +9,7 @@ export default function DeToiAMoi() {
     return (
         <div>
             <main>
-                <section className=" h-140 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50">
+                <section className=" h-140 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
                     <div className="relative z-10 flex flex-row justify-center pt-30">
                         <Breadcrumbs/>
                     </div>
@@ -33,7 +33,7 @@ export default function DeToiAMoi() {
                     <div className="content">
 
                         <div className="bento-beige">
-                            <div className="m-5">
+                            <div className="m-1 md:m-5">
                                 <h2 className="text-3xl mb-5">Une veritable vitrine pour se faire connaitre</h2>
                                 <p>La volonté de la propriétaire est tout d&#39;abord de faire connaître davantage sa boutique dans la région et de mettre
                                      en avant la diversité des collections en vente. Le site renseigne également la potentielle clientèle
@@ -41,7 +41,7 @@ export default function DeToiAMoi() {
                                     
                             </div>
 
-                            <figure className="m-5" >
+                            <figure className="m-1 md:m-5" >
                                 <Image src="/media/projets/DTAM-1.png" alt="Wireframe de la version mobile"/>
                                 <figcaption>
                                     Recherches sur la gamme colorée et wireframe de la version mobile.
@@ -50,7 +50,7 @@ export default function DeToiAMoi() {
                         </div>
 
                         <div className="bento-beige">
-                            <div className="m-5">
+                            <div className="m-1 md:m-5">
                                 <h2 className="text-3xl mb-5">Promouvoir la mode seconde main familiale</h2>
                                 <p>J&#39;ai tout d&#39;abord conçu une charte graphique et un logo pour donner à la marque une véritable identité visuelle. 
                                     Le site a ensuite été réalisé avec WordPress et Elementor, l&#39;idée étant de le faire évoluer vers une boutique en ligne. 
@@ -59,7 +59,7 @@ export default function DeToiAMoi() {
                                 </p>  
                             </div>
 
-                            <figure className="m-5" >
+                            <figure className="m-1 md:m-5" >
                                 <Image src="/media/projets/DTAM-2.png" alt="Wireframe de la version mobile"/>
                                 <figcaption>
                                     Wireframe de la version mobile.
@@ -71,7 +71,7 @@ export default function DeToiAMoi() {
                 </section>
 
                 <section className="flex flex-col justify-center items-center mb-40 md:mb-30 w-full overflow-hidden">
-                    <h2 className="text-3xl text-amber-50">Découvrez d&#39;autres projets</h2>
+                    <h2 className="text-3xl text-amber-50 text-center">Découvrez d&#39;autres projets</h2>
                     <EmblaCarousel/>
                 </section>
             </main>

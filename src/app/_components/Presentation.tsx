@@ -42,7 +42,7 @@ useEffect(()=>{
   },[])
 
 return(
-    <section id="presentation" className='h-400 md:h-800px' >
+    <section id="presentation" >
           
           <h2 className='flex justify-center m-10 mb-20 md:mb-60 text-xl md:text-3xl text-center text-[#B36E7B]'>Je développe comme je crée :<br/> avec passion, couleurs et une touche de fun !</h2>
           

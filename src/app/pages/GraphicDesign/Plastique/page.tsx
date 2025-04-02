@@ -9,7 +9,7 @@ export default function Plastique() {
     return (
         <div>
             <main>
-                <section className=" h-140 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50">
+                <section className=" h-140 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
                     <div className="relative z-10 flex flex-row justify-center pt-30">
                         <Breadcrumbs/>
                     </div>
@@ -26,13 +26,13 @@ export default function Plastique() {
                     <div className="content">
 
                         <div className="bento-beige">
-                            <div className="m-5">
+                            <div className="m-1 md:m-5">
                                 <h2 className="text-3xl mb-5">Stop au plastique!</h2>
                                 <p>Quentin m&#39;a contactée avec l&#39;envie d&#39;illustrer sa musique et les paroles de cette dernière
                                     en mettant en avant le message écologique de la chanson.</p>
                             </div>
 
-                            <figure className="m-5" >
+                            <figure className="m-1 md:m-5" >
                                 <Image src="/media/projets/PLA-1.png" alt="Wireframe de la version mobile"/>
                                 <figcaption>
                                     Décors et illustrations.
@@ -41,7 +41,7 @@ export default function Plastique() {
                         </div>
 
                         <div className="bento-beige">
-                            <div className="m-5">
+                            <div className="m-1 md:m-5">
                                 <h2 className="text-3xl mb-5">Du stop-motion avec des déchets plastiques</h2>
                                 <p>Du storyboard à la création des personnages, des décors et des marionnettes, ce projet a été un véritable terrain 
                                     de jeu pour expérimenter l&#39;animation en stop motion. Les décors ont été créés à partir de déchets plastiques pour 
@@ -50,7 +50,7 @@ export default function Plastique() {
                             </div>
                         
                         
-                            <figure className="m-5" >
+                            <figure className="m-1 md:m-5" >
                                 <Image src="/media/projets/PLA-2.png" alt="Wireframe de la version mobile"/>
                                 <figcaption>
                                     Extrait du clip.
@@ -63,7 +63,7 @@ export default function Plastique() {
                 </section>
 
                 <section className="flex flex-col justify-center items-center mb-40 md:mb-30 w-full overflow-hidden">
-                    <h2 className="text-3xl text-amber-50">Découvrez d&#39;autres projets</h2>
+                    <h2 className="text-3xl text-amber-50 text-center">Découvrez d&#39;autres projets</h2>
                     <EmblaCarousel/>
                 </section>
             </main>

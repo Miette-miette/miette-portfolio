@@ -78,8 +78,8 @@ p, h4, h5 {
 .bento-beige {
 	background-color: beige;
 	color: #763c48;
-	padding: 1%;
-	margin: 1%;
+	padding: 2%;
+	margin: 2%;
 	border-radius: 8px ;
 	filter: drop-shadow(#6f805c 4px 4px 4px);
 }

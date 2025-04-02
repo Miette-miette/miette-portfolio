@@ -9,7 +9,7 @@ export default function ChampagneAndCo() {
     return (
         <div>
             <main>
-                <section className=" h-140 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50">
+                <section className=" h-140 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
                     <div className="relative z-10 flex flex-row justify-center pt-30">
                         <Breadcrumbs/>
                     </div>
@@ -30,7 +30,7 @@ export default function ChampagneAndCo() {
 
                     <div className="content">
                     <div className="bento-beige">
-                            <div className="m-5">
+                            <div className="m-1 md:m-5">
                                 <h2 className="text-3xl mb-5">Imaginer un site pour Champagne & Co</h2>
                                 <p>La présence en ligne est aujourd&#39;hui essentielle pour étendre sa clientele, 
                                     c&#39;est pour cela que Champagne & Co souhaite se lancer dans la vente en ligne.<br/>
@@ -43,7 +43,7 @@ export default function ChampagneAndCo() {
                                     
                             </div>
 
-                            <figure className="m-5" >
+                            <figure className="m-1 md:m-5" >
                                 <Image src="/media/projets/CHAMP-1.png" alt="Wireframe de la version mobile"/>
                                 <figcaption>
                                     Moodboard et personas.
@@ -52,7 +52,7 @@ export default function ChampagneAndCo() {
                         </div>
 
                         <div className="bento-beige">
-                            <div className="m-5">
+                            <div className="m-1 md:m-5">
                                 <h2 className="text-3xl mb-5">Une expérience sobre et raffinée</h2>
                                 <p>J&#39;ai souhaité proposer à la marque une véritable identité visuelle, en m&#39;appuyant sur la charte graphique imposée.
                                      L&#39;idée est d&#39;offrir à la clientèle une expérience raffinée tout au long de la navigation.
@@ -60,7 +60,7 @@ export default function ChampagneAndCo() {
                                      des produits proposés et sur des visuels impactants.</p>        
                             </div>
 
-                            <figure className="m-5" >
+                            <figure className="m-1 md:m-5" >
                                 <Image src="/media/projets/CHAMP-2.png" alt="Wireframe de la version mobile"/>
                                 <figcaption>
                                     Wireframe de la version mobile.
@@ -72,7 +72,7 @@ export default function ChampagneAndCo() {
                 </section>
 
                 <section className="flex flex-col justify-center items-center mb-40 md:mb-30 w-full overflow-hidden">
-                    <h2 className="text-3xl text-amber-50">Découvrez d&#39;autres projets</h2>
+                    <h2 className="text-3xl text-amber-50 text-center">Découvrez d&#39;autres projets</h2>
                     <EmblaCarousel/>
                 </section>
             </main>

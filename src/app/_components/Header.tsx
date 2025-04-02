@@ -17,7 +17,7 @@ const handleShowMenu = () =>{
         <header className="sticky top-0 z-10">
             <div id="header-content" className='flex flex-row justify-between'>
                 <Link href="/" id="logo" className='z-3'>
-                    <Image src="/miettelogosolo.png" className='w-45px h-55px md:w-55px md:h-65px' alt='logo'/>
+                    <Image src="/miettelogosolo.png" className='w-[45px] h-[55px] md:w-[55px] md:h-[65px]' alt='logo'/>
                 </Link>
 
                 <div id="navbar-burger" className='z-3' onClick={handleShowMenu}>

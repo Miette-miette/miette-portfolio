@@ -10,7 +10,7 @@ export default function LogoLiseBPhotographe() {
         <div>
             <main>
                 
-                <section className=" h-140 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50">
+                <section className=" h-140 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
                     <div className="relative z-10 flex flex-row justify-center pt-30">
                         <Breadcrumbs/>
                     </div>
@@ -24,13 +24,13 @@ export default function LogoLiseBPhotographe() {
 
                     <div className="content">
                         <div className="bento-beige">
-                            <div className="m-5">
+                            <div className="m-1 md:m-5">
                                 <h2 className="text-3xl mb-5">Un outil pour se faire remarquer</h2>
                                 <p>Afin de compléter son identité visuelle, Lise Beaufils, photographe spécialisée dans l&#39;événementiel (mariage, famille, etc.), souhaitait un logo à l&#39;image de son travail photographique. 
                                     Une écriture manuscrite, douce et joyeuse avec une touche de couleur légère. Pour correspondre à la multiplicité de ses supports de communication (web et print), 
                                     je lui ai proposé une déclinaison de logos. </p>   
                             </div>
-                            <figure className="m-5" >
+                            <figure className="m-1 md:m-5" >
                                 <Image src="/media/projets/LOGO-2.png" alt="Wireframe de la version mobile"/>
                                 <figcaption>
                                     Gravure du logo sur verre et sur bois.
@@ -39,14 +39,14 @@ export default function LogoLiseBPhotographe() {
                         </div>
 
                         <div className="bento-beige">
-                            <div className="m-5">
+                            <div className="m-1 md:m-5">
                                 <h2 className="text-3xl mb-5">Une palette de possibilités</h2>
                                 <p>J&#39;ai imaginé une typographie sur mesure pour offrir un design unique et en adéquation avec l&#39;univers de la photographe. Aujourd&#39;hui, j&#39;assure la mise à jour du logo pour que ce dernier corresponde
                                     à l&#39;évolution du travail de la photographie et de sa charte graphique.
                                 </p>
                             </div>
 
-                            <figure className="m-5" >
+                            <figure className="m-1 md:m-5" >
                                 <Image src="/media/projets/LOGO-3.png" alt="Wireframe de la version mobile"/>
                                 <figcaption>
                                     Tests de typographie.
@@ -58,7 +58,7 @@ export default function LogoLiseBPhotographe() {
                 </section>
 
                 <section className="flex flex-col justify-center items-center mb-40 md:mb-30 w-full overflow-hidden">
-                    <h2 className="text-3xl text-amber-50">Découvrez d&#39;autres projets</h2>
+                    <h2 className="text-3xl text-amber-50 text-center">Découvrez d&#39;autres projets</h2>
                     <EmblaCarousel/>
                 </section>
             </main>
