@@ -14,7 +14,7 @@ export default function Footer() {
                 <p>Design Graphique & Illustration</p>
                 <div className='flex flex-row justify-center items-center mt-4'>
                     
-                    <Link href='/media/cv/cv.png' target='_blank' >
+                    <Link href='../media/cv/cv.png' target='_blank' >
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className='w-12'>
                             <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                             <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
@@ -24,7 +24,7 @@ export default function Footer() {
                         </svg>
                     </Link>
 
-                    <a href='www.linkedin.com/in/doriane-le-guyader-3a6b2a1bb' target="_blank" rel="external noopener noreferrer">
+                    <Link href='https://www.linkedin.com/in/doriane-le-guyader-3a6b2a1bb' passHref={true} target="_blank" rel="external noopener noreferrer">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className='w-10'>
                             <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                             <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
@@ -34,7 +34,7 @@ export default function Footer() {
                             <path fillRule="evenodd" clipRule="evenodd" d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z" fill="beige"></path> 
                             </g>
                         </svg>
-                    </a>
+                    </Link>
                 </div>
             </div>
             <div>

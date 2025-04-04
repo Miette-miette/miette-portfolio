@@ -3,6 +3,7 @@
 import { FormationCarousel } from "@/app/_components/Formation";
 import Hobbies from "@/app/_components/Hobbies";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
 
@@ -36,15 +37,17 @@ export default function About() {
                         </div>
 
                         <div className="flex flex-row justify-center items-center mt-4">
-                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className='w-12'>
+                            <Link href='../media/cv/cv.png' target='_blank' >
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className='w-12'>
                                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                                     <g id="SVGRepo_iconCarrier"> 
                                         <path d="M13 9L15 15L17 9M10 15C9.06812 15 8.60218 15 8.23463 14.8478C7.74458 14.6448 7.35523 14.2554 7.15224 13.7654C7 13.3978 7 12.9319 7 12C7 11.0681 7 10.6022 7.15224 10.2346C7.35523 9.74458 7.74458 9.35523 8.23463 9.15224C8.60218 9 9.06812 9 10 9M7.2 20H16.8C17.9201 20 18.4802 20 18.908 19.782C19.2843 19.5903 19.5903 19.2843 19.782 18.908C20 18.4802 20 17.9201 20 16.8V7.2C20 6.0799 20 5.51984 19.782 5.09202C19.5903 4.71569 19.2843 4.40973 18.908 4.21799C18.4802 4 17.9201 4 16.8 4H7.2C6.0799 4 5.51984 4 5.09202 4.21799C4.71569 4.40973 4.40973 4.71569 4.21799 5.09202C4 5.51984 4 6.07989 4 7.2V16.8C4 17.9201 4 18.4802 4.21799 18.908C4.40973 19.2843 4.71569 19.5903 5.09202 19.782C5.51984 20 6.07989 20 7.2 20Z" stroke="beige" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> 
                                     </g>
                                 </svg>
-                            
-                            <a href='www.linkedin.com/in/doriane-le-guyader-3a6b2a1bb'>
+                            </Link>
+
+                            <Link href='https://www.linkedin.com/in/doriane-le-guyader-3a6b2a1bb' passHref={true} target="_blank" rel="external noopener noreferrer">
                                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className='w-10'>
                                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
@@ -54,7 +57,7 @@ export default function About() {
                                     <path fillRule="evenodd" clipRule="evenodd" d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z" fill="beige"></path> 
                                     </g>
                                 </svg>
-                            </a>
+                            </Link>
                         </div>
                     </div> 
 
