@@ -72,7 +72,9 @@ export default function DeToiAMoi() {
 
                 <section className="flex flex-col justify-center items-center mb-40 md:mb-30 w-full overflow-hidden">
                     <h2 className="text-3xl text-amber-50 text-center">Découvrez d&#39;autres projets</h2>
-                    <EmblaCarousel/>
+                    <div className="w-full overflow-hidden">
+                        <EmblaCarousel/>
+                    </div>
                 </section>
             </main>
         </div>

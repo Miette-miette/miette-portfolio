@@ -14,6 +14,7 @@ export default function LogoLiseBPhotographe() {
                     <div className="relative z-10 flex flex-row justify-center pt-30">
                         <Breadcrumbs/>
                     </div>
+                    <div className="w-full h-10 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
                     <h1 className="flex justify-center pt-10 m-5  text-2xl md:text-5xl">Lise Beaufils Photographe</h1>
                     <p className="flex justify-center">Création d&#39;une déclinaison de logos pour une photographe.</p>
                     <p className="flex justify-center">Illustrator</p>
@@ -58,8 +59,12 @@ export default function LogoLiseBPhotographe() {
                 </section>
 
                 <section className="flex flex-col justify-center items-center mb-40 md:mb-30 w-full overflow-hidden">
+                    <div className="w-full h-10 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
                     <h2 className="text-3xl text-amber-50 text-center">Découvrez d&#39;autres projets</h2>
-                    <EmblaCarousel/>
+                    <div className="w-full overflow-hidden">
+                        <EmblaCarousel/>
+                    </div>
+                    
                 </section>
             </main>
         </div>

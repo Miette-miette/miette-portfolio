@@ -22,16 +22,16 @@ export function FormationCarousel() {
             <div className="embla__viewport bg-[url(/media/backgrounds/line.svg)] bg-no-repeat bg-center bg-contain p-10" ref={emblaRef}>
                 <div className="embla__container flex flex-row ml-0 md:ml-100">
                     <div className="embla__slide bento-pink flex flex-col justify-center items-center" key="1">
-                        <Image src="../media/about/TP-dev.svg" className="h-50 m-2"/>
+                        <Image src="../media/about/TP-dev.svg" className="h-30 md:h-50 m-2"/>
                         <div className='m-2'>
                             <h2 className='text-xl'>TP Développeur web et web mobile (en attente de certification) </h2>
                             <h3>2025 / EPSI (Cours en ligne)</h3>
-                            <p>Développer des applications responsives A ECRIRE ! Front-end Back-end Maquettage Sécurité</p>
+                            <p>Développer des applications responsives, de la partie Front-end au Back-end.</p>
                         </div> 
                     </div>
 
                     <div className="embla__slide bento-pink flex flex-col justify-center items-center" key="2">
-                        <Image src="../media/about/DNSEP.svg" className="h-50 m-2"/>
+                        <Image src="../media/about/DNSEP.svg" className="h-30 md:h-50 m-2"/>
                         <div className='m-2'>
                             <h2 className='text-xl'>DNSEP Master Design de la transition</h2>
                             <h3>2020 / EESAB Brest </h3>
@@ -41,7 +41,7 @@ export function FormationCarousel() {
                     </div>
 
                     <div className="embla__slide bento-pink flex flex-col justify-center items-center" key="3">
-                        <Image src="../media/about/DNA.svg" className="h-50 m-2"/>
+                        <Image src="../media/about/DNA.svg" className="h-30 md:h-50 m-2"/>
                         <div className='m-2'>
                             <h2 className='text-xl'>DNA option Design </h2>
                             <h3>2018 / EESAB Brest </h3>
@@ -51,7 +51,7 @@ export function FormationCarousel() {
                     </div>
 
                     <div className="embla__slide bento-pink flex flex-col justify-center items-center" key="4">
-                        <Image src="../media/about/Prepa.svg" className="h-50 m-2"/>
+                        <Image src="../media/about/Prepa.svg" className="h-30 md:h-50 m-2"/>
                         <div className='m-2'>
                             <h2 className='text-xl'>Prépa Arts </h2>
                             <h3>2015 / École Emile Daubé Saint-Brieuc </h3>
@@ -61,7 +61,7 @@ export function FormationCarousel() {
                     </div>
 
                     <div className="embla__slide bento-pink flex flex-col justify-center items-center" key="5">
-                        <Image src="../media/about/BAC.svg" className="h-50 m-2"/>
+                        <Image src="../media/about/BAC.svg" className="h-30 md:h-50 m-2"/>
                         <div className='m-2'>
                             <h2 className='text-xl'>BAC STD2A </h2>
                             <h3>2014 / Lycée Ste Geneviève Rennes</h3>

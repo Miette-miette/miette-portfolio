@@ -18,7 +18,7 @@ export default function About() {
                     <Image src="/media/cloud-anim/cloud3.svg" alt="nuage de fond" id="cloud3" className="z-0 top-0 absolute w-full object-top object-cover h-160 lg:h-full"/>
                 </div>
 
-                <h1 className="flex justify-center relative z-2 mt-20 md:mt-50 mb-10 text-5xl text-amber-50">Qui suis-je ?</h1>
+                <h1 className="flex justify-center relative z-2 mt-20 md:mt-50 mb-10 text-3xl md:text-5xl text-amber-50">Qui suis-je ?</h1>
 
                 <div className="bento-green mb-20 mr-10 ml-10 md:ml-80 md:mr-80 relative z-2 flex justify-center flex-col md:flex-row items-center" data-aos="fade-down">
 
@@ -58,14 +58,15 @@ export default function About() {
                         </div>
                     </div> 
 
-                    <div className="flex flex-col m-3 md:m-5">
+                    <div className="flex flex-col m-3 md:m-5 text-amber-50
+                    ">
                         <h2 className="text-2xl flex justify-center text-center text-[#B36E7B]">Je me présente, Doriane Le Guyader,</h2>
                         <p className="text-center">autodidacte passionnée par le développement web.</p>
                         <p className="text-center mb-8"> Mon souhait est de faire de ce passe-temps mon métier.</p>
                         <p className="mb-8">Étant titulaire d&#39;un DNSEP (Diplôme national supérieur d&#39;expression plastique) option Design de la transition, le Design Thinking et la créativité sont essentiels à ma méthodologie.<br/>
                         Actuellement en attente de validation de la formation DWWM (Développeur web et web mobile) de l&#39;EPSI, je souhaite me professionnaliser dans ce domaine et ainsi concrétiser mon projet de reconversion.
                         </p>
-                        <div className="flex flex-col md:flex-row justify-center items-center">
+                        <div className="flex flex-col md:flex-row justify-center items-center text-center">
                             <div className="bento-pink flex flex-row justify-center items-center">
                                 <p>Esprit d&#39;équipe & bienveillance</p>
                             </div>

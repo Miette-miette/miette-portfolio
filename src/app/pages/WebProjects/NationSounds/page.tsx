@@ -9,7 +9,7 @@ export default function NationSounds() {
 
     return (
         <main>
-            <section className=" h-14 0 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
+            <section className=" h-140 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
                 <div className="relative z-10 flex flex-row justify-center pt-30">
                     <Breadcrumbs/>
                 </div>
@@ -78,7 +78,9 @@ export default function NationSounds() {
             </section>
             <section className="flex flex-col justify-center items-center mb-40 md:mb-30 w-full overflow-hidden">
                 <h2 className="text-3xl text-amber-50 text-center">Découvrez d&#39;autres projets</h2>
-                <EmblaCarousel/>
+                <div className="w-full overflow-hidden">
+                        <EmblaCarousel/>
+                    </div>
             </section>
             
         </main>
