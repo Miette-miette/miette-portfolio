@@ -13,6 +13,7 @@ export default function ChampagneAndCo() {
                     <div className="relative z-10 flex flex-row justify-center pt-30">
                         <Breadcrumbs/>
                     </div>
+                    <div className="w-full h-10 md:25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
                     <h1 className="flex justify-center pt-10 m-5  text-2xl md:text-5xl">Champagne & Co</h1>
                     <p className="flex justify-center">Projet de maquettage d’un site web pour une entreprise fictive de vente de champagnes.</p>
                     <p className="flex justify-center">Figma</p>
@@ -20,7 +21,7 @@ export default function ChampagneAndCo() {
                 
                 <section className="p-5 md:pr-60 md:pl-60 flex flex-col items-center pt-20 -mt-60 relative z-1">
                     <div className="mockup">
-                        <div className='flip-mockup relative w-100 h-100 md:w-200 md:h-120'>
+                        <div className='flip-mockup relative w-90 h-90 md:w-200 md:h-120'>
                             <div className='flip-mockup-inner flex flex-col justify-center items-center'>
                                 <div className='front-doodle md:bg-[url(../../public/media/projets/mockupChampDesktop.png)] bg-[url(../../public/media/projets/mockupChampMobile.png)] bg-contain bg-center bg-no-repeat flex justify-center items-center'></div>
                                 <div className='back-doodle md:bg-[url(../../public/media/projets/mockupChampMobile.png)] bg-[url(../../public/media/projets/mockupChampDesktop.png)] bg-contain bg-center bg-no-repeat flex justify-center items-center'></div>
@@ -72,7 +73,8 @@ export default function ChampagneAndCo() {
                 </section>
 
                 <section className="flex flex-col justify-center items-center mb-40 md:mb-30 w-full overflow-hidden">
-                    <h2 className="text-3xl text-amber-50 text-center">Découvrez d&#39;autres projets</h2>
+                    <div className="w-full h-10 md:25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
+                    <h2 className="text-3xl text-amber-50 text-center mb-5">Découvrez d&#39;autres projets</h2>
                     <div className="w-full overflow-hidden">
                         <EmblaCarousel/>
                     </div>

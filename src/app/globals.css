@@ -30,7 +30,7 @@ h3 {
 	color: #B36E7B;
 }
 
-p, h4, h5 { 
+p, h4, h5, figcaption { 
 	font-family: var(--font-text);
 }
 

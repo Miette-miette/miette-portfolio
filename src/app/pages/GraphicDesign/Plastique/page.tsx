@@ -13,14 +13,15 @@ export default function Plastique() {
                     <div className="relative z-10 flex flex-row justify-center pt-30">
                         <Breadcrumbs/>
                     </div>
+                    <div className="w-full h-10 md:25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
                     <h1 className="flex justify-center pt-10 m-5 text-2xl md:text-5xl">Plastique</h1>
                     <p className="flex justify-center">Réalisation d&#39;un clip pour la musique « Plastique » écrite  et produite par Quentin & Tess (CRD Laval).</p>
                     <p className="flex justify-center">PremierePro</p>
                 </section>
                 
                 <section className="p-5 md:pr-60 md:pl-60 flex flex-col items-center -mt-60 pt-20 relative z-1">
-                    <div className="mockup h-100 flex justify-center items-center">
-                    <iframe src="https://www.youtube.com/embed/dvDN65vjm34?si=Nb7TRMwhTJT9_QPG" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <div className="mockup flex justify-center items-center">
+                        <iframe src="https://www.youtube.com/embed/dvDN65vjm34?si=Nb7TRMwhTJT9_QPG" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     </div>
 
                     <div className="content">
@@ -63,7 +64,8 @@ export default function Plastique() {
                 </section>
 
                 <section className="flex flex-col justify-center items-center mb-40 md:mb-30 w-full overflow-hidden">
-                    <h2 className="text-3xl text-amber-50 text-center">Découvrez d&#39;autres projets</h2>
+                    <div className="w-full h-10 md:25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
+                    <h2 className="text-3xl text-amber-50 text-center mb-5">Découvrez d&#39;autres projets</h2>
                     <div className="w-full overflow-hidden">
                         <EmblaCarousel/>
                     </div>

@@ -14,14 +14,14 @@ export default function LogoLiseBPhotographe() {
                     <div className="relative z-10 flex flex-row justify-center pt-30">
                         <Breadcrumbs/>
                     </div>
-                    <div className="w-full h-10 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
+                    <div className="w-full h-10 md:25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
                     <h1 className="flex justify-center pt-10 m-5  text-2xl md:text-5xl">Lise Beaufils Photographe</h1>
                     <p className="flex justify-center">Création d&#39;une déclinaison de logos pour une photographe.</p>
                     <p className="flex justify-center">Illustrator</p>
                 </section>
                 
                 <section className="p-5 md:pr-60 md:pl-60 flex flex-col items-center -mt-60 pt-20 relative z-1">
-                    <div className="mockup h-130 bg-[url(../../public/media/projets/LOGO-1.png)] bg-contain bg-center bg-no-repeat"></div>
+                    <div className="mockup h-130 w-full bg-[url(../../public/media/projets/LOGO-1.png)] bg-contain bg-center bg-no-repeat"></div>
 
                     <div className="content">
                         <div className="bento-beige">
@@ -59,8 +59,8 @@ export default function LogoLiseBPhotographe() {
                 </section>
 
                 <section className="flex flex-col justify-center items-center mb-40 md:mb-30 w-full overflow-hidden">
-                    <div className="w-full h-10 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
-                    <h2 className="text-3xl text-amber-50 text-center">Découvrez d&#39;autres projets</h2>
+                    <div className="w-full h-10 md:25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
+                    <h2 className="text-3xl text-amber-50 text-center mb-5">Découvrez d&#39;autres projets</h2>
                     <div className="w-full overflow-hidden">
                         <EmblaCarousel/>
                     </div>
