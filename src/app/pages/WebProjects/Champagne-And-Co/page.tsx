@@ -19,7 +19,7 @@ export default function ChampagneAndCo() {
                     <p className="flex justify-center">Figma</p>
                 </section>
                 
-                <section className="p-5 md:pr-60 md:pl-60 flex flex-col items-center pt-20 -mt-60 relative z-1">
+                <section className="p-5 md:pr-60 md:pl-60 flex flex-col items-center pt-20 -mt-30 relative z-1">
                     <div className="mockup">
                         <div className='flip-mockup relative w-90 h-90 md:w-200 md:h-120'>
                             <div className='flip-mockup-inner flex flex-col justify-center items-center'>

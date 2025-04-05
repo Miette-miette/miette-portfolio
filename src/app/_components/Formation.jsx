@@ -35,8 +35,7 @@ export function FormationCarousel() {
                         <div className='m-2'>
                             <h2 className='text-xl'>DNSEP Master Design de la transition</h2>
                             <h3>2020 / EESAB Brest </h3>
-                            <p>Sensibilisation aux questions de transition écologique, sociale et économique, au travers des métiers du design. 
-                                Développement de ma propre démarche de projet, axée sur la rêverie et l'approche sensible de concepts triviaux.</p>
+                            <p>Sensibilisation aux questions de transition écologique, sociale et économique, au travers des métiers du design. </p>
                         </div>    
                     </div>
 
