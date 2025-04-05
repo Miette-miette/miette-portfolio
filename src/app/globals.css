@@ -37,11 +37,11 @@ p, h4, h5, figcaption {
 /* CAROUSEL EMBLA */
 
 .embla {
-	max-width: 98rem;
+	max-width: 100rem;
 	margin: auto;
 	--slide-height: 19rem;
 	--slide-spacing: 1rem;
-	--slide-size: 50%;
+	--slide-size: 65%;
 }
 
 .embla__viewport {
