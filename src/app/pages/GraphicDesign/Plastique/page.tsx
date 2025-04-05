@@ -14,12 +14,12 @@ export default function Plastique() {
                         <Breadcrumbs/>
                     </div>
                     <div className="w-full h-10 md:h-25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
-                    <h1 className="flex justify-center pt-10 m-5 text-2xl md:text-5xl">Plastique</h1>
+                    <h1 className="flex justify-center pt-5 m-5 text-2xl md:text-5xl">Plastique</h1>
                     <p className="flex justify-center">Réalisation d&#39;un clip pour la musique « Plastique » écrite  et produite par Quentin & Tess (CRD Laval).</p>
                     <p className="flex justify-center">PremierePro</p>
                 </section>
                 
-                <section className="p-5 md:pr-60 md:pl-60 flex flex-col items-center -mt-60 pt-20 relative z-1">
+                <section className="p-5 md:pr-60 md:pl-60 flex flex-col items-center -mt-30 pt-20 relative z-1">
                     <div className="mockup flex justify-center items-center">
                         <iframe className="h-50 md:h-120 w-full" src="https://www.youtube.com/embed/dvDN65vjm34?si=Nb7TRMwhTJT9_QPG" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     </div>

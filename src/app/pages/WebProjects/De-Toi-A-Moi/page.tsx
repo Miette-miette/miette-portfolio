@@ -14,7 +14,7 @@ export default function DeToiAMoi() {
                         <Breadcrumbs/>
                     </div>
                     <div className="w-full h-10 md:h-25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
-                    <h1 className="flex justify-center pt-10 m-5 text-2xl md:text-5xl">De Toi à Moi et les P&#39;tits Bouts</h1>
+                    <h1 className="flex justify-center pt-5 m-5 text-2xl md:text-5xl">De Toi à Moi et les P&#39;tits Bouts</h1>
                     <p className="flex justify-center">Site vitrine pour un dépot-vente de vêtement seconde main à Cesson-Sévigné.</p>
                     <p className="flex justify-center">Wordpress - Elementor</p>
                 </section>

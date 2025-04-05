@@ -14,7 +14,7 @@ export default function NationSounds() {
                     <Breadcrumbs/>
                 </div>
                 <div className="w-full h-10 md:h-25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
-                <h1 className="flex justify-center pt-10 m-5 mb-8 text-2xl md:text-5xl ">Nation Sounds Festival</h1>
+                <h1 className="flex justify-center pt-5 m-5 mb-8 text-2xl md:text-5xl ">Nation Sounds Festival</h1>
                 <p className="flex justify-center text-center ml-10 mr-10">Site mobile et solution de gestion de contenu pour un festival fictif.</p>
                 <p className="flex justify-center">ReactJS - Symfony 8 - EasyAdmin</p>
             </section>
