@@ -17,11 +17,11 @@ const handleShowMenu = () =>{
         <header className="sticky top-0 z-10">
             <div id="header-content" className='flex flex-row justify-between'>
                 <Link href="/" id="logo" className='z-3'>
-                    <Image src="/miettelogosolo.png" className='w-[45px] h-[55px] md:w-[55px] md:h-[65px]' alt='logo'/>
+                    <Image src="/miettelogosolo.png" className='w-[40px] h-[50px] md:w-[55px] md:h-[65px]' alt='logo'/>
                 </Link>
 
-                <div id="navbar-burger" className='z-3' onClick={handleShowMenu}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#FFFFFF" className="bi bi-list" viewBox="0 0 16 16">
+                <div id="navbar-burger" className='z-3 w-[40px] h-[40px] md:w-[55px] md:h-[55px]' onClick={handleShowMenu} >
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" className="bi bi-list" viewBox="0 0 16 16">
                         <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                     </svg>
                 </div>

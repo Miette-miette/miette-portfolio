@@ -16,10 +16,10 @@ export function FormationCarousel() {
 
     return (
 
-        <section id="parcours" className="embla flex flex-col w-full bg-[#768D68]" >
+        <section id="parcours" className=" flex flex-col w-full bg-[#768D68]" >
             <h2 className="flex justify-center text-3xl md:text-4xl text-amber-50 mt-8">Formations</h2>
 
-            <div className="embla__viewport bg-[url(/media/backgrounds/line.svg)] bg-no-repeat bg-center bg-contain p-10" ref={emblaRef}>
+            <div className="embla embla__viewport w-full bg-[url(/media/backgrounds/line.svg)] bg-no-repeat bg-center bg-contain p-10" ref={emblaRef}>
                 <div className="embla__container flex flex-row ml-0 md:ml-100">
                     <div className="embla__slide bento-pink flex flex-col justify-center items-center" key="1">
                         <Image src="../media/about/TP-dev.svg" className="h-30 md:h-50 m-2"/>
@@ -71,8 +71,9 @@ export function FormationCarousel() {
                 </div>
             </div>
             <div className="embla__controls flex justify-center items-center mb-10">
-                <div className="embla__buttons">
+                <div className="embla__buttons flex flex-row justify-center items-center">
                     <PrevButton className="w-10" onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
+                    <Image src="/media/about/form.png" className='h-15' alt='grenouille diplomée'/>
                     <NextButton className="w-10" onClick={onNextButtonClick} disabled={nextBtnDisabled} />
                 </div>
             </div>

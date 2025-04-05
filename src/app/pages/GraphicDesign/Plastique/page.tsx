@@ -9,11 +9,11 @@ export default function Plastique() {
     return (
         <div>
             <main>
-                <section className=" h-140 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
-                    <div className="relative z-10 flex flex-row justify-center pt-30">
+                <section className="h-130 md:h-170 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
+                    <div className="relative z-10 flex flex-row justify-center pt-30 mb-8">
                         <Breadcrumbs/>
                     </div>
-                    <div className="w-full h-10 md:25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
+                    <div className="w-full h-10 md:h-25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
                     <h1 className="flex justify-center pt-10 m-5 text-2xl md:text-5xl">Plastique</h1>
                     <p className="flex justify-center">Réalisation d&#39;un clip pour la musique « Plastique » écrite  et produite par Quentin & Tess (CRD Laval).</p>
                     <p className="flex justify-center">PremierePro</p>
@@ -28,7 +28,7 @@ export default function Plastique() {
 
                         <div className="bento-beige">
                             <div className="m-1 md:m-5">
-                                <h2 className="text-3xl mb-5">Stop au plastique!</h2>
+                                <h2 className="text-3xl mb-5 text-center">Stop au plastique!</h2>
                                 <p>Quentin m&#39;a contactée avec l&#39;envie d&#39;illustrer sa musique et les paroles de cette dernière
                                     en mettant en avant le message écologique de la chanson.</p>
                             </div>
@@ -43,7 +43,7 @@ export default function Plastique() {
 
                         <div className="bento-beige">
                             <div className="m-1 md:m-5">
-                                <h2 className="text-3xl mb-5">Du stop-motion avec des déchets plastiques</h2>
+                                <h2 className="text-3xl mb-5 text-center">Du stop-motion avec des déchets plastiques</h2>
                                 <p>Du storyboard à la création des personnages, des décors et des marionnettes, ce projet a été un véritable terrain 
                                     de jeu pour expérimenter l&#39;animation en stop motion. Les décors ont été créés à partir de déchets plastiques pour 
                                     résonner avec le caractère engagé de la chanson. Le montage du clip a été réalisé sur Premiere Pro.
@@ -63,8 +63,8 @@ export default function Plastique() {
 
                 </section>
 
-                <section className="flex flex-col justify-center items-center mb-40 md:mb-30 w-full overflow-hidden">
-                    <div className="w-full h-10 md:25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
+                <section className="flex flex-col justify-center items-center mb-40 w-full overflow-hidden">
+                    <div className="w-full h-10 md:h-25 mb-8 mt-8 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
                     <h2 className="text-3xl text-amber-50 text-center mb-5">Découvrez d&#39;autres projets</h2>
                     <div className="w-full overflow-hidden">
                         <EmblaCarousel/>

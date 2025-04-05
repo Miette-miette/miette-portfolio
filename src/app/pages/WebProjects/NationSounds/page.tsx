@@ -9,11 +9,11 @@ export default function NationSounds() {
 
     return (
         <main>
-            <section className=" h-140 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
-                <div className="relative z-10 flex flex-row justify-center pt-30">
+            <section className="h-130 md:h-170 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
+                <div className="relative z-10 flex flex-row justify-center pt-30 mb-8">
                     <Breadcrumbs/>
                 </div>
-                <div className="w-full h-10 md:25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
+                <div className="w-full h-10 md:h-25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
                 <h1 className="flex justify-center pt-10 m-5 mb-8 text-2xl md:text-5xl ">Nation Sounds Festival</h1>
                 <p className="flex justify-center text-center ml-10 mr-10">Site mobile et solution de gestion de contenu pour un festival fictif.</p>
                 <p className="flex justify-center">ReactJS - Symfony 8 - EasyAdmin</p>
@@ -33,7 +33,7 @@ export default function NationSounds() {
 
                     <div className="bento-beige">
                         <div className="m-1 md:m-5">
-                            <h2 className="text-3xl mb-5">Un projet full-stack fictif</h2>
+                            <h2 className="text-3xl mb-5 text-center">Un projet full-stack fictif</h2>
                             <p>En partant de la création de l&#39;identité et de la charte graphique du festival, jusqu&#39;au déploiement d&#39;un site mobile pour aider
                                 les festivaliers à s&#39;informer sur les événements, ce projet m&#39;a permis d&#39;expérimenter toutes les étapes de création d&#39;un projet web.</p>
                             <ul className="list-disc pl-10">
@@ -58,7 +58,7 @@ export default function NationSounds() {
 
                     <div className="bento-beige">
                         <div className="m-1 md:m-5">
-                            <h2 className="text-3xl mb-5" >Un véritable guide pour les festivaliers</h2>
+                            <h2 className="text-3xl mb-5 text-center" >Un véritable guide pour les festivaliers</h2>
 
                             <p className="mb-5">Le site propose à la fois de consulter la programmation du festival et de s&#39;informer plus en détail sur les artistes, ainsi que sur 
                                 les ateliers et spectacles qui animeront les lieux.
@@ -77,8 +77,8 @@ export default function NationSounds() {
                 </div>
 
             </section>
-            <section className="flex flex-col justify-center items-center mb-40 md:mb-30 w-full overflow-hidden">
-                <div className="w-full h-10 md:25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
+            <section className="flex flex-col justify-center items-center mb-40 w-full overflow-hidden">
+                <div className="w-full h-10 md:h-25 mb-8 mt-8 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
                 <h2 className="text-3xl text-amber-50 text-center mb-5">Découvrez d&#39;autres projets</h2>
                 <div className="w-full overflow-hidden">
                         <EmblaCarousel/>
