@@ -24,7 +24,7 @@ export default function NationSounds() {
                     <div className='flip-mockup relative w-90 h-90 md:w-200 md:h-120'>
                         <div className='flip-mockup-inner flex flex-col justify-center items-center'>
                             <div className='front-doodle md:bg-[url(../../public/media/projets/mockupNSDesktop.png)] bg-[url(../../public/media/projets/mockupDeToiAMoiMobile.png)] bg-contain bg-center bg-no-repeat flex justify-center items-center'></div>
-                            <div className='back-doodle md:bg-[url(../../public/media/projets/mockupDeToiAMoiMobile.png)] bg-[url(../../public/media/projets/mockupNSDesktop.png)] bg-contain bg-center bg-no-repeat flex justify-center items-center'></div>
+                            <div className='back-doodle md:bg-[url(../../public/media/projets/mockupNationSoundsMobile.png)] bg-[url(../../public/media/projets/mockupNSDesktop.png)] bg-contain bg-center bg-no-repeat flex justify-center items-center'></div>
                         </div>   
                     </div>
                 </div>
