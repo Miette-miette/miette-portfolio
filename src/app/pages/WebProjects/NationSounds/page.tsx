@@ -9,7 +9,7 @@ export default function NationSounds() {
 
     return (
         <main>
-            <section className="h-130 md:h-170 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
+            <section className="h-130 md:h-150 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
                 <div className="relative z-10 flex flex-row justify-center pt-30 mb-8">
                     <Breadcrumbs/>
                 </div>
@@ -23,7 +23,7 @@ export default function NationSounds() {
                 <div className="mockup">
                     <div className='flip-mockup relative w-90 h-90 md:w-200 md:h-120'>
                         <div className='flip-mockup-inner flex flex-col justify-center items-center'>
-                            <div className='front-doodle md:bg-[url(../../public/media/projets/mockupNSDesktop.png)] bg-[url(../../public/media/projets/mockupDeToiAMoiMobile.png)] bg-contain bg-center bg-no-repeat flex justify-center items-center'></div>
+                            <div className='front-doodle md:bg-[url(../../public/media/projets/mockupNSDesktop.png)] bg-[url(../../public/media/projets/mockupNationSoundsMobile.png)] bg-contain bg-center bg-no-repeat flex justify-center items-center'></div>
                             <div className='back-doodle md:bg-[url(../../public/media/projets/mockupNationSoundsMobile.png)] bg-[url(../../public/media/projets/mockupNSDesktop.png)] bg-contain bg-center bg-no-repeat flex justify-center items-center'></div>
                         </div>   
                     </div>

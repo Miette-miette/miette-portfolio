@@ -9,7 +9,7 @@ export default function DeToiAMoi() {
     return (
         <div>
             <main>
-                <section className="h-130 md:h-170 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
+                <section className="h-130 md:h-150 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
                     <div className="relative z-10 flex flex-row justify-center pt-30 mb-8">
                         <Breadcrumbs/>
                     </div>
