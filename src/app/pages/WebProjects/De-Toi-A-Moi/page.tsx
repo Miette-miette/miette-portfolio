@@ -13,7 +13,7 @@ export default function DeToiAMoi() {
                     <div className="relative z-10 flex flex-row justify-center pt-30 pb-6 mb-8 bg-[url(../../public/media/backgrounds/head-project.svg)]">
                         <Breadcrumbs/>
                     </div>
-                    <h1 className="flex justify-center p-7 mb-8 text-2xl md:text-4xl bg-[url(../../public/media/button/button-xxl.svg)] bg-center bg-no-repeat bg-contain text-[#B36E7B]">De Toi à Moi et les P&#39;tits Bouts</h1>
+                    <h1 className="flex justify-center p-7 mb-8 text-2xl md:text-4xl bg-[url(../../public/media/button/button-xl.svg)] md:bg-[url(../../public/media/button/button-xxl.svg)] bg-center bg-no-repeat bg-contain text-[#B36E7B]">De Toi à Moi et les P&#39;tits Bouts</h1>
                     <p className="flex justify-center">Site vitrine pour un dépot-vente de vêtement seconde main à Cesson-Sévigné.</p>
                     <p className="flex justify-center">Wordpress - Elementor</p>
                 </section>
