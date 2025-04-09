@@ -7,8 +7,8 @@ export default function ProjetWeb() {
 
     return (
         <main>
-            <section className="bg-[url(../../public/media/backgrounds/head-green.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center pb-20">
-                <h1 className="flex justify-center pt-20 md:pt-25 text-3xl md:text-4xl pb-5">Projets Web</h1>
+            <section className="bg-[url(../../public/media/backgrounds/head-green.svg)] pt-20 md:pt-25 bg-bottom bg-no-repeat bg-cover text-amber-50 text-center pb-26">
+                <h1 className="flex justify-center p-6 mb-5 text-3xl md:text-4xl bg-[url(../../public/media/button/button-m.svg)] bg-center bg-no-repeat bg-contain text-[#B36E7B]">Projets Web</h1>
                 <p>Du maquettage au développement, venez découvrir une sélection de projets web !</p>
             </section>
             

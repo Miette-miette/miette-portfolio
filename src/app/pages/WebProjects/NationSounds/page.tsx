@@ -9,12 +9,11 @@ export default function NationSounds() {
 
     return (
         <main>
-            <section className="h-130 md:h-150 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
-                <div className="relative z-10 flex flex-row justify-center pt-30 mb-8">
+            <section className="h-120 md:h-130 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
+                <div className="relative z-10 flex flex-row justify-center pt-30 pb-6 mb-8 bg-[url(../../public/media/backgrounds/head-project.svg)]">
                     <Breadcrumbs/>
-                </div>
-                <div className="w-full h-10 md:h-25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
-                <h1 className="flex justify-center pt-5 m-5 mb-8 text-2xl md:text-5xl ">Nation Sounds Festival</h1>
+                </div>           
+                <h1 className="flex justify-center p-7 mb-8 text-2xl md:text-5xl bg-[url(../../public/media/button/button-xxl.svg)] bg-center bg-no-repeat bg-contain text-[#B36E7B]">Nation Sounds Festival</h1>
                 <p className="flex justify-center text-center ml-10 mr-10">Site mobile et solution de gestion de contenu pour un festival fictif.</p>
                 <p className="flex justify-center">ReactJS - Symfony 8 - EasyAdmin</p>
             </section>

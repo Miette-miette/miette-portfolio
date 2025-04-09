@@ -13,16 +13,21 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, button {
+h1, button {
 	font-family: var(--font-title);
+	filter: drop-shadow(#865a63 4px 4px 4px);
 }
 
 button {
 	color: #B05768;
-	filter: drop-shadow(#763c48 4px 4px 4px);
 }
+
 button:hover {
 	translate: 5px 5px;
+}
+
+h2 {
+	font-family: var(--font-title);
 }
 
 h3 {
@@ -57,7 +62,6 @@ p, h4, h5, figcaption {
 	min-width: 0;
 }
 
-
 .bento-pink {
 	background-color: #CB9698;
 	color: #FEFAE0;
@@ -85,12 +89,13 @@ p, h4, h5, figcaption {
 }
 .gradient-bg {
 	background: rgb(255,255,237);
-background: linear-gradient(180deg, rgba(255,255,237,0) 0%, rgba(254,250,224,0.90) 100%);
+	background: linear-gradient(180deg, rgba(255,255,237,0) 0%, rgba(254,250,224,0.90) 100%);
 }
 
 .icon-skills {
 	width: 50px;
 }
+
 /*MENU*/
 
 @keyframes menuSlide {
@@ -102,6 +107,11 @@ background: linear-gradient(180deg, rgba(255,255,237,0) 0%, rgba(254,250,224,0.9
 		transform: translateY(0px);
 	}
 }
+
+#logo, #navbar-burger, .nav-link-btn{
+	filter: drop-shadow(#512a32 4px 4px 4px);
+}
+
 
 #header-content {
   display: flex;

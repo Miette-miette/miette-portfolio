@@ -9,12 +9,11 @@ export default function ChampagneAndCo() {
     return (
         <div>
             <main>
-                <section className="h-130 md:h-150 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
-                    <div className="relative z-10 flex flex-row justify-center pt-20 mb:pt-30 mb-8">
+                <section className="h-120 md:h-130 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
+                    <div className="relative z-10 flex flex-row justify-center pt-30 pb-6 mb-8 bg-[url(../../public/media/backgrounds/head-project.svg)]">
                         <Breadcrumbs/>
                     </div>
-                    <div className="w-full h-10 md:h-25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
-                    <h1 className="flex justify-center pt-5 m-5  text-2xl md:text-5xl">Champagne & Co</h1>
+                    <h1 className="flex justify-center p-7 mb-8 text-2xl md:text-5xl bg-[url(../../public/media/button/button-xxl.svg)] bg-center bg-no-repeat bg-contain text-[#B36E7B]">Champagne & Co</h1>
                     <p className="flex justify-center">Projet de maquettage d’un site web pour une entreprise fictive de vente de champagnes.</p>
                     <p className="flex justify-center">Figma</p>
                 </section>

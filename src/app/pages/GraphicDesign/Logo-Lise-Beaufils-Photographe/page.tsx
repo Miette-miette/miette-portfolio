@@ -10,17 +10,16 @@ export default function LogoLiseBPhotographe() {
         <div>
             <main>
                 
-                <section className="h-130 md:h-150 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
-                    <div className="relative z-10 flex flex-row justify-center pt-30 mb-8">
+                <section className="h-120 md:h-130 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
+                    <div className="relative z-10 flex flex-row justify-center pt-30 pb-6 mb-8 bg-[url(../../public/media/backgrounds/head-project.svg)]">
                         <Breadcrumbs/>
                     </div>
-                    <div className="w-full h-10 md:h-25 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
-                    <h1 className="flex justify-center pt-5 m-5  text-2xl md:text-5xl">Lise Beaufils Photographe</h1>
+                    <h1 className="flex justify-center p-7 mb-8 text-2xl md:text-5xl bg-[url(../../public/media/button/button-xxl.svg)] bg-center bg-no-repeat bg-contain text-[#B36E7B]">Lise Beaufils Photographe</h1>
                     <p className="flex justify-center">Création d&#39;une déclinaison de logos pour une photographe.</p>
                     <p className="flex justify-center">Illustrator</p>
                 </section>
                 
-                <section className="p-5 md:pr-60 md:pl-60 flex flex-col items-center -mt-60 pt-20 relative z-1">
+                <section className="p-5 md:pr-60 md:pl-60 flex flex-col items-center -mt-50 pt-20 relative z-1">
                     <div className="mockup h-130 w-full bg-[url(../../public/media/projets/LOGO-1.png)] bg-contain bg-center bg-no-repeat"></div>
 
                     <div className="content">
