@@ -109,7 +109,7 @@ p, h4, h5, figcaption {
 }
 
 #logo, #navbar-burger, .nav-link-btn{
-	filter: drop-shadow(#512a32 4px 4px 4px);
+	filter: drop-shadow(#66666699 3px 3px 3px);
 }
 
 
