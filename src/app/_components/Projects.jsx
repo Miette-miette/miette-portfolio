@@ -25,7 +25,7 @@ export function EmblaCarousel() {
           <Link href="/pages/WebProjects/De-Toi-A-Moi">
             <div className="bento-beige flex flex-col justify-center items-center">
               <Image src="/media/projets/deToiAMoiBanner.png"/>
-              <h2 className="text-2xl md:text-3xl mt-3 text-center">De Toi A Moi et Les P'tits Bouts</h2>
+              <h2 className="text-2xl md:text-3xl mt-3 text-center">De Toi À Moi et Les P'tits Bouts</h2>
               <p>Site vitrine pour un dépot-vente de vêtement seconde main à Cesson-Sévigné</p> 
             </div>
           </Link>

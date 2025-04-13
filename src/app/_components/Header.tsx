@@ -13,10 +13,18 @@ const [showMenu, setShowMenu] = useState(false)
 const handleShowMenu = () =>{
   setShowMenu(!showMenu)
 };
+
+const homeHideMenu = () =>{
+    if (showMenu == true){
+        setShowMenu(!showMenu)
+    }
+    
+  };
+
     return (
         <header className="sticky top-0 z-10">
             <div id="header-content" className='flex flex-row justify-between'>
-                <Link href="/" id="logo" className='z-3'>
+                <Link href="/" id="logo" className='z-3' onClick={homeHideMenu}>
                     <Image src="/miettelogosolo.png" className='w-[40px] h-[50px] md:w-[55px] md:h-[65px]' alt='logo'/>
                 </Link>
 

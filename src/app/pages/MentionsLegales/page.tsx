@@ -15,8 +15,8 @@ export default function LegalNotice() {
             <p>leguyader.doriane@gmail.com</p>
 
             <h2 className='text-xl pb-2 pt-8'>Publication</h2>
-            <p><strong> Responsable de la publication:</strong> Doriane Le Guyader</p>
-            <p><strong> Relecture et correction: </strong> Maëlle Bramoullé Correction</p>
+            <p><strong> Responsable de la publication :</strong> Doriane Le Guyader</p>
+            <p><strong> Relecture et correction : </strong> Maëlle Bramoullé Correction</p>
 
             <h2 className='text-xl pb-2 pt-8'>Hébergeur du site</h2>
             <p>IONOS</p>
@@ -32,7 +32,7 @@ export default function LegalNotice() {
             </p>
 
             <h2 className='text-xl pb-2 pt-8'>Données personnelles</h2>
-            <p>Ce site ne collecte aucune donnée personnelle. Pour toute question, vous pouvez contacter leguyader.doriane@gmail.com .</p>
+            <p>Ce site ne collecte aucune donnée personnelle. Pour toute question, vous pouvez contacter leguyader.doriane@gmail.com.</p>
         </section>
         
     </main>

@@ -42,7 +42,7 @@ export default function Footer() {
             </div>
             <div className='flex flex-col justify-center items-center m-10 md:m-20'>
                 <Link href="/pages/MentionsLegales"><p>Mentions Légales</p></Link> 
-                <p>2025 Tout droits réservés</p>
+                <p>2025 Tous droits réservés</p>
             </div>
         </footer>
     )
