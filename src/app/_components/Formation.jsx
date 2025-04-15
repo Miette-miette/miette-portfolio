@@ -6,7 +6,7 @@ export function Formation() {
     return (
 
         <section id="parcours" className=" flex flex-col w-full bg-[url(/media/backgrounds/formation-bg-xl.svg)] bg-center md:bg-top bg-no-repeat bg-cover" >
-            <h2 className="flex flex-col items-center justify-center text-3xl md:text-4xl text-amber-50 mt-8">Mon parcours</h2> 
+            <h2 className="flex flex-col items-center justify-center text-3xl md:text-5xl text-amber-50 mt-8">Mon parcours</h2> 
 
             <div className=" flex flex-col justify-center items-center relative p-5 md:pr-120 md:pl-120 z-1">
                 <Image src="/media/about/form.png" className='sticky flex z-0 h-20 w-25 mt-10 top-40 md:top-50' alt='grenouille diplomée'/>
