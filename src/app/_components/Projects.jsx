@@ -3,8 +3,13 @@ import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import Link from 'next/link'
 import Image from 'next/image'
+import {
+    PrevButton,
+    NextButton,
+    usePrevNextButtons
+  } from './EmblaCarouselArrowButtons.jsx'
 
-export function EmblaCarousel() {
+export function CarouselProjet() {
     const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()])
 
   return (
@@ -59,6 +64,111 @@ export function EmblaCarousel() {
               <p>Réalisation d'un clip pour la musique « Plastique » écrite  et produite par Quentin & Tess (CRD Laval).</p> 
             </div>
           </Link>    
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export function CarouselWeb() {
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true })
+  
+  const {
+    prevBtnDisabled,
+    nextBtnDisabled,
+    onPrevButtonClick,
+    onNextButtonClick
+  } = usePrevNextButtons(emblaApi)
+
+  return (
+    <div className="embla" >
+      <div class="embla__viewport" ref={emblaRef}>
+        <div className="embla__container">
+
+          <div className="embla__slide" key={1}> 
+            <Link href="/pages/WebProjects/NationSounds" >
+              <div className="bento-beige flex flex-col justify-center items-center ">
+                <Image src="/media/projets/NationSoundsBanner.png"/>
+                <h2 className="text-2xl md:text-3xl mt-3 text-center">Nation-Sounds Festival</h2>
+                <p>Site mobile et solution de gestion de contenu pour un festival fictif.</p> 
+              </div>
+            </Link>
+          </div>
+        
+          <div className="embla__slide" key={2}>
+            <Link href="/pages/WebProjects/De-Toi-A-Moi">
+              <div className="bento-beige flex flex-col justify-center items-center">
+                <Image src="/media/projets/deToiAMoiBanner.png"/>
+                <h2 className="text-2xl md:text-3xl mt-3 text-center">De Toi À Moi et Les P'tits Bouts</h2>
+                <p>Site vitrine pour un dépot-vente de vêtement seconde main à Cesson-Sévigné</p> 
+              </div>
+            </Link>
+          </div> 
+
+          <div className="embla__slide" key={3}>
+            <Link href="/pages/WebProjects/Champagne-And-Co">
+              <div className="bento-beige flex flex-col justify-center items-center">
+                <Image src="/media/projets/ChampagneCoBanner.png"/>
+                <h2 className="text-2xl md:text-3xl mt-3 text-center">Champagne & Co</h2>
+                <p>Projet de maquettage d’un site web pour une entreprise fictive de vente de champagnes</p> 
+              </div>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="embla__controls flex flex-row items-center justify-center">
+        <div className="embla__buttons">
+          <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
+          <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
+        </div>
+      </div>
+      
+    </div>
+  )
+}
+
+export function CarouselDesign() {
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true })
+  
+  const {
+    prevBtnDisabled,
+    nextBtnDisabled,
+    onPrevButtonClick,
+    onNextButtonClick
+  } = usePrevNextButtons(emblaApi)
+
+  return (
+    <div className="embla">
+      <div class="embla__viewport" ref={emblaRef}>
+
+        <div className="embla__container">
+
+          <div className="embla__slide" key={1}>
+            <Link href="/pages/GraphicDesign/Logo-Lise-Beaufils-Photographe">
+              <div className="bento-beige flex flex-col justify-center items-center">
+                <Image src="/media/projets/LogoBanner.png"/>
+                <h2 className="text-2xl md:text-3xl mt-3 text-center">Lise Beaufils Photographe</h2>
+                <p>Création d'une déclinaison de logos pour une photographe.</p> 
+              </div>
+            </Link>  
+          </div>
+
+          <div className="embla__slide" key={2}>
+            <Link href="/pages/GraphicDesign/Plastique">
+              <div className="bento-beige flex flex-col justify-center items-center">
+                <Image src="/media/projets/PlastiqueBanner.png"/>
+                <h2 className="text-2xl md:text-3xl mt-3 text-center">Plastique</h2>
+                <p>Réalisation d'un clip pour la musique « Plastique » écrite  et produite par Quentin & Tess (CRD Laval).</p> 
+              </div>
+            </Link>    
+          </div>
+        </div>
+      </div>
+      
+      <div className="embla__controls flex flex-row items-center justify-center">
+        <div className="embla__buttons">
+          <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
+          <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
         </div>
       </div>
     </div>

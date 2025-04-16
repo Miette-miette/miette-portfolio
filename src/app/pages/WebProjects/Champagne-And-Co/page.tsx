@@ -1,7 +1,7 @@
 'use client'
 
 import { Breadcrumbs } from "@/app/_components/breadcrumbs/breadcrumbs";
-import { EmblaCarousel } from "@/app/_components/Projects";
+import { CarouselProjet } from "@/app/_components/Projects";
 import Image from "next/image";
 
 export default function ChampagneAndCo() {
@@ -75,7 +75,7 @@ export default function ChampagneAndCo() {
                     <div className="w-full h-10 md:h-25 mb-8 mt-8 bg-[url(/media/backgrounds/line.svg)] bg-center bg-no-repeat bg-cover"></div>
                     <h2 className="text-3xl text-amber-50 text-center mb-5">Découvrez d&#39;autres projets</h2>
                     <div className="w-full overflow-hidden">
-                        <EmblaCarousel/>
+                        <CarouselProjet/>
                     </div>
                 </section>
             </main>
