@@ -81,9 +81,9 @@ export function Formation() {
                     </div>
                 </div>
 
-                 <div className='flex flex-col justify-center items-center h-280 -mt-170 sm:mr-4 sm:ml-4'>
+                 <div className='flex flex-col justify-center items-center h-280 -mt-170 '>
 
-                    <div className='sticky flex z-0 items-end justify-end top-40 md:top-45 mb-5 bg-[url(/media/formation-frog/form6xs2.png)] lg:bg-[url(/media/formation-frog/form6xl.png)] bg-center bg-no-repeat bg-contain p-15'>
+                    <div className='sticky flex z-0 items-end justify-end top-40 md:top-45 mb-5 bg-[url(/media/formation-frog/form6xs2.png)] lg:bg-[url(/media/formation-frog/form6xl.png)] bg-center bg-no-repeat bg-contain p-15 sm:mr-4 sm:ml-4'>
                         <div className='text-center flex flex-col justify-center items-center ml-30 lg:ml-50'>
                             <h2 className='text-lg text-center text-[#763c48]'>À l'écoute d'opportunités dans le développement Front-End !</h2>
                             <h3>Retrouvez mon CV juste ici :</h3>

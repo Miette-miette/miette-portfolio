@@ -14,26 +14,51 @@ export default function Domaine() {
 
             <div className='flex flex-col md:flex-row text-[#B36E7B] p-5 md:pr-60 md:pl-60'>
 
-                <div className='bento-beige flex flex-col'>
-                    <Image src="/media/domaines/dev.png" className='m-3' height={80} alt='illu dev'/>
-                    <h3 className='text-2xl'>Développement Web</h3>
-                    <p>Conception de site</p>
-                    <p>Front-End et Back-End</p>
+                <div className='flip-domaine relative z-6 m-4'>
+                    <div className='flip-domaine-inner'>
+                        <div className='front-doodle bento-beige flex flex-col justify-center items-center'>
+                            <Image src="/media/domaines/dev.png" className='m-3' height={80} alt='illu dev'/>
+                            <h3 className='text-2xl'>Développement Web</h3>
+                        </div>
+                        <div className='back-doodle bento-pink flex flex-col justify-center items-center'>
+                            <p>Conception de site</p>
+                            <Image src="/media/icons/Star.png" className='m-3 h-10' alt='etoile'/>
+                            <p>Developpement Front-End et Back-End</p>
+                            <Image src="/media/icons/Star.png" className='m-3 h-10' alt='etoile'/>   
+                            <p>SEO</p>
+                        </div>
+                    </div>   
+                </div>
+                
+                <div className='flip-domaine relative z-6 m-4'>
+                    <div className='flip-domaine-inner'>
+                        <div className='front-doodle bento-beige flex flex-col justify-center items-center'>
+                            <Image src="/media/domaines/design.png" className='m-3' height={80} alt='illu design'/>
+                            <h3 className='text-2xl'>Design Graphique</h3>
+                        </div>
+                        <div className='back-doodle bento-pink flex flex-col justify-center items-center'>
+                            <p>Réalisation de charte graphique et de logo</p>
+                            <Image src="/media/icons/Star.png" className='m-3 h-10' alt='etoile'/>
+                            <p>Support web et print</p>
+                        </div>
+                    </div>   
                 </div>
 
-                <div className='bento-beige flex flex-col'>
-                    <Image src="/media/domaines/design.png" className='m-3' height={80} alt='illu design'/>
-                    <h3 className='text-2xl'>Design Graphique</h3>
-                    <p>Réalisation de charte graphique et de logo</p>
-                    <p>Support web et print</p>
+                <div className='flip-domaine relative z-6 m-4'>
+                    <div className='flip-domaine-inner'>
+                        <div className='front-doodle bento-beige flex flex-col justify-center items-center'>
+                            <Image src="/media/domaines/illu.png" className='m-3' height={80} alt='illu design'/>
+                            <h3 className='text-2xl'>Illustration</h3>
+                        </div>
+                        <div className='back-doodle bento-pink flex flex-col justify-center items-center'>
+                            <p>Illustration tradi & digitale</p>
+                            <Image src="/media/icons/Star.png" className='m-3 h-10' alt='etoile'/>
+                            <p>Animation stop-motion/ papier découpé</p>
+                        </div>
+                    </div>   
                 </div>
 
-                <div className='bento-beige flex flex-col'>
-                    <Image src="/media/domaines/illu.png" className='m-3' height={80} alt='illu design'/>
-                    <h3 className='text-2xl'>Illustration</h3>
-                    <p>Illustration tradi & digitale</p>
-                    <p>Animation stop-motion/ papier découpé</p>
-                </div>
+               
             </div>
 
             <div className="wrapper relative z-3 flex justify-center items-center">
