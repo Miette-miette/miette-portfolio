@@ -12,9 +12,9 @@ export default function Domaine() {
                 <h2 className='m-10 text-3xl md:text-5xl'>Mes domaines de prédilection</h2>
             </div>
 
-            <div className='flex flex-col md:flex-row text-[#B36E7B] p-5 md:pr-60 md:pl-60'>
+            <div className='flex flex-col md:flex-row text-[#B36E7B] p-5 pr-10 pl-10 lg:pr-60 lg:pl-60'>
 
-                <div className='flip-domaine relative z-6 m-4'>
+                <div className='flip-domaine relative z-6 m-2 md:m-4'>
                     <div className='flip-domaine-inner'>
                         <div className='front-doodle bento-beige flex flex-col justify-center items-center'>
                             <Image src="/media/domaines/dev.png" className='m-3' height={80} alt='illu dev'/>
@@ -30,7 +30,7 @@ export default function Domaine() {
                     </div>   
                 </div>
                 
-                <div className='flip-domaine relative z-6 m-4'>
+                <div className='flip-domaine relative z-6 m-2 md:m-4'>
                     <div className='flip-domaine-inner'>
                         <div className='front-doodle bento-beige flex flex-col justify-center items-center'>
                             <Image src="/media/domaines/design.png" className='m-3' height={80} alt='illu design'/>
@@ -44,7 +44,7 @@ export default function Domaine() {
                     </div>   
                 </div>
 
-                <div className='flip-domaine relative z-6 m-4'>
+                <div className='flip-domaine relative z-6 m-2 md:m-4'>
                     <div className='flip-domaine-inner'>
                         <div className='front-doodle bento-beige flex flex-col justify-center items-center'>
                             <Image src="/media/domaines/illu.png" className='m-3' height={80} alt='illu design'/>
