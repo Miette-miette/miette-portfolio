@@ -41,7 +41,7 @@ export default function Footer() {
                 <Image src="/miettelogosolo.png" width={95} height={105} alt='logo'/>
             </div>
             <div className='flex flex-col justify-center items-center m-10 md:m-20'>
-                <Link href="/pages/MentionsLegales"><p>Mentions Légales</p></Link> 
+                <Link href="/pages/MentionsLegales"><p>Mentions légales</p></Link> 
                 <p>2025 Tous droits réservés</p>
             </div>
         </footer>

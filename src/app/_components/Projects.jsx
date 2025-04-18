@@ -116,8 +116,8 @@ export function CarouselWeb() {
           </div>
         </div>
       </div>
-      <div className="embla__controls flex flex-row items-center justify-center">
-        <div className="embla__buttons">
+      <div className="embla__controls ">
+        <div className="embla__buttons flex flex-row items-center justify-center">
           <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
           <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
         </div>
@@ -166,7 +166,7 @@ export function CarouselDesign() {
       </div>
       
       <div className="embla__controls flex flex-row items-center justify-center">
-        <div className="embla__buttons">
+        <div className="embla__buttons flex flex-row items-center justify-center">
           <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
           <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
         </div>

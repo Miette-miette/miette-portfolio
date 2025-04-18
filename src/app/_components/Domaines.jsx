@@ -24,15 +24,15 @@ export default function Domaine() {
                 <div className='bento-beige flex flex-col'>
                     <Image src="/media/domaines/design.png" className='m-3' height={80} alt='illu design'/>
                     <h3 className='text-2xl'>Design Graphique</h3>
-                    <p>Réalisation de charte graphique et logo</p>
+                    <p>Réalisation de charte graphique et de logo</p>
                     <p>Support web et print</p>
                 </div>
 
                 <div className='bento-beige flex flex-col'>
                     <Image src="/media/domaines/illu.png" className='m-3' height={80} alt='illu design'/>
                     <h3 className='text-2xl'>Illustration</h3>
-                    <p>Illustrations tradi & digitales</p>
-                    <p>Animation stop-motion/ papier découpés</p>
+                    <p>Illustration tradi & digitale</p>
+                    <p>Animation stop-motion/ papier découpé</p>
                 </div>
             </div>
 
