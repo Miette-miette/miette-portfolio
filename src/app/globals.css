@@ -50,7 +50,7 @@ p, h4, h5, figcaption {
 	max-width: 100rem;
 	--slide-height: 30rem;
 	--slide-spacing: 1rem;
-	--slide-size: 50%;
+	--slide-size: 60%;
 }
 
 .embla__viewport {

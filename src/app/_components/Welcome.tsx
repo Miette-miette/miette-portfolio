@@ -20,7 +20,7 @@ export default function Welcome() {
             <Image src="/media/icons/bulle-flip.svg" className='h-15 md:h-20 absolute top-[64%] right-[48%] md:right-[30%]' alt='flip'/>
 
             <Link href="pages/WebProjects/NationSounds">
-                <div className='flip-doodle absolute top-[13%] left-[12%]'>
+                <div className='flip-doodle absolute top-[12%] left-[8%] sm:top-[13%] sm:left-[12%]'>
                     <div className='flip-doodle-inner'>
                         <div className='front-doodle flex justify-center items-center'>
                             <Image src="/media/doodle-anim/doodle3.svg" className="size-35 md:size-60 z-4 absolute" alt='doodle face'/>
@@ -34,7 +34,7 @@ export default function Welcome() {
             </Link>
 
             <Link href="pages/WebProjects/De-Toi-A-Moi">
-                <div className='flip-doodle absolute top-[60%] right-[15%]'>
+                <div className='flip-doodle absolute top-[58%] right-[5%] sm:top-[60%] sm:right-[15%]'>
                     <div className='flip-doodle-inner'>
                         <div className='front-doodle flex justify-center items-center'>
                             <Image src="/media/doodle-anim/doodle1.svg" className="size-32 md:size-50 z-4 absolute" alt='doodle face'/>
@@ -48,7 +48,7 @@ export default function Welcome() {
             </Link>
 
             <Link href="pages/WebProjects/Champagne-And-Co">
-                <div className='flip-doodle absolute top-[18%] right-[10%]'>
+                <div className='flip-doodle absolute top-[16%] right-[6%] sm:top-[18%] sm:right-[10%]'>
                     <div className='flip-doodle-inner'>
                         <div className='front-doodle flex justify-center items-center'>
                             <Image src="/media/doodle-anim/doodleChamp.svg" className="size-30 md:size-40 z-4 absolute" alt='doodle face'/>
@@ -62,7 +62,7 @@ export default function Welcome() {
             </Link>
             
             <Link href="pages/GraphicDesign/Logo-Lise-Beaufils-Photographe">
-                <div className='flip-doodle absolute top-[66%] left-[15%]'>
+                <div className='flip-doodle absolute top-[64%] left-[10%] sm:top-[66%] sm:left-[15%]'>
                     <div className='flip-doodle-inner'>
                         <div className='front-doodle flex justify-center items-center'>
                             <Image src="/media/doodle-anim/doodleLogoLise.svg" className="size-32 md:size-50 z-4 absolute" alt='doodle face'/>
