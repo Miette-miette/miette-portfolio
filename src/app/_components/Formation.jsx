@@ -9,7 +9,7 @@ export function Formation() {
         <section id="parcours" className=" flex flex-col w-full bg-[url(/media/backgrounds/formation-bg-xl.svg)] bg-center md:bg-top bg-no-repeat bg-cover" >
             <h2 className="flex flex-col items-center justify-center text-3xl md:text-5xl text-amber-50 mt-8">Mon parcours</h2> 
 
-            <div className=" flex flex-col justify-center items-center relative p-5 md:pr-50 md:pl-50 lg:pr-80 lg:pl-80 xl:pr-110 xl:pl-110 z-1">
+            <div className=" flex flex-col justify-center items-center relative p-5 md:pr-20 md:pl-20 lg:pr-50 lg:pl-50 xl:pr-90 xl:pl-90 z-1">
 
                 <div className='flex flex-col justify-center items-center'>
                     <Image src="/media/formation-frog/form1.png" className='sticky flex z-0 w-28 mt-6 top-40 md:top-45 mb-1' alt='grenouille diplomée'/>
@@ -83,9 +83,9 @@ export function Formation() {
 
                  <div className='flex flex-col justify-center items-center h-280 -mt-170 '>
 
-                    <div className='sticky flex z-0 items-end justify-end top-40 md:top-45 mb-5 bg-[url(/media/formation-frog/form6xs2.png)] lg:bg-[url(/media/formation-frog/form6xl.png)] bg-center bg-no-repeat bg-contain p-6 md:p-15'>
-                        <div className='text-center flex flex-col justify-center items-center ml-26 lg:ml-50'>
-                            <h2 className=' text-sm md:text-lg text-center text-[#763c48]'>À l'écoute d'opportunités dans le développement Front-End !</h2>
+                    <div className='sticky flex z-0 items-end justify-end w-full top-40 md:top-45 mb-5 p-6 bg-[url(/media/formation-frog/form7.png)] md:bg-[url(/media/formation-frog/form6xs.png)] lg:bg-[url(/media/formation-frog/form6xl.png)] bg-center bg-no-repeat bg-contain '>
+                        <div className='text-center flex flex-col justify-center items-center ml-0 md:ml-50 p-10 mt-10 md:mt-1 md:p-2'>
+                            <h2 className=' text-sm md:text-lg text-center text-[#763c48] w-[70%] p-4 md:p-6'>À l'écoute d'opportunités dans le développement Front-End !</h2>
                             <h3 className='text-xs'>Retrouvez mon CV juste ici :</h3>
                             <Link href='/media/cv/CV.png' target='_blank' >
                                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className='w-15 md:w-20'>

@@ -81,7 +81,7 @@ export function CarouselWeb() {
   } = usePrevNextButtons(emblaApi)
 
   return (
-    <div className="embla" >
+    <div className="embla flex flex-col justify-center items-center">
       <div class="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
 
@@ -138,7 +138,7 @@ export function CarouselDesign() {
   } = usePrevNextButtons(emblaApi)
 
   return (
-    <div className="embla">
+    <div className="embla flex flex-col justify-center items-center">
       <div class="embla__viewport" ref={emblaRef}>
 
         <div className="embla__container">

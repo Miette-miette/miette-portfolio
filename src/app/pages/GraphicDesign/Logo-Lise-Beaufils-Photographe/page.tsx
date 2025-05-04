@@ -1,18 +1,15 @@
 'use client'
 
-import { Breadcrumbs } from "@/app/_components/breadcrumbs/breadcrumbs";
 import { CarouselProjet } from "@/app/_components/Projects";
 import Image from "next/image";
 
 export default function LogoLiseBPhotographe() {
 
     return (
-        <div>
-            <main>
+        <main>
                 
-                <section className="h-120 md:h-130 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
+            <section className="h-120 md:h-130 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
                     <div className="relative z-10 flex flex-row justify-center pt-15 mb:pt-30 pb-6 mb-8 bg-[url(../../public/media/backgrounds/head-project.svg)]">
-                        <Breadcrumbs/>
                     </div>
                     <h1 className="flex justify-center p-7 mb-8 text-2xl md:text-5xl bg-[url(../../public/media/button/button-xl.svg)] md:bg-[url(../../public/media/button/button-xxl.svg)] bg-center bg-no-repeat bg-contain text-[#B36E7B]">Lise Beaufils Photographe</h1>
                     <p className="flex justify-center">Création d&#39;une déclinaison de logos pour une photographe.</p>
@@ -66,6 +63,5 @@ export default function LogoLiseBPhotographe() {
                     
                 </section>
             </main>
-        </div>
     );
 }

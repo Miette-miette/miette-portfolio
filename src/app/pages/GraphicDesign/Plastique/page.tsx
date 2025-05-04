@@ -1,17 +1,14 @@
 'use client'
 
-import { Breadcrumbs } from "@/app/_components/breadcrumbs/breadcrumbs";
 import { CarouselProjet } from "@/app/_components/Projects";
 import Image from "next/image";
 
 export default function Plastique() {
 
     return (
-        <div>
             <main>
                 <section className="h-120 md:h-130 relative z-0 bg-[url(../../public/media/backgrounds/head-lightgreen-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
                     <div className="relative z-10 flex flex-row justify-center pt-15 mb:pt-30 pb-6 mb-8 bg-[url(../../public/media/backgrounds/head-project.svg)]">
-                        <Breadcrumbs/>
                     </div>
                     <h1 className="flex justify-center p-7 mb-8 text-2xl md:text-5xl bg-[url(../../public/media/button/button-xxl.svg)] bg-center bg-no-repeat bg-contain text-[#B36E7B]">Plastique</h1>
                     <p className="flex justify-center">Réalisation d&#39;un clip pour la musique « Plastique » écrite  et produite par Quentin & Tess (CRD Laval).</p>
@@ -70,6 +67,5 @@ export default function Plastique() {
                     </div>
                 </section>
             </main>
-        </div>
     );
 }
