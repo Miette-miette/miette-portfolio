@@ -120,7 +120,7 @@ p, h4, h5, figcaption {
 .bento-pink {
 	background-color: #CB9698;
 	color: #FEFAE0;
-	padding: 3%;
+	padding: 2%;
 	border-radius: 8px ;
 	filter: drop-shadow(#763c48 4px 4px 4px);
 }
@@ -172,7 +172,7 @@ p, h4, h5, figcaption {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 2%;
+  padding: 1%;
   position: fixed;
   width:100vw;
   z-index: 2;

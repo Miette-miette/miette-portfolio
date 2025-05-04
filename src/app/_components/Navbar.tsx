@@ -70,7 +70,7 @@ export default function Navbar() {
                     ${activeSection == link.name ? "bg-[url(/media/nav/selected-menu.svg)]" : ""} 
                     bg-center bg-contain bg-no-repeat rounded-xl transition-all duration-100 h-full`}
                 >
-                    <Image src={link.src} alt="" className='img-nav p-2 w-[60px] md:w-[80px]'/>
+                    <Image src={link.src} alt="" className='img-nav p-2 w-[55px] md:w-[60px]'/>
                 </Link>  
             ))}
         </>
