@@ -47,6 +47,16 @@ export function CarouselProjet() {
         </div>
 
         <div className="embla__slide">
+          <Link href="/pages/GraphicDesign/Glim-et-Bloupi">
+            <div className="bento-beige flex flex-col justify-center items-center">
+              <Image src="/media/projets/Glim-Banner.png"/>
+              <h2 className="text-2xl md:text-3xl mt-3 text-center">Glim et Bloupi</h2>
+              <p>Série d'illustrations</p> 
+            </div>
+          </Link>
+        </div>
+
+        <div className="embla__slide">
           <Link href="/pages/WebProjects/Champagne-And-Co">
             <div className="bento-beige flex flex-col justify-center items-center">
               <Image src="/media/projets/ChampagneCoBanner.png"/>
@@ -161,6 +171,16 @@ export function CarouselDesign() {
                 <p>Réalisation d'un clip pour la musique « Plastique » écrite  et produite par Quentin & Tess (CRD Laval).</p> 
               </div>
             </Link>    
+          </div>
+
+          <div className="embla__slide">
+            <Link href="/pages/GraphicDesign/Glim-et-Bloupi">
+              <div className="bento-beige flex flex-col justify-center items-center">
+                <Image src="/media/projets/Glim-Banner.png"/>
+                <h2 className="text-2xl md:text-3xl mt-3 text-center">Glim et Bloupi</h2>
+                <p>Série d'illustrations</p> 
+              </div>
+            </Link>
           </div>
         </div>
       </div>
