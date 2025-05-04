@@ -8,7 +8,7 @@ export default function NationSounds() {
 
     return (
             <main>
-                <section className="h-120 md:h-130 relative z-0 pt-15 md:pt-30 bg-[url(../../public/media/backgrounds/head-pink-xl-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">          
+                <section className="h-120 md:h-130 relative z-0 pt-15 md:pt-30 bg-[url(../../public/media/backgrounds/head-pink-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">          
                     <h1 className="flex justify-center p-7 mb-8 text-2xl md:text-5xl bg-[url(../../public/media/button/button-xxl.svg)] bg-center bg-no-repeat bg-contain text-[#B36E7B]">Nation Sounds Festival</h1>
                     <p className="flex justify-center text-center ml-10 mr-10">Site mobile et solution de gestion de contenu pour un festival fictif.</p>      
                 </section>
