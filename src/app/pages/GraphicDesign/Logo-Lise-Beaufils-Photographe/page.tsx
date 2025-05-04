@@ -9,12 +9,12 @@ export default function LogoLiseBPhotographe() {
         <main>
                 
             <section className="h-120 md:h-130 relative z-0 pt-15 md:pt-30 bg-[url(../../public/media/backgrounds/head-pink-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">
-                <h1 className="flex justify-center p-7 mb-8 text-xl md:text-5xl bg-[url(../../public/media/button/button-xl.svg)] md:bg-[url(../../public/media/button/button-xxl.svg)] bg-center bg-no-repeat bg-contain text-[#B36E7B]">Lise Beaufils Photographe</h1>
+                <h1 className="flex justify-center p-7 pr-14 pl-14 mb-8 text-xl md:text-5xl bg-[url(../../public/media/button/button-xl.svg)] md:bg-[url(../../public/media/button/button-xxl.svg)] bg-center bg-no-repeat bg-contain text-[#B36E7B]">Lise Beaufils Photographe</h1>
                 <p className="flex justify-center text-center pr-10 pl-10">Création d&#39;une déclinaison de logos pour une photographe.</p>
             </section>
                 
                 <section className="p-5 md:pr-60 md:pl-60 flex flex-col items-center -mt-80 pt-20 relative z-1">
-                    <div className="mockup h-130 w-full bg-[url(../../public/media/projets/LOGO-1.png)] bg-contain bg-center bg-no-repeat"></div>
+                    <div className="mockup h-80 md:h-130 w-full bg-[url(../../public/media/projets/LOGO-1.png)] bg-contain bg-center bg-no-repeat"></div>
 
                     <div className="content">
                         <div className="bento-pink flex flex-wrap sm:flex-row items-center justify-center m-2">
