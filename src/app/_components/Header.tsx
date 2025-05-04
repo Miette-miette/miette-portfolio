@@ -25,8 +25,8 @@ export default function Header() {
     
     return(
         <header className="sticky top-0 z-10">
-            <div id="header-content" className='flex flex-row justify-between p-1 pr-2 pl-2 bg-[url(/media/nav/nav-bg.svg)] bg-no-repeat bg-cover bg-center'>
-                <Link href="/" id="logo" className='z-3'>
+            <div id="header-content" className='flex flex-row justify-between p-1 pt-2 sm:pt-0 pr-2 pl-2 bg-[url(/media/nav/nav-bg.svg)] bg-no-repeat bg-cover bg-center'>
+                <Link href="/" id="logo" className='z-3 pl-2'>
                     <Image src="/miettelogosolo.png" className='w-[40px] h-[50px] md:w-[48px] md:h-[58px]' alt='logo'/>
                 </Link>
 
