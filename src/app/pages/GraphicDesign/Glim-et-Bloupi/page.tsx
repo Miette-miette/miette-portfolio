@@ -9,8 +9,8 @@ export default function Glim() {
     return (
             <main>
                 <section className="h-120 md:h-130 relative z-0 pt-15 md:pt-30 bg-[url(../../public/media/backgrounds/head-pink-XL-desktop.svg)] bg-bottom bg-no-repeat bg-cover text-amber-50 text-center">          
-                    <h1 className="flex justify-center p-7 mb-8 text-2xl md:text-5xl bg-[url(../../public/media/button/button-xxl.svg)] bg-center bg-no-repeat bg-contain text-[#B36E7B]">Nation Sounds Festival</h1>
-                    <p className="flex justify-center text-center ml-10 mr-10">Série d&#39;illustrations au marqueur et crayon de couleurs</p>      
+                    <h1 className="flex justify-center p-7 mb-8 text-2xl md:text-5xl bg-[url(../../public/media/button/button-xxl.svg)] bg-center bg-no-repeat bg-contain text-[#B36E7B]">Glim et Bloupi</h1>
+                    <p className="flex justify-center text-center ml-10 mr-10">Série d&#39;illustrations au marqueur et crayons de couleurs</p>      
                 </section>
                 
                 <section className="p-5 md:pr-60 md:pl-60 flex flex-col items-center -mt-70 pt-20 relative z-1">
@@ -23,7 +23,7 @@ export default function Glim() {
                         <div className="bento-beige">
                             <figure className="m-1 md:m-5" >
                                 <Image src="/media/projets/GLIM-4.jpg" alt=""/>
-                                <figcaption>Bloupi teste de nouvelles invocations</figcaption>
+                                <figcaption>Bloupi teste de nouvelles invocations.</figcaption>
                             </figure>
                         </div>
 
@@ -44,7 +44,7 @@ export default function Glim() {
                         <div className="bento-beige">
                             <figure className="m-1 md:m-5">
                                 <Image src="/media/projets/GLIM-1.jpg" alt=""/> 
-                                <figcaption>Tatie Grombloquette prends soin des grenouilles de pluie du désert.</figcaption>
+                                <figcaption>Tatie Grombloquette prend soin des grenouilles de pluie du désert.</figcaption>
                             </figure>
                         </div>
                     </div>
